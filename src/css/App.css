@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.home-section {
+  width:100;
+  background-color: cornsilk;
+  padding: 20px 0;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: darkred;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.hero a {
+  padding: 5px 60px;
+  border: 1px solid white;
+  background-color: darkcyan;
+  border-radius: 5%;
+  color:white;
+  text-transform: uppercase;
+}
+
+.hero h1{
+  font-size: 4em;
+  margin-bottom: -1px;
+}
+
+.between {
+  width: 100%;
+  height: 400px;
+}
+
+.animation .sticky {
+    
+}
+
+.aos-fix[data-aos][data-aos].aos-animate {
+  transform: initial;
+}
