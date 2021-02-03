@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.aos-animate {
+  pointer-events: auto;
+}
+
 .home-section {
   width:100;
   background-color: cornsilk;
@@ -29,7 +33,7 @@
   text-transform: uppercase;
 }
 
-.hero h1{
+h1{
   font-size: 4em;
   margin-bottom: -1px;
 }
@@ -39,10 +43,37 @@
   height: 400px;
 }
 
-.animation .sticky {
-    
+.scrolltop {
+  margin-top: 100px;
+  padding: 50px;
+  background-color: aqua;
+  /* position: sticky; */
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
 }
 
-.aos-fix[data-aos][data-aos].aos-animate {
-  transform: initial;
+.animation {
+    position: absolute;
+    width:100%;
+    height:100%;
 }
+
+.animation .panel {
+}
+
+#panel1 {
+  background-color: red;
+  
+  position: sticky;
+  top: calc(45vh + var(0));
+}
+
+#panel2 {
+  background-color:green;
+}
+
+
