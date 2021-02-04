@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="logo">Boilerplate</div>
-            <ul className="nav-bar" style={{transform: mobile ? "translateX(0px)" : ""}}>
+            <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : ""}}>
                 <li><a href="/">Home</a></li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/projects">Projects</a></li>

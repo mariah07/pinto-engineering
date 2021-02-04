@@ -6,12 +6,13 @@ a {
   nav {
     display:flex;
     align-items: center;
-    background-color: burlywood;
+    background-color: darkred;
     justify-content: space-between;
     padding: 0 20px;
     color: white;
     position: sticky;
     top: 0;
+    z-index: 2;
   }
   
   nav .nav-bar {
@@ -22,6 +23,7 @@ a {
   
   nav .nav-bar li {
     padding: 5px;
+    margin-left: 5px;
   }
 
   nav #mobile-menu {
