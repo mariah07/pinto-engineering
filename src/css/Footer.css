@@ -1,0 +1,16 @@
+
+#footer{
+    display:flex;
+    padding: 60px 80px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.footer-content {
+    width: 25%;
+}
+
+.footer-content ul {
+    list-style: none;
+    margin-left: -25px;
+}
