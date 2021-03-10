@@ -6,7 +6,7 @@ a {
   nav {
     display:flex;
     align-items: center;
-    background-color: darkred;
+    background-color: rgb(121, 68, 134);
     justify-content: space-between;
     padding: 0 20px;
     color: white;
@@ -19,6 +19,31 @@ a {
     display: flex;
     list-style: none;
     float: right;
+  }
+
+  .nav-bar .active {
+    color:rgb(179, 146, 105);
+  }
+
+  .nav-bar .menu:hover + .dropdown-menu{
+    display: block;
+  }
+
+  .nav-bar .dropdown-menu:hover {
+    display: block;
+  }
+
+  .nav-bar .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color:rgb(121, 68, 134);
+    padding: 10px;
+  }
+  
+  .dropdown-menu .dropdown {
+    display: block;
+    margin: 10px 0px;
+    padding: 5px 5px;
   }
   
   nav .nav-bar li {
