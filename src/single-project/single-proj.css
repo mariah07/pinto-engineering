@@ -1,0 +1,44 @@
+#single-project {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+#single-project .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#single-project .text p {
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 4px 10px chocolate;
+    font-size: 1.1em;
+    background-color: white;
+}
+
+#single-project .text h1 {
+    font-size: 3.2em;
+    color:rgb(187, 102, 41);
+}
+
+#single-project .text h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color:chocolate;
+    text-align: center;
+}
+
+#single-project .carousel {
+    width: 70%;
+}
+
+#single-project .sliderimage {
+    width: 100%;
+    height: 470px;
+}

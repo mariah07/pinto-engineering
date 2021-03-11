@@ -25,6 +25,7 @@ import Health from './projects/health';
 import Mixed from './projects/mixed';
 import Residential from './projects/residential';
 import Wharves from './projects/wharves';
+import Margaret from './single-project/bridges/margaret';
 
 class App extends React.Component  {
   render(){
@@ -46,6 +47,7 @@ class App extends React.Component  {
             <Router path="/mixed-use-developement"><Mixed /></Router>
             <Router path="/residential"><Residential /></Router>
             <Router path="/wharves"><Wharves /></Router>
+            <Router path="/margaret-bridge"><Margaret /></Router>
         </Switch>
         <Footer />
       </Router>
