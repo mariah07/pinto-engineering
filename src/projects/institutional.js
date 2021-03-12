@@ -13,15 +13,15 @@ const Institutional = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/aylesford-church"><img src={alyes}/></a>
+                    <a href="/projects/institutional/aylesford-church"><img src={alyes}/></a>
                     <h3>Aylesford Baptist Church, Aylesford, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/bedford-church"><img src={church}/></a>
+                    <a href="/projects/institutional/bedford-church"><img src={church}/></a>
                     <h3>Bedford Baptist Church, Bedford, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/inverness-memorial-hospital"><img src={inverness}/></a>
+                    <a href="/projects/institutional/inverness-memorial-hospital"><img src={inverness}/></a>
                     <h3>Inverness Consolidated Memorial Hospital, Inverness, NS</h3>
                 </div>
             </div>

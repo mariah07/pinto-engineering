@@ -11,11 +11,11 @@ const Bridges = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/margaret-bridge"><img src={bridge}/></a>
+                    <a href="/projects/bridges/margaret-bridge"><img src={bridge}/></a>
                     <h3>Princess Margaret Bridge, Fredericton, NB</h3>
                 </div>
                 <div className="box">
-                    <a href="/railway-bridge"><img src={bridge2}/></a>
+                    <a href="/projects/bridges/railway-bridge"><img src={bridge2}/></a>
                     <h3>Little Bras D’or Railway Bridge Replacement, Highway 105, Cape Breton County, NS</h3>
                 </div>
             </div>

@@ -15,29 +15,29 @@ const Mixed = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/the-trillium"><img src={perkins}/></a>
+                    <a href="/projects/mixed-use-developement/the-trillium"><img src={perkins}/></a>
                     <h3>The Trillium, Halifax, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/saint-lawerence"><img src={church}/></a>
+                    <a href="/projects/mixed-use-developement/saint-lawerence"><img src={church}/></a>
                     <h3>Saint Lawrence Place, Halifax, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/mary-ann"><img src={maryann}/></a>
+                    <a href="/projects/mixed-use-developement/mary-ann"><img src={maryann}/></a>
                     <h3>Mary Ann Development, Halifax, NS</h3>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/duckworth-street-metropark"><img src={duckworth}/></a>
+                    <a href="/projects/mixed-use-developement/duckworth-street-metropark"><img src={duckworth}/></a>
                     <h3>Duckworth Street Metropark, St John's, Newfoundland and Labrador</h3>
                 </div>
                 <div className="box">
-                    <a href="/brigadoon-village"><img src={brigadoon}/></a>
+                    <a href="/projects/mixed-use-developement/brigadoon-village"><img src={brigadoon}/></a>
                     <h3>Brigadoon Village, South Alton, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/marriott-residence-inn"><img src={marriott}/></a>
+                    <a href="/projects/mixed-use-developement/marriott-residence-inn"><img src={marriott}/></a>
                     <h3>Marriott Residence Inn, Halifax, NS</h3>
                 </div>
             </div>

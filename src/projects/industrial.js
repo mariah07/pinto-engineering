@@ -11,11 +11,11 @@ const Industrial = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/texas-duct"><img src={texas}/></a>
+                    <a href="/projects/industrial-aviation/texas-duct"><img src={texas}/></a>
                     <h3>Texas Duct, Texas, United States</h3>
                 </div>
                 <div className="box">
-                    <a href="/thomas-hill"><img src={thomas}/></a>
+                    <a href="/projects/industrial-aviation/thomas-hill"><img src={thomas}/></a>
                     <h3>Thomas Hill Environmental Retro Fit, Burns & McDonnell, Kansas City, Missouri, USA</h3>
                 </div>
             </div>

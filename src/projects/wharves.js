@@ -11,11 +11,11 @@ const Wharves = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/woodside-ferry"><img src={woodside}/></a>
+                    <a href="/projects/wharves/woodside-ferry"><img src={woodside}/></a>
                     <h3>Woodside Ferry Terminal Pontoon, Dartmouth, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/national-gypsum-dock"><img src={dock}/></a>
+                    <a href="/projects/wharves/national-gypsum-dock"><img src={dock}/></a>
                     <h3>National Gypsum Dock, Dartmouth, NS</h3>
                 </div>
             </div>

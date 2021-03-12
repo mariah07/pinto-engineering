@@ -18,43 +18,43 @@ const Projects = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/bridges"><img src={bridge}/></a>
+                    <a href="/projects/bridges"><img src={bridge}/></a>
                     <h3>Bridges</h3>
                 </div>
                 <div className="box">
-                    <a href="/commercial"><img src={commercial}/></a>
+                    <a href="/projects/commercial"><img src={commercial}/></a>
                     <h3>Commerical</h3>
                 </div>
                 <div className="box">
-                    <a href="/heritage"><img src={heritage}/></a>
+                    <a href="/projects/heritage"><img src={heritage}/></a>
                     <h3>Heritage</h3>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/industrial-aviation"><img src={industiral}/></a>
+                    <a href="/projects/industrial-aviation"><img src={industiral}/></a>
                     <h3>Industrial & Aviation</h3>
                 </div>
                 <div className="box">
-                    <a href="/institutional"><img src={institutional}/></a>
+                    <a href="/projects/institutional"><img src={institutional}/></a>
                     <h3>Institutional</h3>
                 </div>
                 <div className="box">
-                    <a href="/health"><img src={health}/></a>
+                    <a href="/projects/health"><img src={health}/></a>
                     <h3>Health</h3>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/mixed-use-developement"><img src={mixed}/></a>
+                    <a href="/projects/mixed-use-developement"><img src={mixed}/></a>
                     <h3>Mixed-Use Developement</h3>
                 </div>
                 <div className="box">
-                    <a href="/residential"><img src={residential}/></a>
+                    <a href="/projects/residential"><img src={residential}/></a>
                     <h3>Residential</h3>
                 </div>
                 <div className="box">
-                    <a href="/wharves"><img src={wharves}/></a>
+                    <a href="/projects/wharves"><img src={wharves}/></a>
                     <h3>Wharves</h3>
                 </div>
             </div>

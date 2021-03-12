@@ -16,35 +16,35 @@ const Commerical = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/citadel-inn"><img src={citadel}/></a>
+                    <a href="/projects/commercial/citadel-inn"><img src={citadel}/></a>
                     <h3>Citadel Inn Redevelopment, Halifax, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/highfield-plaza"><img src={highfield}/></a>
+                    <a href="/projects/commercial/highfield-plaza"><img src={highfield}/></a>
                     <h3>Highfield Plaza, Dartmouth, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/market-square"><img src={market}/></a>
+                    <a href="/projects/commercial/market-square"><img src={market}/></a>
                     <h3>Market Square, Saint John, NB</h3>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/isl-digital-marketing"><img src={isl}/></a>
+                    <a href="/projects/commercial/isl-digital-marketing"><img src={isl}/></a>
                     <h3>ISL Digital Marketing, Halifax, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/glenbourne-plaza"><img src={glen}/></a>
+                    <a href="/projects/commercial/glenbourne-plaza"><img src={glen}/></a>
                     <h3>Glenbourne Plaza, Halifax, NS</h3>
                 </div>
                 <div className="box">
-                    <a href="/covington-station"><img src={coving}/></a>
+                    <a href="/projects/commercial/covington-station"><img src={coving}/></a>
                     <h3>Covington Station, Kentville, NS</h3>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/comfort-inn"><img src={comfort}/></a>
+                    <a href="/projects/commercial/comfort-inn"><img src={comfort}/></a>
                     <h3>Comfort Inn, Halifax, NS</h3>
                 </div>
             </div>
