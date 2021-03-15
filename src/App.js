@@ -7,12 +7,13 @@ import EngineeringDesign from './services/engineering-design.js'
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 import React from 'react';
-import $ from 'jquery';
 import {
   BrowserRouter as Router,
   Route,
   Switch
 } from "react-router-dom";
+import Contact from './contact/contact';
+import About from './about/about';
 import ProjectManagement from './services/project-management.js';
 import Investigation from './services/investigation-reports.js';
 import Projects from './projects/projects-page.js';
@@ -73,6 +74,9 @@ class App extends React.Component  {
         <Navbar />
         <Switch>
             <Route exact path="/"><Home /></Route>
+            <Route path="/contact"><Contact /></Route>
+            <Route path="/about"><About /></Route>
+
             <Route path="/engineering-design"><EngineeringDesign /></Route>
             <Route path="/project-management"><ProjectManagement /></Route>
             <Route path="/investigation-reports"><Investigation /></Route>

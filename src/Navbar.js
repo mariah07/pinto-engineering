@@ -1,11 +1,17 @@
 import { render } from '@testing-library/react'
 import { NavLink } from 'react-router-dom'
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 const Navbar = () => {
     const [mobile,setMobile] = useState(false);
+    const [scroll, setScroll] = useState(false);
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+        setScroll(window.scrollY > 50)
+        })
+    }, [])
     return (
-        <nav>
+        <nav className={scroll ? "nav scrolling" : "nav"}>
             <div className="logo">Boilerplate</div>
             <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : ""}}>
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>

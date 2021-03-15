@@ -3,16 +3,20 @@ a {
     text-decoration: none;
   }
   
-  nav {
+  .nav {
     display:flex;
     align-items: center;
-    background-color: rgb(121, 68, 134);
+    background-color: transparent;
     justify-content: space-between;
     padding: 0 20px;
-    color: white;
+    color: black;
     position: sticky;
     top: 0;
     z-index: 2;
+    transition: all 0.3s ease-in-out;
+  }
+  .scrolling {
+    background-color: rgb(121, 68, 134);
   }
   
   nav .nav-bar {
@@ -57,5 +61,5 @@ a {
   }
   
   .nav-bar li a {
-    color:white;
+    color:black;
   }

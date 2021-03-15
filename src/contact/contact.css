@@ -1,0 +1,68 @@
+#contact .contact-header {
+    background-color: rgb(66, 62, 62);
+    color: white;
+    padding: 20px 50px;
+    font-size: 3em;
+}
+
+#contact .company-info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 60px;
+}
+
+#contact .company-info .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+#contact .company-info h2 {
+    font-size: 2em;
+    color:darkslategray;
+}
+
+#contact .company-info p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#contact .company-info img {
+    width: 40%;
+    border-radius: 25px;
+}
+
+#contact .company-contact {
+    display: flex;
+}
+
+#contact .company-contact .company-box {
+    padding: 40px;
+    width: 33%;
+    color: white;
+    font-weight: 600;
+}
+
+.company-contact .company-box ul {
+    list-style: none;
+}
+
+#halifax {
+    background-color: brown;
+    border: 20px solid rgb(66, 62, 62);
+}
+
+#stjohn {
+    background-color: rgb(185, 151, 107);
+    border-top: 20px solid rgb(66, 62, 62);
+    border-bottom: 20px solid rgb(66, 62, 62);
+    border-right: 20px solid rgb(66, 62, 62);
+}
+
+#calgary {
+    background-color: coral;
+    border-top: 20px solid rgb(66, 62, 62);
+    border-bottom: 20px solid rgb(66, 62, 62);
+    border-right: 20px solid rgb(66, 62, 62);
+}

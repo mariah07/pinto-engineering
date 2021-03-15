@@ -1,0 +1,16 @@
+#about .about-header {
+    font-size: 3em;
+    display:flex;
+    justify-content: center;
+}
+
+#about .main-content {
+    padding: 100px;
+}
+
+#about .main-content .text {
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+}
