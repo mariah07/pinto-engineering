@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="logo">Boilerplate</div>
             <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : ""}}>
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
-                <li><a className="menu">Services</a>
+                <li><NavLink to="/services" className="menu">Services</NavLink>
                     <div className="dropdown-menu">
                         <NavLink to="/engineering-design" className="dropdown" activeClassName="active">Engineering Design</NavLink>
                         <NavLink to="/project-management" className="dropdown" activeClassName="active">Project Management</NavLink>

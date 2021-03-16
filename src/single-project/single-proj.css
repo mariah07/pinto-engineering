@@ -25,7 +25,7 @@
     flex-direction: column;
     position: absolute;
     right: 0px;
-    bottom: 20px;
+    bottom: -70px;
 }
 
 #single-project .text p {
@@ -35,7 +35,8 @@
     box-shadow: 4px 4px 14px 14px rgba(0, 0, 0, 0.336);
     font-size: 1em;
     color: black;
-    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.747);
     text-align: center;
     font-weight: 500;
 }

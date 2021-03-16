@@ -22,17 +22,12 @@ const Coving = () => {
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
                     <img src={image1} className="sliderimage"/>
-                    <img src={image1} className="sliderimage" />
-                    <img src={image1} className="sliderimage"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
-                <p>
-                PINTO provided structural design and construction administration services for a three-storey office building in Kentville's business district.  The following elements were included in the design:  reinforced concrete foundations and reinforced concrete tilt-up panels including lifting and bracing design.  Project completed in 2009.
-                </p>
-            </div>
-            <div className="title">
-                
+                <div className="text">
+                    <p>
+                    PINTO provided structural design and construction administration services for a three-storey office building in Kentville's business district.  The following elements were included in the design:  reinforced concrete foundations and reinforced concrete tilt-up panels including lifting and bracing design.  Project completed in 2009.
+                    </p>
+                </div>
             </div>
         </section>
     );

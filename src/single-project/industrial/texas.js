@@ -3,6 +3,8 @@ import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import image1 from "./tex-gallery/texas.jpg";
+import image2 from "./tex-gallery/texas2.jpg";
+import image3 from "./tex-gallery/texas3.jpg";
 
 const Texas = () => {
     useEffect(() => {
@@ -13,10 +15,10 @@ const Texas = () => {
             <a href="/projects/industrial-aviation"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
-                    Little Bras D’or Railway Bridge Replacement
+                    Texas Duct
                 </h1>
                 <h2>
-                    Highway 105, Cape Breton County, Nova Scotia
+                    Texas, United States
                 </h2>
             </div>
             <div className="carousel">
@@ -25,14 +27,10 @@ const Texas = () => {
                     <img src={image1} className="sliderimage" />
                     <img src={image1} className="sliderimage"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
-                <p>
-                PINTO provided structural design services for a reinforced concrete replacement bridge (CB076) on Highway 105.  The following elements were included in the design:  reinforced concrete abutments, reinforced concrete bridge girders, and reinforced concrete bridge deck.  Project completed in 2011.
-                </p>
-            </div>
-            <div className="title">
-                
+                <div className="text">
+                    <p>
+                    PINTO provided design services for large-scale structural inlet ductwork required for power generation station.  Services provided included the following:  design of structural steel duct walls, design of structural steel interior lateral pipe trusses, design of structural steel bearing support mechanism, production of fabrication shop drawings, production of bill of materials. Project completed in 2007.</p>
+                </div>
             </div>
         </section>
     );

@@ -13,26 +13,20 @@ const Inverary = () => {
             <a href="/projects/health"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
-                    Little Bras D’or Railway Bridge Replacement
+                    Inverary Manor Nursing Home
                 </h1>
                 <h2>
-                    Highway 105, Cape Breton County, Nova Scotia
+                    Expansion of Continuing Care Facility in Inverness, Nova Scotia
                 </h2>
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
                     <img src={image1} className="sliderimage"/>
-                    <img src={image1} className="sliderimage" />
-                    <img src={image1} className="sliderimage"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
-                <p>
-                PINTO provided structural design services for a reinforced concrete replacement bridge (CB076) on Highway 105.  The following elements were included in the design:  reinforced concrete abutments, reinforced concrete bridge girders, and reinforced concrete bridge deck.  Project completed in 2011.
-                </p>
-            </div>
-            <div className="title">
-                
+                <div className="text">
+                    <p>
+                    PINTO provided structural design and construction administration services for this distinctive two-storey replacement continuing care facility plus an expansion linking the existing Inverness Consolidated Memorial Hospital with the new continuing care facility.  The following elements were included in the design: reinforced concrete foundations, reinforced concrete columns, beams, & shearwalls, 90,000 square feet of reinforced concrete floor & roof slabs, structural steel canopies, and insulated concrete form (ICF) exterior walls. The project was completed in 2012.</p>
+                </div>
             </div>
         </section>
     );

@@ -3,6 +3,9 @@ import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import image1 from "./wo-gallery/woodside.jpg";
+import image2 from "./wo-gallery/woodside2.jpg";
+import image3 from "./wo-gallery/woodside3.jpg";
+import image4 from "./wo-gallery/woodside4.jpg";
 
 const Woodside = () => {
     useEffect(() => {
@@ -13,26 +16,24 @@ const Woodside = () => {
             <a href="/projects/wharves"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
-                    Little Bras D’or Railway Bridge Replacement
+                    Woodside Ferry Terminal Pontoon
                 </h1>
                 <h2>
-                    Highway 105, Cape Breton County, Nova Scotia
+                    Concrete Replacement Pontoon in Dartmouth, Nova Scotia
                 </h2>
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
                     <img src={image1} className="sliderimage"/>
-                    <img src={image1} className="sliderimage" />
-                    <img src={image1} className="sliderimage"/>
+                    <img src={image2} className="sliderimage" />
+                    <img src={image3} className="sliderimage"/>
+                    <img src={image4} className="sliderimage"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
-                <p>
-                PINTO provided structural design services for a reinforced concrete replacement bridge (CB076) on Highway 105.  The following elements were included in the design:  reinforced concrete abutments, reinforced concrete bridge girders, and reinforced concrete bridge deck.  Project completed in 2011.
-                </p>
-            </div>
-            <div className="title">
-                
+                <div className="text">
+                    <p>
+                    PINTO lead the design portion of the team for the $3.2 million design-build project to replace the 27-year-old pontoon at the Woodside Ferry Terminal in Dartmouth, Nova Scotia. The team was engaged early in 2014, with construction on this important piece of public and civic infrastructure completed in December, the same year. PINTO provided design and construction administration services including reinforced concrete design and structural steel design. 
+                    </p>
+                </div>
             </div>
         </section>
     );

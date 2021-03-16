@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import Contact from './contact/contact';
 import About from './about/about';
+import Services from './services/services';
 import ProjectManagement from './services/project-management.js';
 import Investigation from './services/investigation-reports.js';
 import Projects from './projects/projects-page.js';
@@ -76,6 +77,7 @@ class App extends React.Component  {
             <Route exact path="/"><Home /></Route>
             <Route path="/contact"><Contact /></Route>
             <Route path="/about"><About /></Route>
+            <Route path="/services"><Services /></Route>
 
             <Route path="/engineering-design"><EngineeringDesign /></Route>
             <Route path="/project-management"><ProjectManagement /></Route>

@@ -13,10 +13,10 @@ const Thomas = () => {
             <a href="/projects/industrial-aviation"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
-                    Little Bras D’or Railway Bridge Replacement
+                    Thomas Hill Environmental Retro Fit
                 </h1>
                 <h2>
-                    Highway 105, Cape Breton County, Nova Scotia
+                    Burns & McDonnell, Kansas City, Missouri, USA
                 </h2>
             </div>
             <div className="carousel">
@@ -25,14 +25,11 @@ const Thomas = () => {
                     <img src={image1} className="sliderimage" />
                     <img src={image1} className="sliderimage"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
+                <div className="text">
                 <p>
-                PINTO provided structural design services for a reinforced concrete replacement bridge (CB076) on Highway 105.  The following elements were included in the design:  reinforced concrete abutments, reinforced concrete bridge girders, and reinforced concrete bridge deck.  Project completed in 2011.
-                </p>
-            </div>
-            <div className="title">
-                
+                    PINTO provided design services for large-scale structural ductwork required for power generation station.  Services provided included the following:  design of structural steel duct walls, design of structural steel interior lateral pipe trusses, and peer review of design for structural steel bearing support mechanism. Project completed in 2007.
+                    </p>
+                </div>
             </div>
         </section>
     );

@@ -3,6 +3,7 @@ import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import image1 from "./law-gallery/St._Lawrence.jpg";
+import image2 from "./law-gallery/St._Lawrence2.jpg";
 
 const Lawrence = () => {
     useEffect(() => {
@@ -13,26 +14,22 @@ const Lawrence = () => {
             <a href="/projects/mixed-use-developement"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
-                    Little Bras D’or Railway Bridge Replacement
+                    Saint Lawrence Place
                 </h1>
                 <h2>
-                    Highway 105, Cape Breton County, Nova Scotia
+                    Multi-Unit Commercial and Residential Complex in Halifax, Nova Scotia
                 </h2>
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
                     <img src={image1} className="sliderimage"/>
-                    <img src={image1} className="sliderimage" />
-                    <img src={image1} className="sliderimage"/>
+                    <img src={image2} className="sliderimage" />
                 </AliceCarousel>
-            </div>
-            <div className="text">
-                <p>
-                PINTO provided structural design services for a reinforced concrete replacement bridge (CB076) on Highway 105.  The following elements were included in the design:  reinforced concrete abutments, reinforced concrete bridge girders, and reinforced concrete bridge deck.  Project completed in 2011.
-                </p>
-            </div>
-            <div className="title">
-                
+                <div className="text">
+                    <p>
+                    PINTO provided structural design and construction administration services for this 5 story commercial plus 14 story residential complex as part of a revitalization development in the fast-growing Fairview neighbourhood in Halifax, Nova Scotia.  The following elements were included in the design: reinforced concrete foundations, columns, floor & roof slabs, shearwalls, as well as structural steel canopies. The project was completed in 2013.
+                    </p>
+                </div>
             </div>
         </section>
     );

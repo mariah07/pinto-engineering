@@ -13,26 +13,21 @@ const Convoy = () => {
             <a href="/projects/residential"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
-                    Little Bras D’or Railway Bridge Replacement
+                    Convoy Quay Gardens
                 </h1>
                 <h2>
-                    Highway 105, Cape Breton County, Nova Scotia
+                    Twin Nine-Story Multi-Unit Residential Complexes in Bedford, NS
                 </h2>
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
                     <img src={image1} className="sliderimage"/>
-                    <img src={image1} className="sliderimage" />
-                    <img src={image1} className="sliderimage"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
-                <p>
-                PINTO provided structural design services for a reinforced concrete replacement bridge (CB076) on Highway 105.  The following elements were included in the design:  reinforced concrete abutments, reinforced concrete bridge girders, and reinforced concrete bridge deck.  Project completed in 2011.
-                </p>
-            </div>
-            <div className="title">
-                
+                <div className="text">
+                    <p>
+                    PINTO provided structural design and construction administration services for a nine-storey, two tower residential complex overlooking the Bedford Basin as part of the Bedford Waterfront Redevelopment Project.  The following elements were included in the design: reinforced concrete foundations, reinforced concrete columns & shearwalls, and 260,000 square feet of concrete floor & roof slabs including underground parking. The project was completed in 2001.
+                    </p>
+                </div>
             </div>
         </section>
     );

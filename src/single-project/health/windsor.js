@@ -3,6 +3,8 @@ import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import image1 from "./win-gallery/windsor.jpeg";
+import image2 from "./win-gallery/windsor2.jpeg";
+import image3 from "./win-gallery/windsor3.jpeg";
 
 const Windsor = () => {
     useEffect(() => {
@@ -13,26 +15,22 @@ const Windsor = () => {
             <a href="/projects/health"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
-                    Little Bras D’or Railway Bridge Replacement
+                    Windsor Elms Village
                 </h1>
                 <h2>
-                    Highway 105, Cape Breton County, Nova Scotia
+                    Replacement Continuing Care Facility in Falmouth, Nova Scotia
                 </h2>
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
                     <img src={image1} className="sliderimage"/>
-                    <img src={image1} className="sliderimage" />
-                    <img src={image1} className="sliderimage"/>
+                    <img src={image2} className="sliderimage" />
+                    <img src={image3} className="sliderimage"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
+                <div className="text">
                 <p>
-                PINTO provided structural design services for a reinforced concrete replacement bridge (CB076) on Highway 105.  The following elements were included in the design:  reinforced concrete abutments, reinforced concrete bridge girders, and reinforced concrete bridge deck.  Project completed in 2011.
-                </p>
-            </div>
-            <div className="title">
-                
+                PINTO provided structural design and construction administration services for an 85,000 square foot replacement long term care facility located amid the scenic surroundings of Nova Scotia's Bay of Fundy. The following elements were included in the design: reinforced concrete foundations including concrete retaining walls, structural steel floor, roof, & canopy framing, insulated concrete form (ICF) exterior walls, and a layout of pre-engineered timber roof framing. The project was completed in 2010.</p>
+                </div>
             </div>
         </section>
     );
