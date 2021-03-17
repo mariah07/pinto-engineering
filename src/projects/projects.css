@@ -30,6 +30,11 @@
     font-size: 1.3em;
     background-color: rgb(151, 143, 188);
     color:white;
+    transition: all 0.3s ease-in-out;
+}
+
+#project .button:hover {
+    background-color: rgb(139, 139, 139);
 }
 
 #project .button-area {

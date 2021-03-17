@@ -2,7 +2,13 @@
 #services .services-header {
     display: flex;
     justify-content: center;
-    font-size: 3em;
+    align-items: center;
+    font-size: 4em;
+    color:white;
+    background-image: url("./services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
 }
 
 #services .services-section {
@@ -11,7 +17,7 @@
 
 #services .services-section .service {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 20px;
     border: 2px solid rgba(0, 0, 0, 0.199);
     border-radius: 5px;
@@ -20,10 +26,11 @@
 
 .services-section .service img{
     width: 30%;
+    margin-right: 10px;
 }
 
 .services-section .service .text{
-    width: 60%;
+    width: 55%;
     padding: 20px;
 }
 
@@ -35,7 +42,7 @@
     padding: 15px 20px;
     color: white;
     border: none;
-    background-color: purple;
+    background-color: darkgray;
     border-radius: 25px;
     transition: all 0.3s ease-in-out;
 }

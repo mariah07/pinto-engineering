@@ -3,16 +3,23 @@ import building from "../img/building.jpg"
 import engineer from "../img/engineer.jpg"
 import architect from "../img/architect.jpg"
 import "./services.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Services = () => {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    useEffect(() => {
+        Aos.init({duration: 3000});
+    }, []);
     return (
         <section id="services">
             <div className="services-header">
-                <h1>Services</h1>
+                <h1 data-aos="fade-up">Services</h1>
             </div>
             <div className="services-section">
-                <div className="service">
+                <div className="service right" data-aos="fade-right">
                     <img src={building}/>
                     <div className="text">
                         <h2>Engineering Design</h2>
@@ -22,7 +29,7 @@ const Services = () => {
                         <a href="/engineering-design">Learn more</a>
                     </div>
                 </div>
-                <div className="service">
+                <div className="service left" data-aos="fade-left">
                     <div className="text">
                         <h2>Project Management</h2>
                         <p>We offer construction review, shop drawing review, constructions administration, and project coordination</p>
@@ -30,7 +37,7 @@ const Services = () => {
                     </div>
                     <img src={architect}/>
                 </div>
-                <div className="service">
+                <div className="service right" data-aos="fade-right">
                     <img src={engineer}/>
                     <div className="text">
                         <h2>Investigation & Reports</h2>

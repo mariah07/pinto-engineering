@@ -14,26 +14,26 @@ const Health = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/projects/health/inverary-manor-nursing-home"><img src={manor}/></a>
-                    <h3>Inverary Manor Nursing Home, Inverness, NS</h3>
+                    <a href="/projects/health/inverary-manor-nursing-home"><img src={manor} alt="Inverary Manor Nursing Home - PINTO Engineering"/>
+                    <h3>Inverary Manor Nursing Home, Inverness, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/health/wickwire-assisted-living-residence"><img src={wickwire}/></a>
-                    <h3>Wickwire Place Assisted Living Residence, Wolfville, NS</h3>
+                    <a href="/projects/health/wickwire-assisted-living-residence"><img src={wickwire} alt="Wickwire Place Assisted Living Residence - PINTO Engineering"/>
+                    <h3>Wickwire Place Assisted Living Residence, Wolfville, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/health/foyer-longterm-care-facility"><img src={foyer}/></a>
-                    <h3>Foyer Pere Fiset Long Term Care Facility, Cheticamp, NS</h3>
+                    <a href="/projects/health/foyer-longterm-care-facility"><img src={foyer} alt="Foyer Pere Fiset Long Term Care Facility - PINTO Engineering"/>
+                    <h3>Foyer Pere Fiset Long Term Care Facility, Cheticamp, NS</h3></a>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/health/windsor-elms-village"><img src={windsor}/></a>
-                    <h3>Windsor Elms Village, Falmouth, NS</h3>
+                    <a href="/projects/health/windsor-elms-village"><img src={windsor} alt="Windsor Elms Village - PINTO Engineering"/>
+                    <h3>Windsor Elms Village, Falmouth, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/health/northwood-continuing-care"><img src={northwood}/></a>
-                    <h3>Northwood Continuing Care Centre - Ivany Place, Bedford, NS</h3>
+                    <a href="/projects/health/northwood-continuing-care"><img src={northwood} alt="Northwood Continuing Care - PINTO Engineering"/>
+                    <h3>Northwood Continuing Care Centre - Ivany Place, Bedford, NS</h3></a>
                 </div>
             </div>
             <div className="button-area">

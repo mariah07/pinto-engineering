@@ -14,26 +14,26 @@ const Heritage = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/projects/heritage/perkins-house-museum"><img src={perkins}/></a>
-                    <h3>Perkins House Museum, Liverpool, NS</h3>
+                    <a href="/projects/heritage/perkins-house-museum"><img src={perkins} alt="Perkins House Museum - PINTO Engineering"/>
+                    <h3>Perkins House Museum, Liverpool, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/heritage/st-john-anglican-church"><img src={church}/></a>
-                    <h3>St John’s Anglican Church Restoration, Lunenburg, NS</h3>
+                    <a href="/projects/heritage/st-john-anglican-church"><img src={church} alt="St John's Anglican Church Restoration - PINTO Engineering"/>
+                    <h3>St John’s Anglican Church Restoration, Lunenburg, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/heritage/morris-street"><img src={morris}/></a>
-                    <h3>5247 Morris Street Renovation, Halifax, NS</h3>
+                    <a href="/projects/heritage/morris-street"><img src={morris} alt="Morris Street Renovation - PINTO Engineering"/>
+                    <h3>5247 Morris Street Renovation, Halifax, NS</h3></a>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/heritage/st-george-anglican-church"><img src={george}/></a>
-                    <h3>St. Georges Anglican Church Restoration, Halifax, NS</h3>
+                    <a href="/projects/heritage/st-george-anglican-church"><img src={george} alt="St George Anglican Church - PINTO Engineering"/>
+                    <h3>St. Georges Anglican Church Restoration, Halifax, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/heritage/uniacke-estate-museum"><img src={uniacke}/></a>
-                    <h3>Uniacke Estate Museum, Mt. Uniacke, NS</h3>
+                    <a href="/projects/heritage/uniacke-estate-museum"><img src={uniacke} alt="Uniacke Estate Museum - PINTO Engineering"/>
+                    <h3>Uniacke Estate Museum, Mt. Uniacke, NS</h3></a>
                 </div>
             </div>
             <div className="button-area">

@@ -18,44 +18,44 @@ const Projects = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/projects/bridges"><img src={bridge}/></a>
-                    <h3>Bridges</h3>
+                    <a href="/projects/bridges"><img src={bridge} alt="Bridges that Pinto Engineering has worked on"/>
+                    <h3>Bridges</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial"><img src={commercial}/></a>
-                    <h3>Commerical</h3>
+                    <a href="/projects/commercial"><img src={commercial} alt="Commercial projects that Pinto Engineering has worked on"/>
+                    <h3>Commerical</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/heritage"><img src={heritage}/></a>
-                    <h3>Heritage</h3>
-                </div>
-            </div>
-            <div className="row">
-                <div className="box">
-                    <a href="/projects/industrial-aviation"><img src={industiral}/></a>
-                    <h3>Industrial & Aviation</h3>
-                </div>
-                <div className="box">
-                    <a href="/projects/institutional"><img src={institutional}/></a>
-                    <h3>Institutional</h3>
-                </div>
-                <div className="box">
-                    <a href="/projects/health"><img src={health}/></a>
-                    <h3>Health</h3>
+                    <a href="/projects/heritage"><img src={heritage} alt="Heritage projects that Pinto Engineering has worked on"/>
+                    <h3>Heritage</h3></a>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/mixed-use-developement"><img src={mixed}/></a>
-                    <h3>Mixed-Use Developement</h3>
+                    <a href="/projects/industrial-aviation"><img src={industiral} alt="Industrial projects that Pinto Engineering has worked on"/>
+                    <h3>Industrial & Aviation</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/residential"><img src={residential}/></a>
-                    <h3>Residential</h3>
+                    <a href="/projects/institutional"><img src={institutional} alt="Institutional projects that Pinto Engineering has worked on"/>
+                    <h3>Institutional</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/wharves"><img src={wharves}/></a>
-                    <h3>Wharves</h3>
+                    <a href="/projects/health"><img src={health} alt="Hospital & Wellness projects that Pinto Engineering has worked on"/>
+                    <h3>Health</h3></a>
+                </div>
+            </div>
+            <div className="row">
+                <div className="box">
+                    <a href="/projects/mixed-use-development"><img src={mixed} alt="Mixed Use Development projects that Pinto Engineering has worked on"/>
+                    <h3>Mixed-Use Development</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/residential"><img src={residential} alt="Residential projects that Pinto Engineering has worked on"/>
+                    <h3>Residential</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/wharves"><img src={wharves} alt="Wharves projects that Pinto Engineering has worked on"/>
+                    <h3>Wharves</h3></a>
                 </div>
             </div>
         </section>

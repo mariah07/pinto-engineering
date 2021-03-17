@@ -16,36 +16,36 @@ const Commerical = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/projects/commercial/citadel-inn"><img src={citadel}/></a>
-                    <h3>Citadel Inn Redevelopment, Halifax, NS</h3>
+                    <a href="/projects/commercial/citadel-inn"><img src={citadel} alt="Citadel Inn - PINTO Engineering"/>
+                    <h3>Citadel Inn Redevelopment, Halifax, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/highfield-plaza"><img src={highfield}/></a>
-                    <h3>Highfield Plaza, Dartmouth, NS</h3>
+                    <a href="/projects/commercial/highfield-plaza"><img src={highfield} alt="Highfield Plaza - PINTO Engineering"/>
+                    <h3>Highfield Plaza, Dartmouth, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/market-square"><img src={market}/></a>
-                    <h3>Market Square, Saint John, NB</h3>
-                </div>
-            </div>
-            <div className="row">
-                <div className="box">
-                    <a href="/projects/commercial/isl-digital-marketing"><img src={isl}/></a>
-                    <h3>ISL Digital Marketing, Halifax, NS</h3>
-                </div>
-                <div className="box">
-                    <a href="/projects/commercial/glenbourne-plaza"><img src={glen}/></a>
-                    <h3>Glenbourne Plaza, Halifax, NS</h3>
-                </div>
-                <div className="box">
-                    <a href="/projects/commercial/covington-station"><img src={coving}/></a>
-                    <h3>Covington Station, Kentville, NS</h3>
+                    <a href="/projects/commercial/market-square"><img src={market} alt="Market Square - PINTO Engineering"/>
+                    <h3>Market Square, Saint John, NB</h3></a>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/commercial/comfort-inn"><img src={comfort}/></a>
-                    <h3>Comfort Inn, Halifax, NS</h3>
+                    <a href="/projects/commercial/isl-digital-marketing"><img src={isl} alt="ISL Digital Marketing - PINTO Engineering"/>
+                    <h3>ISL Digital Marketing, Halifax, NS</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/commercial/glenbourne-plaza"><img src={glen} alt="Glenbourne Plaza - PINTO Engineering"/>
+                    <h3>Glenbourne Plaza, Halifax, NS</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/commercial/covington-station"><img src={coving} alt="Covington Station - PINTO Engineering"/>
+                    <h3>Covington Station, Kentville, NS</h3></a>
+                </div>
+            </div>
+            <div className="row">
+                <div className="box">
+                    <a href="/projects/commercial/comfort-inn"><img src={comfort} alt="Comfort Inn - PINTO Engineering"/>
+                    <h3>Comfort Inn, Halifax, NS</h3></a>
                 </div>
             </div>
             <div className="button-area">

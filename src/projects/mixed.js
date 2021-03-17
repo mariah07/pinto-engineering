@@ -15,30 +15,30 @@ const Mixed = () => {
         <section id="project">
             <div className="row">
                 <div className="box">
-                    <a href="/projects/mixed-use-developement/the-trillium"><img src={perkins}/></a>
-                    <h3>The Trillium, Halifax, NS</h3>
+                    <a href="/projects/mixed-use-development/the-trillium"><img src={perkins} alt="The Trillium - PINTO Engineering"/>
+                    <h3>The Trillium, Halifax, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/mixed-use-developement/saint-lawerence"><img src={church}/></a>
-                    <h3>Saint Lawrence Place, Halifax, NS</h3>
+                    <a href="/projects/mixed-use-development/saint-lawerence"><img src={church} alt="Saint Lawrence Place - PINTO Engineering"/>
+                    <h3>Saint Lawrence Place, Halifax, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/mixed-use-developement/mary-ann"><img src={maryann}/></a>
-                    <h3>Mary Ann Development, Halifax, NS</h3>
+                    <a href="/projects/mixed-use-development/mary-ann"><img src={maryann} alt="Mary Ann Development - PINTO Engineering"/>
+                    <h3>Mary Ann Development, Halifax, NS</h3></a>
                 </div>
             </div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/mixed-use-developement/duckworth-street-metropark"><img src={duckworth}/></a>
-                    <h3>Duckworth Street Metropark, St John's, Newfoundland and Labrador</h3>
+                    <a href="/projects/mixed-use-development/duckworth-street-metropark"><img src={duckworth} alt="Duckworth Street Metropark - PINTO Engineering"/>
+                    <h3>Duckworth Street Metropark, St John's, Newfoundland and Labrador</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/mixed-use-developement/brigadoon-village"><img src={brigadoon}/></a>
-                    <h3>Brigadoon Village, South Alton, NS</h3>
+                    <a href="/projects/mixed-use-development/brigadoon-village"><img src={brigadoon} alt="Brigadoon Village - PINTO Engineering"/>
+                    <h3>Brigadoon Village, South Alton, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/mixed-use-developement/marriott-residence-inn"><img src={marriott}/></a>
-                    <h3>Marriott Residence Inn, Halifax, NS</h3>
+                    <a href="/projects/mixed-use-development/marriott-residence-inn"><img src={marriott} alt="Marriott Residence Inn - PINTO Engineering"/>
+                    <h3>Marriott Residence Inn, Halifax, NS</h3></a>
                 </div>
             </div>
             <div className="button-area">

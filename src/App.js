@@ -90,7 +90,7 @@ class App extends React.Component  {
             <Router exact path="/projects/industrial-aviation"><Industrial /></Router>
             <Router exact path="/projects/institutional"><Institutional /></Router>
             <Router exact path="/projects/health"><Health /></Router>
-            <Router exact path="/projects/mixed-use-developement"><Mixed /></Router>
+            <Router exact path="/projects/mixed-use-development"><Mixed /></Router>
             <Router exact path="/projects/residential"><Residential /></Router>
             <Router exact path="/projects/wharves"><Wharves /></Router>
 
@@ -125,12 +125,12 @@ class App extends React.Component  {
             <Router path="/projects/institutional/inverness-memorial-hospital"><Inverness /></Router>
             <Router path="/projects/institutional/moncton-law-courts"><Moncton /></Router>
 
-            <Router path="/projects/mixed-use-developement/the-trillium"><Trillium /></Router>
-            <Router path="/projects/mixed-use-developement/saint-lawerence"><Lawrence /></Router>
-            <Router path="/projects/mixed-use-developement/mary-ann"><MaryAnn /></Router>
-            <Router path="/projects/mixed-use-developement/duckworth-street-metropark"><Duckworth /></Router>
-            <Router path="/projects/mixed-use-developement/brigadoon-village"><Brigadoon /></Router>
-            <Router path="/projects/mixed-use-developement/marriott-residence-inn"><Marriott /></Router>
+            <Router path="/projects/mixed-use-development/the-trillium"><Trillium /></Router>
+            <Router path="/projects/mixed-use-development/saint-lawerence"><Lawrence /></Router>
+            <Router path="/projects/mixed-use-development/mary-ann"><MaryAnn /></Router>
+            <Router path="/projects/mixed-use-development/duckworth-street-metropark"><Duckworth /></Router>
+            <Router path="/projects/mixed-use-development/brigadoon-village"><Brigadoon /></Router>
+            <Router path="/projects/mixed-use-development/marriott-residence-inn"><Marriott /></Router>
 
             <Router path="/projects/residential/grand-haven"><Grand /></Router>
             <Router path="/projects/residential/wedgewood-condominium"><Wedgewood /></Router>

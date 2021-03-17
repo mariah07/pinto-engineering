@@ -1,8 +1,8 @@
-import { render } from '@testing-library/react'
 import { NavLink } from 'react-router-dom'
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 
 const Navbar = () => {
+    const wrapperRef = useRef(null);
     const [mobile,setMobile] = useState(false);
     const [scroll, setScroll] = useState(false);
     useEffect(() => {
@@ -10,8 +10,21 @@ const Navbar = () => {
         setScroll(window.scrollY > 50)
         })
     }, [])
+
+    useEffect(() => {
+        document.addEventListener("click", handleClickOutside, false);
+        return () => {
+          document.removeEventListener("click", handleClickOutside, false);
+        };
+      }, []);
+
+      const handleClickOutside = event => {
+        if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
+          setMobile(false);
+        }
+      };
     return (
-        <nav className={scroll ? "nav scrolling" : "nav"}>
+        <nav className={scroll ? "nav scrolling" : "nav"} ref={wrapperRef}>
             <div className="logo">Boilerplate</div>
             <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : ""}}>
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
