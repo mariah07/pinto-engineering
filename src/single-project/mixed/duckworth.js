@@ -12,7 +12,7 @@ const Duckworth = () => {
     }, []);
     return (
         <section id="single-project">
-            <a href="/projects/mixed-use-developement"><i class="fas fa-angle-left"></i></a>
+            <a href="/projects/mixed-use-development"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
                     Duckworth Street Metropark
@@ -23,9 +23,9 @@ const Duckworth = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
-                    <img src={image2} className="sliderimage" />
-                    <img src={image3} className="sliderimage"/>
+                    <img src={image1} className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
+                    <img src={image2} className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
+                    <img src={image3} className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>

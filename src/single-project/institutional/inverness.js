@@ -22,8 +22,8 @@ const Inverness = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
-                    <img src={image2} className="sliderimage" />
+                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Inverness Consolidated Memorial Hospital"/>
+                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Inverness Consolidated Memorial Hospital"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

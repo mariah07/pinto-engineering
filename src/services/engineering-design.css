@@ -1,10 +1,11 @@
 #design {
-    padding: 20px 80px
+    padding: 50px 80px
 }
 
 #design img {
     /* height: 500px; */
     width: 76%;
+    padding-bottom: 30px;
 }
 
 #design h1 {
@@ -13,7 +14,7 @@
 }
 
 #design .banner {
-    padding: 15px 40px;
+    padding: 20px 40px;
 }
 
 .banner p {

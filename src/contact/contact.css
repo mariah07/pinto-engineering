@@ -28,6 +28,15 @@
     font-weight: 400;
 }
 
+#contact .company-info p a {
+    color: darkslategray;
+    font-style: italic;
+}
+
+#contact .company-info p a:hover {
+    color: purple;
+}
+
 #contact .company-info img {
     width: 40%;
     border-radius: 25px;
@@ -39,7 +48,7 @@
 
 #contact .company-contact .company-box {
     padding: 40px;
-    width: 33%;
+    width: 50%;
     color: white;
     font-weight: 600;
 }
@@ -55,13 +64,6 @@
 
 #stjohn {
     background-color: rgb(185, 151, 107);
-    border-top: 20px solid rgb(66, 62, 62);
-    border-bottom: 20px solid rgb(66, 62, 62);
-    border-right: 20px solid rgb(66, 62, 62);
-}
-
-#calgary {
-    background-color: coral;
     border-top: 20px solid rgb(66, 62, 62);
     border-bottom: 20px solid rgb(66, 62, 62);
     border-right: 20px solid rgb(66, 62, 62);

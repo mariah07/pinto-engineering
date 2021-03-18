@@ -3,7 +3,7 @@ import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import image1 from "./marr-gallery/marriott.jpg";
-import image2 from "./marr-gallery/marriott.jpg";
+import image2 from "./marr-gallery/marriott2.jpg";
 
 const Marriott = () => {
     useEffect(() => {
@@ -11,7 +11,7 @@ const Marriott = () => {
     }, []);
     return (
         <section id="single-project">
-            <a href="/projects/mixed-use-developement"><i class="fas fa-angle-left"></i></a>
+            <a href="/projects/mixed-use-development"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
                     Marriott Residence Inn
@@ -22,8 +22,8 @@ const Marriott = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
-                    <img src={image2} className="sliderimage" />
+                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Marriott Residence Inn"/>
+                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Marriott Residence Inn"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

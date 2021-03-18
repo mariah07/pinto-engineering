@@ -25,11 +25,11 @@ const StGeorge = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
-                    <img src={image2} className="sliderimage" />
-                    <img src={image3} className="sliderimage"/>
-                    <img src={image4} className="sliderimage"/>
-                    <img src={image5} className="sliderimage"/>
+                    <img src={image1} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src={image2} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src={image3} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src={image4} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src={image5} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

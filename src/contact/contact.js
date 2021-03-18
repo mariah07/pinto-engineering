@@ -15,9 +15,10 @@ const Contact = () => {
                 <div className="company-info">
                     <div className="text">
                     <h2>The team at PINTO looks forward to working with you on your next project.</h2>
-                    <p>Please contact us using any of the methods below. For additional information, please visit and follow our company LinkedIn page.</p>
+                    <p>Please contact us using any of the methods below. For additional information, please visit and 
+                        follow our company <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" rel="nofollow">LinkedIn page.</a></p>
                     </div>
-                    <img src={contact}/>
+                    <img src={contact} alt=""/>
                 </div>
                 <div className="company-contact">
                     <div className="company-box" id="halifax">
@@ -41,13 +42,6 @@ const Contact = () => {
                             <li><i class="fas fa-envelope"></i> info@consultpinto.com</li>
                         </ul>
                         <p>St. John's, Newfoundland and Labrador, Canada</p>
-                    </div>
-                    <div className="company-box" id="calgary">
-                        <h2>Calgary</h2>
-                        <ul>
-                            <li><i class="fas fa-phone"></i> (403) 536-0301</li>
-                        </ul>
-                        <p>Calgary, Alberta, Canada</p>
                     </div>
                 </div>
             </div>

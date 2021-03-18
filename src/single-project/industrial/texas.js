@@ -23,9 +23,9 @@ const Texas = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
-                    <img src={image1} className="sliderimage" />
-                    <img src={image1} className="sliderimage"/>
+                    <img src={image1} className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
+                    <img src={image2} className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
+                    <img src={image3} className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

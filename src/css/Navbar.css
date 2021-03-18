@@ -13,7 +13,6 @@ a {
     position: sticky;
     top: 0;
     z-index: 2;
-    transition: all 0.3s ease-in-out;
   }
   .scrolling {
     background-color: rgb(121, 68, 134);

@@ -10,7 +10,7 @@ const MaryAnn = () => {
     }, []);
     return (
         <section id="single-project">
-            <a href="/projects/mixed-use-developement"><i class="fas fa-angle-left"></i></a>
+            <a href="/projects/mixed-use-development"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>
                     Mary Ann Development
@@ -21,7 +21,7 @@ const MaryAnn = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
+                    <img src={image1} className="sliderimage" alt="PINTO is providing structural design services for the Mary Ann Development"/>
                 </AliceCarousel>
             </div>
             <div className="text">

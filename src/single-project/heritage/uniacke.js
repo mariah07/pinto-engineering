@@ -21,7 +21,7 @@ const Uniacke = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
+                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Uniacke Estate Museum"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

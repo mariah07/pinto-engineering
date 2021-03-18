@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import $ from 'jquery';
-
-$("text").delay(500).fadeIn(1000);
 
 ReactDOM.render(
   <React.StrictMode>

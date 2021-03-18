@@ -26,7 +26,7 @@ const Navbar = () => {
     return (
         <nav className={scroll ? "nav scrolling" : "nav"} ref={wrapperRef}>
             <div className="logo">Boilerplate</div>
-            <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : ""}}>
+            <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : "", visibility: mobile ? "visible" : "", opacity: mobile ? "1" : "", animation: mobile ? "fade 0.4s" : ""}}>
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                 <li><NavLink to="/services" className="menu">Services</NavLink>
                     <div className="dropdown-menu">

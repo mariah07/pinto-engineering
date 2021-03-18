@@ -23,9 +23,9 @@ const Morris = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage"/>
-                    <img src={image2} className="sliderimage" />
-                    <img src={image3} className="sliderimage"/>
+                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
+                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
+                    <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>
