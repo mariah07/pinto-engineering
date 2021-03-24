@@ -7,8 +7,7 @@
 
 #contact .company-info {
     display: flex;
-    justify-content: space-evenly;
-    padding: 50px 60px;
+    justify-content:space-between;
 }
 
 #contact .company-info .text {
@@ -16,6 +15,7 @@
     justify-content: center;
     flex-direction: column;
     width: 40%;
+    padding: 50px 60px;
 }
 
 #contact .company-info h2 {
@@ -38,19 +38,34 @@
 }
 
 #contact .company-info img {
-    width: 40%;
-    border-radius: 25px;
+    width: 50%;
+    height: fit-content;
+    border-bottom-left-radius: 200px;
 }
 
 #contact .company-contact {
     display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 #contact .company-contact .company-box {
     padding: 40px;
-    width: 50%;
-    color: white;
-    font-weight: 600;
+    color: black;
+    font-weight:500;
+    display: flex;
+    justify-content: space-evenly;
+    border: 12px solid rgba(66, 62, 62, 0.678);
+    border-style: outset;
+}
+
+#contact .company-contact .company-box p {
+    font-weight: 400 !important;
+}
+
+#contact .company-contact .company-box a {
+    text-decoration: none;
+    color: rgb(48, 38, 48);
 }
 
 .company-contact .company-box ul {
@@ -58,13 +73,15 @@
 }
 
 #halifax {
-    background-color: brown;
-    border: 20px solid rgb(66, 62, 62);
+    background-color: white;
+    width: 30%;
+}
+
+#map {
+    width: 40%;
 }
 
 #stjohn {
-    background-color: rgb(185, 151, 107);
-    border-top: 20px solid rgb(66, 62, 62);
-    border-bottom: 20px solid rgb(66, 62, 62);
-    border-right: 20px solid rgb(66, 62, 62);
+    background-color: white;
+    width: 30%;
 }

@@ -24,8 +24,8 @@ const Footer = () => {
                         <p> Suite 401-3480 Joseph Howe Drive, <br />
                             Halifax, Nova Scotia B3L 4H7<br/>
                             P.O. Box 2555</p></li>
-                        <li><i class="fas fa-phone"></i> (902) 420-9800</li>
-                        <li><i class="fas fa-envelope"></i> info@consultpinto.com</li>
+                        <li><i class="fas fa-phone"></i> <p> +1 (800) 659-6618<br/>+1 (902) 420-9800</p></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
                     </ul>
                 </div>
                 <div className="footer-content">

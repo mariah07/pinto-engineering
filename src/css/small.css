@@ -111,6 +111,7 @@
 
     #contact .company-info img {
         width: 100% !important;
+        border-radius: 0px !important;
     }
 
     #contact .company-contact {
@@ -118,9 +119,13 @@
     }
 
     #contact .company-contact .company-box {
-        box-sizing: border-box;
         width: 100% !important;
-        border: 20px solid rgb(66, 62, 62);
+        border-right: none;
+        border-left: none;
+    }
+
+    #contact .company-contact #map {
+        width: 100% !important;
     }
 
     /* About */
