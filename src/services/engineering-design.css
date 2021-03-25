@@ -1,0 +1,27 @@
+#design {
+    padding: 20px 80px
+}
+
+#design img {
+    /* height: 500px; */
+    width: 76%;
+}
+
+#design h1 {
+    font-size: 3em;
+    color:rgb(199, 131, 47);
+}
+
+#design .banner {
+    padding: 15px 40px;
+}
+
+.banner p {
+    width: 80%;
+    font-size: 1.2em;
+}
+
+.banner h2 {
+    font-size: 1.7em;
+    text-transform: uppercase;
+}

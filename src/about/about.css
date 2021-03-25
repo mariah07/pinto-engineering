@@ -1,0 +1,27 @@
+#about .about-header {
+    font-size: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("./building.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+#about .about-header h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#about .main-content {
+    padding: 80px;
+}
+
+#about .main-content .text {
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: rgb(43, 43, 43);
+}

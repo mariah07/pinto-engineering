@@ -1,18 +1,15 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 960px) {
     nav #mobile-menu{
         display:block;
-    }
-
-    nav {
-        padding: 20px;
+        font-size: 2em;
     }
 
     nav .nav-bar {
         position: absolute;
         display:none;
-        top:40px;
+        top:35px;
         right:0;
-        background-color: darkred;
+        background-color: white;
         height: 100vh;
         width: 50%;
         transform: translateX(500px);
@@ -23,7 +20,150 @@
         padding: 20px;
     }
 
+    .nav-bar .dropdown-menu:hover {
+        display:none !important;
+    }
+
+    .nav-bar .menu:hover + .dropdown-menu{
+        display: none !important;
+      }
+
     #footer{
         padding: 10px !important;
+    }
+
+    .panel {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+    #panel2 {
+        flex-direction:column-reverse;
+    }
+
+    .panel p {
+        display: none;
+    }
+
+    .panel img {
+        width: 90% !important;
+    }
+
+    .hero p {
+        width: 70% !important;
+      }
+
+      .between p {
+        width: 70% !important;;
+      }
+
+    #project .row {
+        flex-direction: column;
+    }
+
+    #project .box {
+        width: 80% !important;
+    }
+
+    /* Services */
+
+    #services .services-section .right {
+        flex-direction: column;
+    }
+
+    #services .services-section img {
+        width: 100% !important;
+    }
+
+    #services .services-section .text {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #services .services-section .left {
+        flex-direction:column-reverse;
+    }
+
+    /* Single Project */
+
+    #single-project .carousel  {
+        width: 100% !important;
+    }
+
+    #single-project .sliderimage {
+        height: 300px !important;
+    }
+
+    #single-project .text p {
+        width: 100% !important;
+    }
+
+    /* Contact */
+
+    #contact .contact-main .company-info {
+        flex-direction: column;
+    }
+
+    #contact .company-info .text {
+        width: 100% !important;
+    }
+
+    #contact .company-info img {
+        width: 100% !important;
+        border-radius: 0px !important;
+    }
+
+    #contact .company-contact {
+        flex-direction: column;
+    }
+
+    #contact .company-contact .company-box {
+        width: 100% !important;
+        border-right: none;
+        border-left: none;
+    }
+
+    #contact .company-contact #map {
+        width: 100% !important;
+    }
+
+    /* About */
+
+    #about .main-content {
+        padding: 20px !important;
+    }
+
+        /* Footer */
+
+    .footer {
+        flex-direction: column;
+    }
+
+    #footer .footer-content {
+        width: 100% !important;
+        text-align: center;
+    }
+    
+    #footer .footer-content .explore {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #footer .footer-content .address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer .footer-content .address i {
+        display: none !important;
+    }
+
+    #footer .footer-content .explore li {
+        margin-left: 10px;
     }
 }

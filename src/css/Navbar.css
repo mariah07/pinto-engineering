@@ -6,10 +6,10 @@ a {
   nav {
     display:flex;
     align-items: center;
-    background-color: darkred;
+    background-color:white;
     justify-content: space-between;
-    padding: 0 20px;
-    color: white;
+    padding: 0 50px;
+    color: black;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -22,7 +22,7 @@ a {
   }
   
   nav .nav-bar li {
-    padding: 5px;
+    padding: 5px 10px;
     margin-left: 5px;
   }
 
@@ -32,5 +32,36 @@ a {
   }
   
   .nav-bar li a {
-    color:white;
+    color:purple;
+    font-weight: 450;
+    transition: all 0.3 ease-in-out;
+  }
+
+  .nav-bar li a:hover {
+    color: rgb(151, 143, 151);
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .nav-bar .menu:hover + .dropdown-menu{
+    display: block;
+  }
+
+  .nav-bar .dropdown-menu:hover {
+    display: block;
+  }
+
+  .nav-bar .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color:whitesmoke;
+    padding: 10px;
+  }
+  
+  .dropdown-menu .dropdown {
+    display: block;
+    margin: 10px 0px;
+    padding: 5px 5px;
   }

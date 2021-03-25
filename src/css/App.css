@@ -1,7 +1,12 @@
+html, body * {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
   height: 100%;
   width: 100%;
+  transition: all 0.3 ease-in-out;
 }
 
 .aos-animate {
@@ -10,91 +15,159 @@
 
 .home-section {
   width:100;
-  background-color: cornsilk;
-  padding: 20px 0;
+  background-color: white;
 }
 
 .hero {
+  background-image: url('../img/pexels-photo-12.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: darkred;
+  color: rgb(135, 119, 138);
   font-size: 1.5em;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 150px;
 }
 
 .home-section a {
   padding: 5px 60px;
-  border: 1px solid white;
-  background-color: darkcyan;
+  border: 1px solid rgb(150, 144, 151);
+  background-color: rgb(43, 48, 48);
   border-radius: 5%;
   color:white;
-  text-transform: uppercase;
+  border: none;
 }
 
 .hero h1{
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: -1px;
+  margin-top: 100px;
+  text-shadow: 0 0 2px #fff;
+}
+
+.hero p {
+  width: 50%;
+  font-weight: 600;
+  color: rgb(235, 235, 235);
+  text-shadow: 2px 2px 4px black;
+  padding: 20px 0;
 }
 
 .hero a {
   font-size: 2em;
 }
 
-.scrolltop h1 {
-  font-size: 4vw;
+.home-section a:hover {
+  background-color: rgb(150, 144, 151);
+}
+
+.scrolltop h2 {
+  font-size: 3em;
+  margin-bottom: 30px;
 }
 
 .scrolltop a {
-  font-size: 2vw;
+  font-size: 2em;
 }
 
 .between {
-  width: 100%;
-  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(50, 43, 63);
+  color:white;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.between h2 {
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.between a{
+  background-color: white;
+  color: black;
+  padding: 10px 30px;
+  border-radius: 5%;
+}
+
+.between p {
+  width: 50%;
+  font-weight: 450;
+  padding: 30px;
 }
 
 .between img{
-  width: 80%;
+  border-radius: 5%;
 }
 
 .scrolltop {
-  margin-top: 150px;
-  padding: 50px;
-  background-color:cornsilk;
-  top: 0;
+  padding: 20px;
+  background-color:lightslategrey;
+  color:white;
+  top: 50px;
   position:sticky;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   z-index: 1;
+  text-align: center;
+}
+
+.scrolltop a {
+  text-transform: uppercase;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  padding: 30px 50px 30px 50px;
+}
+
+.panel h3 {
+  color:rgb(123, 116, 124)
+}
+
+.panel .image {
+  display:flex;
+  justify-content: center;
+}
+
+.panel img {
+  height:80%;
+  max-width: 700px;
 }
 
 #panel1 {
-  background-color: red;
-  height: 400px;
+  background-color: rgb(231, 231, 231);
   position: sticky;
-  top: calc(55vh);
+  top: calc(45vh);
+  padding-bottom: 30px;
 }
 
 #panel2 {
-  background-color:green;
-  height: 400px;
+  background-color:rgb(194, 194, 194);
   position: sticky;
-  top: calc(55vh);
+  top: calc(45vh);
+  padding-bottom: 30px;
 }
 
 #panel3 {
-  background-color:blue;
-  height: 400px;
+  background-color:rgb(172, 172, 172);
   position: sticky;
-  top: calc(55vh);
+  top: calc(45vh);
 }
 
 .bottom {
-  height: 500px;
-  background-color: cornsilk;
+  height: 200px;
+  background-color: lightslategrey;
   z-index:1;
 }
