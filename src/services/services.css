@@ -12,7 +12,7 @@
 }
 
 #services .services-section {
-    padding: 50px;
+    padding: 100px 50px;
 }
 
 #services .services-section .service {
@@ -21,14 +21,15 @@
     margin: 20px;
     border: 2px solid rgba(0, 0, 0, 0.199);
     border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 50px;
+    padding: 40px 20px;
+    margin-bottom: 100px;
     box-shadow: 5px 10px rgba(128, 128, 128, 0.096);
 }
 
 .services-section .service img{
     width: 30%;
     margin-right: 10px;
+    border-radius: 5px;
 }
 
 .services-section .service .text{
@@ -38,14 +39,21 @@
 
 .services-section .service .text p{
     padding-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.services-section .service .text h2{
+    font-size: 2em;
+    color:rgb(90, 74, 90);
 }
 
 .services-section .service a {
-    padding: 15px 20px;
+    padding: 15px 40px;
     color: white;
     border: none;
     background-color: rgb(161, 158, 173);
-    border-radius: 25px;
+    border-radius: 5px;
+    font-size: 1.4em;
     transition: all 0.3s ease-in-out;
 }
 

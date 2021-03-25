@@ -13,6 +13,8 @@ html, body * {
   pointer-events: auto;
 }
 
+/* Home Page */
+
 .home-section {
   width:100;
   background-color: white;
@@ -26,43 +28,42 @@ html, body * {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: rgb(135, 119, 138);
+  color: rgb(65, 51, 66);
   font-size: 1.5em;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 150px;
-}
-
-.home-section a {
-  padding: 5px 60px;
-  border: 1px solid rgb(150, 144, 151);
-  background-color: rgb(43, 48, 48);
-  border-radius: 5%;
-  color:white;
-  border: none;
+  min-height: 100vh;
 }
 
 .hero h1{
   font-size: 3em;
   margin-bottom: -1px;
   margin-top: 100px;
-  text-shadow: 0 0 2px #fff;
+  text-shadow: 0 0 2px grey, 0 0 2px whitesmoke, 0 0 2px whitesmoke, 0 0 2px whitesmoke, 0 0 2px whitesmoke;
+  padding: 10px;
 }
 
 .hero p {
   width: 50%;
   font-weight: 600;
   color: rgb(235, 235, 235);
-  text-shadow: 2px 2px 4px black;
-  padding: 20px 0;
+  text-shadow: 2px 2px 4px black, 0 0 1px grey, 0 0 1px grey;
+  padding: 30px 10px;
 }
 
 .hero a {
-  font-size: 2em;
+  padding: 10px 60px;
+  transition: all 0.4 ease-in-out;
+  font-size: 1.5em;
+  border-radius: 10px;
+  border: 1px solid rgb(27, 14, 26);
+  color: rgb(27, 14, 26);
+  background-color: transparent;
 }
-
-.home-section a:hover {
-  background-color: rgb(150, 144, 151);
+.hero a:hover {
+  background-color: rgb(27, 14, 26);
+  color: whitesmoke;
 }
 
 .scrolltop h2 {
@@ -80,26 +81,27 @@ html, body * {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgb(50, 43, 63);
-  color:white;
-  height: 100vh;
+  background-color: white;
+  color:black;
+  min-height: 100vh;
   padding-bottom: 100px;
 }
 
 .between h2 {
-  font-size: 3em;
+  font-size: 4em;
   margin-bottom: 0px;
+  color: rgb(206, 202, 202);
 }
 
 .between a{
   background-color: white;
   color: black;
   padding: 10px 30px;
-  border-radius: 5%;
 }
 
 .between p {
   width: 50%;
+  font-size: 1.1em;
   font-weight: 450;
   padding: 30px;
 }
@@ -120,16 +122,34 @@ html, body * {
   flex-direction: column;
   z-index: 1;
   text-align: center;
+  height: 30vh;
+}
+
+.animation {
+  background-color: lightslategrey;
 }
 
 .scrolltop a {
   text-transform: uppercase;
+  border-radius: 25px;
+  padding: 10px 60px;
+  border: 1px solid rgb(150, 144, 151);
+  background-color: rgb(43, 48, 48);
+  color:white;
+  border: none;
+  transition: all 0.4 ease-in-out;
+}
+
+.scrolltop a:hover {
+  background-color: rgb(150, 144, 151);;
 }
 
 .panel {
   display: flex;
-  justify-content: center;
-  padding: 30px 50px 30px 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh;
+  overflow: hidden;
 }
 
 .panel h3 {
@@ -139,35 +159,87 @@ html, body * {
 .panel .image {
   display:flex;
   justify-content: center;
+  width: 40%;
 }
 
 .panel img {
   height:80%;
   max-width: 700px;
+  border-radius: 10px;
+}
+
+.panel .text {
+  background-color: rgba(245, 245, 220, 0.829);
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+  width: 40%;
+  z-index: 1;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.219);
 }
 
 #panel1 {
   background-color: rgb(231, 231, 231);
   position: sticky;
-  top: calc(45vh);
-  padding-bottom: 30px;
+  top: calc(35vh);
 }
 
 #panel2 {
   background-color:rgb(194, 194, 194);
   position: sticky;
-  top: calc(45vh);
-  padding-bottom: 30px;
+  top: calc(35vh);
 }
 
 #panel3 {
-  background-color:rgb(172, 172, 172);
+  background-color:rgb(148, 148, 148);
   position: sticky;
-  top: calc(45vh);
+  top: calc(35vh);
 }
 
 .bottom {
-  height: 200px;
-  background-color: lightslategrey;
+  height: 100px;
+  background-color: white;
   z-index:1;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.quote .bubble {
+  width: 50%;
+  padding: 15px;
+  position: relative;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.quote .bubble i {
+  font-size: 2em;
+  color: white;
+}
+
+.quote .bubble p {
+  padding-left: 10px;
+}
+
+.quote .author {
+  text-align: center;
+}
+
+.quote .bubble:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid lightgray;
+  border-right: 12px solid transparent;
+  border-top: 12px solid lightgray;
+  border-bottom: 20px solid transparent;
+  right: 50px;
+  bottom: -25px;
+
 }
