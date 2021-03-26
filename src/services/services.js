@@ -26,7 +26,7 @@ const Services = () => {
                         <p>We offer structural consulting services,
                             and structural remediation and restoration
                         </p>
-                        <a href="/engineering-design">Learn more</a>
+                        <a href="/engineering-design">Learn More</a>
                     </div>
                 </div>
                 <div className="service left" data-aos="fade-left">
