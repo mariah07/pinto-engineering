@@ -1,4 +1,4 @@
-import "./engineering-design.css"
+import "./individual-services.css"
 import building from "../img/building.jpg"
 import React, {useEffect} from "react";
 
@@ -11,7 +11,7 @@ const EngineeringDesign = () => {
             <h1>Engineering Design</h1>
             <p>
             </p>
-            <img src={building} />
+            <img src={building} alt=""/>
             <div className="banner">
                 <h2>Structural - Buildings</h2>
                 <p>PINTO offers comprehensive structural consulting services in the commercial, retail, healthcare, sports, industrial, and institutional sectors. Our design services include reinforced concrete foundations (deep and shallow), reinforced concrete buildings, concrete retaining walls & tunnel structures, structural steel framed buildings, light-gauge steel, tilt-up concrete construction including composite panel design, wood framed construction including panelized projects, heavy timber construction, and temporary shoring.</p>

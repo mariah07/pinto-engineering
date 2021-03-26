@@ -5,12 +5,6 @@ import logo from './img/logo.png';
 const Navbar = () => {
     const wrapperRef = useRef(null);
     const [mobile,setMobile] = useState(false);
-    const [scroll, setScroll] = useState(false);
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-        setScroll(window.scrollY > 50)
-        })
-    }, [])
 
     useEffect(() => {
         document.addEventListener("click", handleClickOutside, false);
@@ -26,7 +20,7 @@ const Navbar = () => {
       };
     return (
         <nav ref={wrapperRef}>
-            <div className="logo"><a href="/"><img src={logo} /></a></div>
+            <div className="logo"><a href="/"><img src={logo} alt=""/></a></div>
             <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : ""}}>
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                 <li><NavLink to="/services" className="menu">Services</NavLink>

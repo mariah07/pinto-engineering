@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import '../css/App.css';
+import './Home.css';
 import Church from '../img/church.jpg'; 
 import ISL from '../img/ISL_Building_Pic.jpg';
 import arm from '../img/armourysquare-bighero_960_411_c1.jpg';
@@ -32,17 +32,17 @@ const Home = () => {
                     <div id="panel1" className="panel">
                         <div className="text"><h3>ISL Digital Marketing</h3>
                         <p>PINTO Engineering provided structural design and construction administration services for a three-storey office building near the downtown Halifax business district. The limited downtown footprint provided a challenge to coordinate the tilt panels with the interior structural steel since the temporary panel bracing needed to remain in place while the floors were constructed around them. The following elements were included in the design:  reinforced concrete foundations, structural steel floor framing, structural steel roof framing, reinforced concrete tilt-up panels including lifting and bracing design.</p></div>
-                        <div className="image"><img src={ISL}/></div>
+                        <div className="image"><img src={ISL} alt=""/></div>
                     </div>
                     <div id="panel2" className="panel">
-                        <div className="image"><img src={Church}/></div>
+                        <div className="image"><img src={Church} alt=""/></div>
                         <div className="text"><h3>Bedford Baptist Church</h3>
                         <p>PINTO provided structural design and construction administration services for an extension to the Bedford Baptist Church in Bedford, NS. The following elements were included in the design: reinforced concrete foundations, structural steel roof framing, timber roof framing, reinforced concrete tilt-up panels including lifting and bracing design. PINTO received 2004 Tilt-up Achievement Award from the Tilt-up Concrete Association as an outstanding example of tilt-up concrete construction.</p></div>
                     </div>
                     <div id="panel3" className="panel">
                         <div className="text"><h3>Armoury Square</h3>
                         <p>PINTO provided structural design and construction administration services for a 11-storey residential complex overlooking the historic Halifax Common.  The following elements were included in the design: reinforced concrete foundations, reinforced concrete columns and shearwalls, and 236,000 square feet of concrete floor and roof slabs including underground parking. </p></div>
-                        <div className="image"><img src={arm}/></div>
+                        <div className="image"><img src={arm} alt=""/></div>
                     </div>
                 </div>
             </div>

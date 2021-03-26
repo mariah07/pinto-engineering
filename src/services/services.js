@@ -20,7 +20,7 @@ const Services = () => {
             </div>
             <div className="services-section">
                 <div className="service right" data-aos="fade-right">
-                    <img src={building}/>
+                    <img src={building} alt=""/>
                     <div className="text">
                         <h2>Engineering Design</h2>
                         <p>We offer structural consulting services,
@@ -35,10 +35,10 @@ const Services = () => {
                         <p>We offer construction review, shop drawing review, constructions administration, and project coordination</p>
                         <a href="/project-management">Learn More</a>
                     </div>
-                    <img src={architect}/>
+                    <img src={architect} alt=""/>
                 </div>
                 <div className="service right" data-aos="fade-right">
-                    <img src={engineer}/>
+                    <img src={engineer} alt=""/>
                     <div className="text">
                         <h2>Investigation & Reports</h2>
                         <p>We offer mediation and arbitration, feasibility studies, and condition assessment</p>

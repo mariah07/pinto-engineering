@@ -1,4 +1,4 @@
-import "./engineering-design.css"
+import "./individual-services.css"
 import architect from "../img/architect.jpg"
 import React, {useEffect} from "react";
 
@@ -11,7 +11,7 @@ const ProjectManagement = () => {
             <h1>Project Management</h1>
             <p>
             </p>
-            <img src={architect} />
+            <img src={architect} alt=""/>
             <div className="banner">
                 <h2>Construction Review</h2>
                 <p>Construction site review is an integral part of monitoring the conformance of work with the contract documents. In support of our clients, PINTO works with all stakeholders to effectively resolve issues as construction progresses on site.</p>

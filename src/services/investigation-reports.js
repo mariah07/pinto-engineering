@@ -1,4 +1,4 @@
-import "./engineering-design.css"
+import "./individual-services.css"
 import engineer from "../img/engineer.jpg"
 import React, {useEffect} from "react";
 
@@ -11,7 +11,7 @@ const Investigation = () => {
             <h1>Investigation & Reports</h1>
             <p>
             </p>
-            <img src={engineer} />
+            <img src={engineer} alt=""/>
             <div className="banner">
                 <h2>Mediation and Arbitration</h2>
                 <p>Whenever possible, litigation should always be the last resort when attempting to resolve problems. To assist in avoiding this costly step, PINTO provides mediation and arbitration services to assist parties in finding mutually agreeable solutions to project disputes.</p>

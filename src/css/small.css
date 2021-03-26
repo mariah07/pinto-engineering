@@ -17,7 +17,7 @@
     }
 
     .nav-bar li {
-        padding: 20px;
+        padding: 10px !important;
     }
 
     .nav-bar .dropdown-menu:hover {
@@ -81,10 +81,14 @@
     }
 
     #project .box {
-        width: 80% !important;
+        width: 90% !important;
     }
 
     /* Services */
+
+    #services .services-section {
+        padding: 100px 20px !important;
+    }
 
     #services .services-section .right {
         flex-direction: column;
@@ -153,6 +157,20 @@
 
     #about .main-content {
         padding: 20px !important;
+    }
+
+    /* Individual services */
+
+    #design {
+        padding: 10px !important;
+    }
+
+    #design img {
+        width: 100% !important;
+    }
+
+    #design .banner {
+        padding: 0 !important;
     }
 
         /* Footer */
