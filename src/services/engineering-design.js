@@ -8,6 +8,7 @@ const EngineeringDesign = () => {
     }, []);
     return (
         <section id="design">
+            <div className="overlay"></div>
             <h1>Engineering Design</h1>
             <p>
             </p>

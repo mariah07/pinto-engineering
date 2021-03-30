@@ -14,6 +14,7 @@ const StGeorge = () => {
     }, []);
     return (
         <section id="single-project">
+            <div className="overlay"></div>
             <a href="/projects/heritage"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>

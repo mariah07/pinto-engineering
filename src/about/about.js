@@ -10,6 +10,7 @@ const About = () => {
     }, []);
     return (
         <section id="about">
+            <div className="overlay"></div>
             <div className="about-header">
                 <h1 data-aos="fade-in">About PINTO Engineering</h1>
                 <p></p>

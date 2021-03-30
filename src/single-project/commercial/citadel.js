@@ -12,6 +12,7 @@ const Citadel = () => {
     }, []);
     return (
         <section id="single-project">
+            <div className="overlay"></div>
             <a href="/projects/commercial"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>

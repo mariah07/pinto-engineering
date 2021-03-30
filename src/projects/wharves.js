@@ -9,6 +9,7 @@ const Wharves = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/wharves/woodside-ferry"><img src={woodside} alt="Woodside Ferry Terminal Pontoon - PINTO Engineering"/>

@@ -1,6 +1,10 @@
+#contact {
+    padding-bottom: 100px;
+}
+
 #contact .contact-header {
     background-color: rgb(66, 62, 62);
-    color: white;
+    color: rgb(218, 209, 219);
     padding: 20px 50px;
     font-size: 3em;
 }
@@ -8,6 +12,7 @@
 #contact .company-info {
     display: flex;
     justify-content:space-between;
+    padding-bottom: 50px;
 }
 
 #contact .company-info .text {

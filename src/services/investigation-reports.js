@@ -8,6 +8,7 @@ const Investigation = () => {
     }, []);
     return (
         <section id="design">
+            <div className="overlay"></div>
             <h1>Investigation & Reports</h1>
             <p>
             </p>

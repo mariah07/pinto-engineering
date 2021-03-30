@@ -12,3 +12,23 @@ html, body * {
 .aos-animate {
   pointer-events: auto;
 }
+
+.overlay {
+  position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    right:0;
+    opacity:0;
+    background-color: rgba(0, 0, 0, 0.547);
+    z-index: 20;
+    animation: fadein 0.4s ease-in;
+    cursor:auto;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

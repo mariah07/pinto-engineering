@@ -8,15 +8,18 @@ import arm from '../img/armourysquare-bighero_960_411_c1.jpg';
 
 const Home = () => {
     useEffect(() => {
-        Aos.init({duration: 2000});
+        Aos.init({duration: 2000, disable: 'mobile'});
         window.scrollTo(0, 0);
     }, []);
     return (
         <section className="home-section">
+            <div className="overlay"></div>
             <div className="hero">
-                <h1 data-aos="fade-up">Quality, Safety and Design</h1>
-                <p data-aos="fade-up">State-of-the-art technology and highly personalized services enable us to provide our clients with innovative and cost effective solutions. </p>
-                <a data-aos="fade-up" href="/services">Services</a>
+                <div className="hero-text" data-aos="fade-up">
+                    <h1>Quality, Safety and Design</h1>
+                    <p>State-of-the-art technology and highly personalized services enable us to provide our clients with innovative and cost effective solutions. </p>
+                    <a href="/services">Get Started</a>
+                </div>
             </div>
             <div className="between">
                 <h2 data-aos="fade-in">Who We Are</h2>

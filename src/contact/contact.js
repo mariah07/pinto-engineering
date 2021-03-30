@@ -21,6 +21,7 @@ const Contact = () => {
 
     return (
         <section id="contact">
+            <div className="overlay"></div>
             <div className="contact-header">
                 <h1>Contact PINTO</h1>
             </div>

@@ -1,5 +1,5 @@
 #design {
-    padding: 20px 80px
+    padding: 100px 80px
 }
 
 #design img {
@@ -10,7 +10,9 @@
 
 #design h1 {
     font-size: 3em;
-    color:rgb(199, 131, 47);
+    color:rgb(90, 74, 90);
+    font-weight: 600;
+    text-shadow: 1px 1px grey;
 }
 
 #design .banner {

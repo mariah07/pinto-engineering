@@ -13,6 +13,7 @@ const Mixed = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/mixed-use-development/the-trillium"><img src={perkins} alt="The Trillium - PINTO Engineering"/>

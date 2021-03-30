@@ -14,6 +14,7 @@ const Commerical = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/commercial/citadel-inn"><img src={citadel} alt="Citadel Inn - PINTO Engineering"/>

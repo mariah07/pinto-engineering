@@ -12,6 +12,7 @@ const Heritage = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/heritage/perkins-house-museum"><img src={perkins} alt="Perkins House Museum - PINTO Engineering"/>

@@ -12,6 +12,7 @@ const Windsor = () => {
     }, []);
     return (
         <section id="single-project">
+            <div className="overlay"></div>
             <a href="/projects/health"><i class="fas fa-angle-left"></i></a>
             <div className="title">
                 <h1>

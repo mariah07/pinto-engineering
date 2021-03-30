@@ -2,22 +2,42 @@
     nav #mobile-menu{
         display:block;
         font-size: 2em;
+        color: white;
+        text-shadow: 0 0 2px black, 0 0 2px black;
+    }
+
+    .scrolling #mobile-menu{
+        color: black;
+        text-shadow: none;
+    }
+
+    nav {
+        padding: 0 20px !important;
     }
 
     nav .nav-bar {
         position: absolute;
         display:none;
-        top:35px;
+        top:0;
         right:0;
+        margin:0;
+        padding: 50px 0 0 0;
         background-color: white;
-        height: 100vh;
+        height: 150vh;
         width: 50%;
         transform: translateX(500px);
         transition: 0.3s ease-in-out;
+        opacity: 0;
+        animation: fadein 0.4s ease-in;
     }
 
     .nav-bar li {
         padding: 10px !important;
+    }
+
+    .nav-bar li a {
+        font-size: 1em !important;
+        color: black !important;
     }
 
     .nav-bar .dropdown-menu:hover {
@@ -33,6 +53,28 @@
     }
 
     /* Home Page */
+
+    .hero h1{
+        font-size: 2em !important;
+        margin-bottom: 20px !important;
+    }
+
+    .hero p {
+        display: none;
+    }
+
+    .between h2 {
+        font-size: 2em !important;
+    }
+
+    .between p {
+        width: 100% !important;
+        font-size: 0.9em !important
+    }
+
+    .scrolltop h2 {
+        font-size: 2em !important;
+    }
 
     .panel {
         flex-direction: column;
@@ -76,6 +118,12 @@
         width: 90% !important;
     }
 
+    /* Project */
+
+    #project {
+        padding: 80px 10px 20px 10px !important;
+    }
+
     #project .row {
         flex-direction: column;
     }
@@ -84,10 +132,19 @@
         width: 90% !important;
     }
 
+    #project .box h3 {
+        left: 20px !important;
+        bottom: 10px !important;
+    }
+
     /* Services */
 
+    #services .services-header {
+        font-size: 2em !important;
+    }
+
     #services .services-section {
-        padding: 100px 20px !important;
+        padding: 100px 0 !important;
     }
 
     #services .services-section .right {
@@ -104,6 +161,11 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 5px !important;
+    }
+
+    .services-section .service .text p{
+        font-size: 1em !important;
     }
 
     #services .services-section .left {
@@ -111,6 +173,10 @@
     }
 
     /* Single Project */
+
+    #single-project {
+        padding: 80px 20px 80px 20px !important;
+    }
 
     #single-project .carousel  {
         width: 100% !important;
@@ -126,12 +192,18 @@
 
     /* Contact */
 
+    #contact .contact-header {
+        font-size: 1.5em !important;
+        padding: 50px 20px 10px 20px !important;
+    }
+
     #contact .contact-main .company-info {
         flex-direction: column;
     }
 
     #contact .company-info .text {
         width: 100% !important;
+        padding: 50px 15px !important;
     }
 
     #contact .company-info img {
@@ -177,6 +249,7 @@
 
     .footer {
         flex-direction: column;
+        padding: 60px 10px !important;
     }
 
     #footer .footer-content {

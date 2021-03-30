@@ -9,6 +9,7 @@ const Industrial = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/industrial-aviation/texas-duct"><img src={texas} alt="Texas Duct - PINTO Engineering"/>

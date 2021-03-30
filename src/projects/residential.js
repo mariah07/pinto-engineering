@@ -13,6 +13,7 @@ const Residential = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/residential/grand-haven"><img src={grand} alt="Grand Haven Heights - PINTO Engineering"/>

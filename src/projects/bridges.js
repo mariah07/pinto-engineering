@@ -9,6 +9,7 @@ const Bridges = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/bridges/margaret-bridge"><img src={bridge} alt="Margaret Bridge - PINTO Engineering"/>

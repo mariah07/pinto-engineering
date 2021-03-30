@@ -16,6 +16,7 @@ const Projects = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/bridges"><img src={bridge} alt="Bridges that Pinto Engineering has worked on"/>

@@ -11,10 +11,11 @@ const Services = () => {
         window.scrollTo(0, 0);
     }, []);
     useEffect(() => {
-        Aos.init({duration: 3000});
+        Aos.init({duration: 3000, disable: 'mobile'});
     }, []);
     return (
         <section id="services">
+            <div className="overlay"></div>
             <div className="services-header">
                 <h1 data-aos="fade-up">Services</h1>
             </div>

@@ -11,6 +11,7 @@ const Institutional = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/institutional/aylesford-church"><img src={alyes} alt="Aylesford Baptist Church - PINTO Engineering"/>

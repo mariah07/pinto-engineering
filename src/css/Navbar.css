@@ -6,14 +6,24 @@ a {
   nav {
     display:flex;
     align-items: center;
-    background-color:white;
+    background-color:transparent;
     justify-content: space-between;
     padding: 0 50px;
-    color: black;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    z-index: 2;
+    z-index: 50;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .scrolling {
+    color:black;
+    background-color:white;
+    box-shadow: 5px 5px 15px rgba(#000000, 0.05);
+  }
+
+  .scrolling .nav-bar li a {
+    color:black !important;
   }
   
   nav .nav-bar {
@@ -23,19 +33,20 @@ a {
   }
   
   nav .nav-bar li {
-    padding: 5px 20px;
+    padding: 0px 20px;
     margin-left: 5px;
   }
 
   nav #mobile-menu {
     display: none;
     cursor: pointer;
+    z-index: 10;
   }
   
   .nav-bar li a {
-    color:rgb(94, 15, 94);
-    font-weight: 500;
-    font-size: 0.9em;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1em;
     text-transform: uppercase;
     transition: all 0.3 ease-in-out;
   }
@@ -62,6 +73,10 @@ a {
     position: absolute;
     background-color:whitesmoke;
     padding: 10px;
+  }
+
+  .nav-bar .dropdown-menu a {
+    color: black;
   }
   
   .dropdown-menu .dropdown {

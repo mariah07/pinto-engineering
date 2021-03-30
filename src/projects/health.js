@@ -12,6 +12,7 @@ const Health = () => {
     }, []);
     return (
         <section id="project">
+            <div className="overlay"></div>
             <div className="row">
                 <div className="box">
                     <a href="/projects/health/inverary-manor-nursing-home"><img src={manor} alt="Inverary Manor Nursing Home - PINTO Engineering"/>

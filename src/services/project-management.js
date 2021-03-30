@@ -8,6 +8,7 @@ const ProjectManagement = () => {
     }, []);
     return (
         <section id="design">
+            <div className="overlay"></div>
             <h1>Project Management</h1>
             <p>
             </p>
