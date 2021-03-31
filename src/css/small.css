@@ -21,22 +21,21 @@
         top:0;
         right:0;
         margin:0;
-        padding: 50px 0 0 0;
+        padding: 60px 0 0 0;
         background-color: white;
         height: 150vh;
         width: 50%;
         transform: translateX(500px);
         transition: 0.3s ease-in-out;
         opacity: 0;
-        animation: fadein 0.4s ease-in;
+        animation: fadein 0.3s ease-in;
     }
 
     .nav-bar li {
-        padding: 10px !important;
+        padding: 12px !important;
     }
 
     .nav-bar li a {
-        font-size: 1em !important;
         color: black !important;
     }
 
@@ -147,6 +146,11 @@
         padding: 100px 0 !important;
     }
 
+    #services .services-section .service {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
     #services .services-section .right {
         flex-direction: column;
     }
@@ -162,6 +166,11 @@
         align-items: center;
         text-align: center;
         padding: 5px !important;
+    }
+
+
+    .services-section .service .text h2{
+        font-size: 2em !important;
     }
 
     .services-section .service .text p{
@@ -234,7 +243,7 @@
     /* Individual services */
 
     #design {
-        padding: 10px !important;
+        padding: 70px 10px !important;
     }
 
     #design img {
@@ -243,6 +252,10 @@
 
     #design .banner {
         padding: 0 !important;
+    }
+
+    .banner p {
+        width: 90% !important;
     }
 
         /* Footer */

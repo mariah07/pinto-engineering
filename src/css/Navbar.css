@@ -47,6 +47,8 @@ a {
     color: white;
     font-weight: 400;
     font-size: 1.1em;
+    display: inline-block;
+    width: 100%;
     text-transform: uppercase;
     transition: all 0.3 ease-in-out;
   }

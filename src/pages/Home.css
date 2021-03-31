@@ -135,14 +135,15 @@
     border-radius: 25px;
     padding: 10px 60px;
     border: 1px solid rgb(150, 144, 151);
-    background-color: rgb(71, 26, 71);
+    background-color: rgb(150, 144, 151);
     color:white;
     border: none;
+    font-size: 1.5em;
     transition: all 0.4 ease-in-out;
   }
   
   .scrolltop a:hover {
-    background-color: rgb(150, 144, 151);;
+    background-color:rgb(68, 54, 68);
   }
   
   .panel {
@@ -160,12 +161,11 @@
   .panel .image {
     display:flex;
     justify-content: center;
-    width: 40%;
+    width: 50%;
   }
   
   .panel img {
-    height:80%;
-    max-width: 700px;
+    width: 90%;
     border-radius: 10px;
   }
   
@@ -214,7 +214,7 @@
     width: 50%;
     padding: 15px;
     position: relative;
-    background-color: rgb(163, 138, 163);
+    background-color: rgb(185, 176, 185);
     border-radius: 10px;
   }
   
@@ -225,6 +225,7 @@
   
   .quote .bubble p {
     padding-left: 10px;
+    font-size: 1.1em;
   }
   
   .quote .author {
@@ -245,9 +246,9 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    border-left: 24px solid rgb(163, 138, 163);
+    border-left: 24px solid rgb(185, 176, 185);
     border-right: 12px solid transparent;
-    border-top: 12px solid rgb(163, 138, 163);
+    border-top: 12px solid rgb(185, 176, 185);
     border-bottom: 20px solid transparent;
     right: 50px;
     bottom: -25px;

@@ -23,18 +23,20 @@
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.199);
-    border-radius: 5px;
+    border: 10px solid rgba(0, 0, 0, 0.555);
+    border-left: 10px solid rgba(128, 128, 128, 0.459);
+    border-right: 10px solid rgba(128, 128, 128, 0.459);
     padding: 40px 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     width: 80%;
-    box-shadow: 5px 10px rgba(128, 128, 128, 0.096);
+    box-shadow: 2px 5px rgba(128, 128, 128, 0.205);
 }
 
 .services-section .service img{
     width: 35%;
     margin-right: 10px;
     border-radius: 5px;
+    box-shadow: 0 0 10px black;
 }
 
 .services-section .service .text{
@@ -44,11 +46,13 @@
 
 .services-section .service .text p{
     padding-bottom: 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 .services-section .service .text h2{
-    font-size: 2em;
+    font-size: 2.2em;
+    font-weight: 400;
     color:rgb(90, 74, 90);
 }
 
@@ -56,13 +60,12 @@
     padding: 15px 40px;
     color: white;
     border: none;
-    background-color: rgb(161, 158, 173);
-    border-radius: 5px;
-    font-size: 1.4em;
+    background-color: rgb(90, 74, 90);
+    font-size: 1.1em;
     transition: all 0.3s ease-in-out;
 }
 
 .services-section .service a:hover {
-    background-color: rgb(90, 74, 90);
+    background-color: rgb(37, 19, 37);
 }
 
