@@ -6,6 +6,7 @@ import lavilla from "../img/la-villa.jpg";
 import convoy from "../img/convoy.jpg";
 import waterton from "../img/waterton.jpg";
 import armoury from "../img/armoury.jpg";
+import {Helmet} from "react-helmet";
 
 const Residential = () => {
     useEffect(() => {
@@ -13,6 +14,10 @@ const Residential = () => {
     }, []);
     return (
         <section id="project">
+            <Helmet>
+                <title>Residential | Pinto Engineering</title>
+                <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+            </Helmet>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -43,7 +48,7 @@ const Residential = () => {
                 </div>
             </div>
             <div className="button-area">
-                <a className="button" href="/projects">Back</a>
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )

@@ -5,6 +5,8 @@ import './Home.css';
 import Church from '../img/church.jpg'; 
 import ISL from '../img/ISL_Building_Pic.jpg';
 import arm from '../img/armourysquare-bighero_960_411_c1.jpg';
+import tril from './trill.jpg'
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     useEffect(() => {
@@ -13,18 +15,26 @@ const Home = () => {
     }, []);
     return (
         <section className="home-section">
+            <Helmet>
+                <title>Pinto Engineering</title>
+                <meta name="description" content="PINTO Engineering Limited is an established structural engineering consulting practice having served clients across government, public, and private sectors." />
+            </Helmet>
             <div className="overlay"></div>
             <div className="hero">
                 <div className="hero-text" data-aos="fade-up">
                     <h1>Quality, Safety and Design</h1>
                     <p>State-of-the-art technology and highly personalized services enable us to provide our clients with innovative and cost effective solutions. </p>
-                    <a href="/services">Get Started</a>
                 </div>
             </div>
             <div className="between">
-                <h2 data-aos="fade-in">Who We Are</h2>
-                <p data-aos="fade-in">PINTO has many project successes in the commercial, healthcare, residential, transportation, marine, and institutional sectors including several LEED certified projects. One of our recent project successes, “The Trillium”, (a 20-story residential, commercial, and retail complex and winner of the 2010 Nova Scotia Lieutenant Governor General’s award for Excellence in Engineering) is a testament to our team’s ability to work together to be innovative, tackle challenging issues, and overcome obstacles.</p>
-                <a data-aos="fade-in" href="/about">Learn More</a>
+                <div data-aos="fade-in" className="image">
+                    <img src={tril}/>
+                </div>
+                <div data-aos="fade-in" className="text">
+                    <h2>Who We Are</h2>
+                    <p>PINTO has many project successes in the commercial, healthcare, residential, transportation, marine, and institutional sectors including several LEED certified projects. One of our recent project successes, “The Trillium”, (a 20-story residential, commercial, and retail complex and winner of the 2010 Nova Scotia Lieutenant Governor General’s award for Excellence in Engineering) is a testament to our team’s ability to work together to be innovative, tackle challenging issues, and overcome obstacles.</p>
+                    <a href="/about">Learn More</a>
+                </div>
             </div>
             <div>
                 <div className="scrolltop">

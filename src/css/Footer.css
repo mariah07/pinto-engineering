@@ -4,7 +4,7 @@
 
 .footer{
     display:flex;
-    padding: 60px 60px;
+    padding: 50px 60px;
     background-color: rgb(27, 26, 27);
     color: white;
 }
@@ -14,6 +14,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.desc p {
+    font-size: 0.92em;
 }
 
 .footer-content h3 {
@@ -39,6 +43,7 @@
 
 .footer-content ul {
     margin-left: 10px;
+    font-size: 0.95em;
 }
 
 .footer-content .social i {
@@ -66,7 +71,11 @@
 
 #footer .footer-content .address li {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+#footer .footer-content .address .phone {
+    margin-top: -20px;
 }
 
 #footer .footer-content .address li i {
@@ -81,6 +90,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: rgb(168, 168, 168);
-    color: black;
+    background-color: rgb(55, 48, 56);
+    color: lightgray;
+    font-size:0.8em;
 }

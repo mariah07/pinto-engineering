@@ -11,12 +11,12 @@
 }
 
 #about .about-header h1 {
-    color: white;
+    color: rgb(206, 206, 206);
     text-shadow: 2px 2px black;
 }
 
 #about .main-content {
-    padding: 80px;
+    padding: 80px 80px 0 80px;
 }
 
 #about .main-content .text {
@@ -24,4 +24,81 @@
     font-size: 1.1em;
     font-weight: 400;
     color: rgb(43, 43, 43);
+}
+
+#about .adv-content {
+    padding: 30px 80px 0 80px;
+}
+
+#about .adv-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+
+#about .adv-content .content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#about .adv-content .content .box{
+    flex-basis: 45%;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: 1px solid lightgray;
+    box-shadow: 0 5px 5px rgb(68, 8, 68);
+}
+
+#about .award-section {
+    padding: 0 80px 0 80px;
+}
+
+#about .award-section h2{
+    font-size: 4em;
+    color:white;
+    text-shadow: 0 0 2px black;
+    text-align: center;
+}
+
+#about .award-section .award{
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+#about .award-section .award img{
+    width: 50%;
+}
+
+#about .award-section .award .text{
+    padding: 20px;
+}
+
+#about .affil-section {
+    padding: 70px 80px 0 80px;
+}
+
+#about .affil-section .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .affil-section .text p{
+    width: 90%;
+    font-size: 0.9em;
+}
+
+#about .affil-section .affil {
+    padding: 50px 0;
+}
+
+#about .affil-section .affil a{
+    margin-left: 50px;
+}
+
+#about .affil-section .affil img{
+    padding-bottom: 30px;
+    max-width: 200px;
+    max-height: 100px;
 }

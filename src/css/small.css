@@ -6,6 +6,10 @@
         text-shadow: 0 0 2px black, 0 0 2px black;
     }
 
+    .active {
+        border: none;
+    }
+
     .scrolling #mobile-menu{
         color: black;
         text-shadow: none;
@@ -21,23 +25,27 @@
         top:0;
         right:0;
         margin:0;
-        padding: 50px 0 0 0;
+        padding: 60px 0 0 0;
         background-color: white;
         height: 150vh;
         width: 50%;
         transform: translateX(500px);
         transition: 0.3s ease-in-out;
         opacity: 0;
-        animation: fadein 0.4s ease-in;
+        animation: fadein 0.3s ease-in;
     }
 
     .nav-bar li {
-        padding: 10px !important;
+        padding: 15px 12px !important;
     }
 
     .nav-bar li a {
-        font-size: 1em !important;
         color: black !important;
+        text-shadow: none !important;
+    }
+
+    .nav-bar li a:hover {
+        border: none !important;
     }
 
     .nav-bar .dropdown-menu:hover {
@@ -67,9 +75,22 @@
         font-size: 2em !important;
     }
 
+    .between {
+        align-items: center;
+    }
+
+    .between .image {
+        display: none;
+    }
+
+    .between .text {
+        width: 100% !important;
+    }
+
     .between p {
         width: 100% !important;
-        font-size: 0.9em !important
+        font-size: 1em !important;
+        text-align: center;
     }
 
     .scrolltop h2 {
@@ -92,6 +113,7 @@
 
     .panel .text {
         width: 80% !important;
+        padding: 0 !important;
     }
 
     .panel img {
@@ -99,7 +121,7 @@
     }
 
     .panel .image {
-        width: 80% !important
+        width: 100% !important
     }
 
     .hero p {
@@ -116,6 +138,10 @@
 
     .quote .bubble {
         width: 90% !important;
+    }
+
+    .quote .author {
+        padding: 10px;
     }
 
     /* Project */
@@ -144,7 +170,12 @@
     }
 
     #services .services-section {
-        padding: 100px 0 !important;
+        padding: 100px 15px !important;
+    }
+
+    #services .services-section .service {
+        width: 100% !important;
+        margin-bottom: 20px !important;
     }
 
     #services .services-section .right {
@@ -162,6 +193,11 @@
         align-items: center;
         text-align: center;
         padding: 5px !important;
+    }
+
+
+    .services-section .service .text h2{
+        font-size: 2em !important;
     }
 
     .services-section .service .text p{
@@ -231,10 +267,38 @@
         padding: 20px !important;
     }
 
+    #about .award-section {
+        padding: 0 20px 0 20px !important;
+    }
+
+    .award-section .award {
+        flex-direction: column;
+    }
+
+    #about .award-section .award img{
+        width: 80% !important;
+    }
+
+    #about .award-section .award .text{
+        padding: 0 0 50px 0!important;
+    }
+
+    #about .adv-content {
+        padding: 50px 20px 0 20px !important;
+    }
+
+    #about .adv-content .content .box{
+        flex-basis: 95% !important;
+    }
+
+    #about .affil-section {
+        display: none;
+    }
+
     /* Individual services */
 
     #design {
-        padding: 10px !important;
+        padding: 70px 10px !important;
     }
 
     #design img {
@@ -243,6 +307,10 @@
 
     #design .banner {
         padding: 0 !important;
+    }
+
+    .banner p {
+        width: 90% !important;
     }
 
         /* Footer */
