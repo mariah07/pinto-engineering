@@ -1,26 +1,19 @@
 import React, {useEffect, useState} from "react";
 import './contact.css';
 import contact from './contact-photo.jpeg';
-import { GoogleMap, InfoWindow, LoadScript, Marker } from '@react-google-maps/api';
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
-    const [selected, setSelected] = useState(false);
-
-    const mapStyles = {
-        height: "340px",
-        width: "100%",
-        color:"black"};
-
-    const defaultCenter = {
-        lat: 44.655347296233124, lng: -63.63037991154172
-    }
-
     return (
         <section id="contact">
+            <Helmet>
+                <title>Contact | Pinto Engineering</title>
+                <meta name="description" content="The team at PINTO looks forward to working with you on your next project."/>
+            </Helmet>
             <div className="overlay"></div>
             <div className="contact-header">
                 <h1>Contact PINTO</h1>
@@ -52,24 +45,16 @@ const Contact = () => {
                     </div>
                     <div id="map">
                         <div className="map">
-                            <LoadScript googleMapsApiKey=''>
-                                <GoogleMap
-                                mapContainerStyle={mapStyles}
-                                zoom={13}
-                                center={defaultCenter}>
-                                    <Marker onClick={() => setSelected(true)}key={"Atlantic Resources"} position={{ lat: defaultCenter.lat, lng: defaultCenter.lng }} />
-                                    {selected ? 
-                                        <InfoWindow position={{ lat: defaultCenter.lat, lng: defaultCenter.lng }} 
-                                        clickable={true}
-                                        onCloseClick={() => setSelected(false)}                  
-                                        >
-                                            <p><b>Pinto Engineering</b> <br/>
-                                            Suite 401-3480 Joseph Howe Drive, <br />
-                                            Halifax, NS B3L 4H7</p>
-                                        </InfoWindow> : ""
-                                    }
-                                </GoogleMap>
-                            </LoadScript>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1419.0744085550023!2d-63.6314823419212!3d44.65531109477499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a21a679ac3483%3A0xbe93c82aa4dff88d!2s3480%20Joseph%20Howe%20Dr%2C%20Halifax%2C%20NS%20B3L%204H7!5e0!3m2!1sen!2sca!4v1617296839096!5m2!1sen!2sca"
+                            width="100%"
+                            height="450"
+                            frameBorder="0"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            aria-hidden="false"
+                            tabIndex="0"
+                        />
                         </div>
                     </div>
                     <div className="company-box" id="stjohn">

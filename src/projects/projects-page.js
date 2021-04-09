@@ -9,6 +9,7 @@ import health from "../img/northwood.jpg";
 import mixed from "../img/trillium.jpg";
 import residential from "../img/wedgewood.jpg";
 import wharves from "../img/dock.jpg";
+import { Helmet } from "react-helmet";
 
 const Projects = () => {
     useEffect(() => {
@@ -16,6 +17,10 @@ const Projects = () => {
     }, []);
     return (
         <section id="project">
+            <Helmet>
+                <title>Projects | Pinto Engineering</title>
+                <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+            </Helmet>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">

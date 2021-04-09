@@ -6,6 +6,10 @@
         text-shadow: 0 0 2px black, 0 0 2px black;
     }
 
+    .active {
+        border: none;
+    }
+
     .scrolling #mobile-menu{
         color: black;
         text-shadow: none;
@@ -32,11 +36,16 @@
     }
 
     .nav-bar li {
-        padding: 12px !important;
+        padding: 15px 12px !important;
     }
 
     .nav-bar li a {
         color: black !important;
+        text-shadow: none !important;
+    }
+
+    .nav-bar li a:hover {
+        border: none !important;
     }
 
     .nav-bar .dropdown-menu:hover {
@@ -66,9 +75,22 @@
         font-size: 2em !important;
     }
 
+    .between {
+        align-items: center;
+    }
+
+    .between .image {
+        display: none;
+    }
+
+    .between .text {
+        width: 100% !important;
+    }
+
     .between p {
         width: 100% !important;
-        font-size: 0.9em !important
+        font-size: 1em !important;
+        text-align: center;
     }
 
     .scrolltop h2 {
@@ -91,6 +113,7 @@
 
     .panel .text {
         width: 80% !important;
+        padding: 0 !important;
     }
 
     .panel img {
@@ -98,7 +121,7 @@
     }
 
     .panel .image {
-        width: 80% !important
+        width: 100% !important
     }
 
     .hero p {
@@ -115,6 +138,10 @@
 
     .quote .bubble {
         width: 90% !important;
+    }
+
+    .quote .author {
+        padding: 10px;
     }
 
     /* Project */
@@ -143,7 +170,7 @@
     }
 
     #services .services-section {
-        padding: 100px 0 !important;
+        padding: 100px 15px !important;
     }
 
     #services .services-section .service {
@@ -238,6 +265,34 @@
 
     #about .main-content {
         padding: 20px !important;
+    }
+
+    #about .award-section {
+        padding: 0 20px 0 20px !important;
+    }
+
+    .award-section .award {
+        flex-direction: column;
+    }
+
+    #about .award-section .award img{
+        width: 80% !important;
+    }
+
+    #about .award-section .award .text{
+        padding: 0 0 50px 0!important;
+    }
+
+    #about .adv-content {
+        padding: 50px 20px 0 20px !important;
+    }
+
+    #about .adv-content .content .box{
+        flex-basis: 95% !important;
+    }
+
+    #about .affil-section {
+        display: none;
     }
 
     /* Individual services */

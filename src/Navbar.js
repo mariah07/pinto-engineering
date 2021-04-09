@@ -63,9 +63,12 @@ const Navbar = () => {
 
       useEffect(() => {
         if(window.location.pathname === "/" || window.location.pathname === "/services" || window.location.pathname === "/about"
-          || window.location.pathname === "/contact" )
+          || window.location.pathname === "/contact" ) {
             window.addEventListener("scroll", Scroll, true);
+            setScroll(false);
+          }
         else {
+            window.removeEventListener("scroll", Scroll, true);
             setScroll(true);
         }
     }, [])
@@ -77,9 +80,9 @@ const Navbar = () => {
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                 <li><NavLink to="/services" className="menu">Services</NavLink>
                     <div className="dropdown-menu">
-                        <NavLink to="/engineering-design" className="dropdown" activeClassName="active">Engineering Design</NavLink>
-                        <NavLink to="/project-management" className="dropdown" activeClassName="active">Project Management</NavLink>
-                        <NavLink to="/investigation-reports" className="dropdown" activeClassName="active">Investigation & Reports</NavLink>
+                        <NavLink to="/services/engineering-design" className="dropdown" activeClassName="active">Engineering Design</NavLink>
+                        <NavLink to="/services/project-management" className="dropdown" activeClassName="active">Project Management</NavLink>
+                        <NavLink to="/services/investigation-reports" className="dropdown" activeClassName="active">Investigation & Reports</NavLink>
                     </div>
                 </li>
                 <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>

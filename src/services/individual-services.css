@@ -1,22 +1,33 @@
 #design {
-    padding: 100px 80px
+    padding: 70px 80px
 }
 
 #design img {
     width: 70%;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-bottom: 30px;
 }
 
 #design h1 {
-    font-size: 3em;
-    color:rgb(90, 74, 90);
+    font-size: 3.5em;
     font-weight: 600;
-    text-shadow: 1px 1px grey;
+    color: rgb(36, 36, 36);
+    text-shadow: 2px 2px lightgray;
 }
 
 #design .banner {
-    padding: 15px 40px;
+    padding: 0 40px;
+    border-left: 2px ridge grey;
+    margin: 40px 0;
+    position: relative;
+}
+
+#design .banner .border {
+    border-left: 2px solid #261352;
+    position: absolute;
+    top: 15%;
+    bottom: 30%;
+    left:0px;
 }
 
 .banner p {

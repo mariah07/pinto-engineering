@@ -5,6 +5,7 @@ import church from "../img/SJChurch2.jpg";
 import morris from "../img/morris.jpg";
 import george from "../img/st_george.jpg";
 import uniacke from "../img/uniacke.jpg";
+import {Helmet} from "react-helmet";
 
 const Heritage = () => {
     useEffect(() => {
@@ -12,6 +13,10 @@ const Heritage = () => {
     }, []);
     return (
         <section id="project">
+            <Helmet>
+                <title>Heritage | Pinto Engineering</title>
+                <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+            </Helmet>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -38,7 +43,7 @@ const Heritage = () => {
                 </div>
             </div>
             <div className="button-area">
-                <a className="button" href="/projects">Back</a>
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )

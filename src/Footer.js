@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <section id="footer">
             <div className="footer">
-                <div className="footer-content">
+                <div className="footer-content desc">
                     <h3>PINTO Engineering</h3>
                     <p>PINTO Engineering Limited is an established structural engineering consulting practice having served national and international clients across government, public, and private sectors since 1987. Over the years we have built significant confidence in our clients who have come to expect that PINTO will outperform benchmarks and deliver value on every project. </p>
                 </div>
@@ -24,7 +24,8 @@ const Footer = () => {
                         <p> Suite 401 - 3480 Joseph Howe Drive <br />
                             Halifax, Nova Scotia B3L 4H7<br/>
                             P.O. Box 2555</p></li>
-                        <li><i class="fas fa-phone"></i> <p> +1 (800) 659-6618<br/>+1 (902) 420-9800</p></li>
+                        <li className="phone"><i class="fas fa-phone"></i> <p><a href="tel:+18006596618">+1 (800) 659-6618</a>
+                        <br/><a href="tel:+19024209800">+1 (902) 420-9800</a></p></li>
                         <li><i class="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
                     </ul>
                 </div>

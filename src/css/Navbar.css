@@ -16,14 +16,19 @@ a {
     transition: all 0.3s ease-in-out;
   }
 
+  .active {
+    border-bottom: 1px solid black;
+  }
+
   .scrolling {
     color:black;
     background-color:white;
-    box-shadow: 5px 5px 15px rgba(#000000, 0.05);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.062);
   }
 
   .scrolling .nav-bar li a {
     color:black !important;
+    text-shadow: none !important;
   }
   
   nav .nav-bar {
@@ -45,8 +50,9 @@ a {
   
   .nav-bar li a {
     color: white;
-    font-weight: 400;
-    font-size: 1.1em;
+    font-weight:400;
+    font-size: 1.15rem;
+    text-shadow: 0 0 1px black;
     display: inline-block;
     width: 100%;
     text-transform: uppercase;
@@ -54,8 +60,7 @@ a {
   }
 
   .nav-bar li a:hover {
-    color: rgb(151, 143, 151);
-    border-bottom: 1px solid rgb(151, 143, 151);
+    border-bottom: 1px solid black;
   }
 
   .logo img {
@@ -73,14 +78,27 @@ a {
   .nav-bar .dropdown-menu {
     display: none;
     position: absolute;
-    background-color:whitesmoke;
-    padding: 10px;
+    background-color:white;
+    padding: 0;
   }
 
   .nav-bar .dropdown-menu a {
     color: black;
+    padding: 15px 20px;
+    margin: 0;
+    font-size: 1em;
+    text-shadow: none !important;
+    border: 1px solid lightgray;
   }
-  
+
+  .nav-bar .dropdown-menu a:hover {
+    background-color: darkgray !important;
+  }
+
+  .nav-bar .dropdown-menu a:nth-of-type(odd) {
+    background-color: rgb(252, 252, 252);
+  }
+
   .dropdown-menu .dropdown {
     display: block;
     margin: 10px 0px;

@@ -10,6 +10,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
+  Redirect,
   Switch
 } from "react-router-dom";
 import Contact from './contact/contact';
@@ -66,7 +67,7 @@ import Waterton from './single-project/residential/waterton';
 import Wedgewood from './single-project/residential/wedgewood';
 import Dock from './single-project/wharves/dock';
 import Woodside from './single-project/wharves/woodside';
-
+import NotFound from "./pages/NotFound";
 
 class App extends React.Component  {
   render(){
@@ -77,11 +78,11 @@ class App extends React.Component  {
             <Route exact path="/"><Home /></Route>
             <Route path="/contact"><Contact /></Route>
             <Route path="/about"><About /></Route>
-            <Route path="/services"><Services /></Route>
 
-            <Route path="/engineering-design"><EngineeringDesign /></Route>
-            <Route path="/project-management"><ProjectManagement /></Route>
-            <Route path="/investigation-reports"><Investigation /></Route>
+            <Route exact path="/services"><Services /></Route>
+            <Route path="/services/engineering-design"><EngineeringDesign /></Route>
+            <Route path="/services/project-management"><ProjectManagement /></Route>
+            <Route path="/services/investigation-reports"><Investigation /></Route>
 
             <Router exact path="/projects"><Projects /></Router>
             <Router exact path="/projects/bridges"><Bridges /></Router>
@@ -141,6 +142,9 @@ class App extends React.Component  {
 
             <Router path="/projects/wharves/woodside-ferry"><Woodside /></Router>
             <Router path="/projects/wharves/national-gypsum-dock"><Dock /></Router>
+            <Router path="/404" ><NotFound /></Router>
+
+            <Redirect to="/404" />
         </Switch>
         <Footer />
       </Router>
