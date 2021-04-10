@@ -308,7 +308,8 @@
     }
 
     #design .banner {
-        padding: 0 !important;
+        padding: 2px !important;
+        padding-left: 15px !important;
     }
 
     .banner p {
