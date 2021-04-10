@@ -47,7 +47,7 @@ const About = () => {
                     </div>
                     <div className="box" data-aos="fade-in">
                         <h3>Commitment to Quality</h3>
-                        <p>PINTO is committed to providing our valued clients with the highest quality products and services and our goal on each and every project is always complete customer satisfaction. Our committment to quality includes the development of our staff in their professional careers, which ultimately provides a better experience for our clients. To show our committment to these core values, we are well on our way to becoming an ISO 9001 registered company. Watch for updates in early 2016. 
+                        <p>PINTO is committed to providing our valued clients with the highest quality products and services and our goal on each and every project is always complete customer satisfaction. Our committment to quality includes the development of our staff in their professional careers, which ultimately provides a better experience for our clients. To show our committment to these core values, we are well on our way to becoming an ISO 9001 registered company.  
                         </p>
                     </div>
                     <div className="box" data-aos="fade-in">
@@ -76,7 +76,7 @@ const About = () => {
                         <h3>2010 Nova Scotia Lieutenant Governor General’s Award for Engineering</h3>
                         <p>This 20 storey, reinforced concrete multi-use structure located in the heart of downtown Halifax had its share of engineering challenges. Our structural designers created a three-dimensional model of the structure using finite element analysis software that included dynamic analysis.  Structures with eccentric offsets like the Trillium are considered 'irregular structures' and only a dynamic approach can lead to realistic estimates of the torque distributions resulting from earthquake loads. The Trillium won the 2010 Nova Scotia Lieutenant Governor General's Award for Engineering.
                         <br /> <br/>
-                        Project: The Trillium</p>
+                        Project: <a href="/projects/mixed-use-development/the-trillium">The Trillium</a></p>
                     </div>
                 </div>
                 <div className="award">
@@ -86,23 +86,25 @@ const About = () => {
                         <p>
                         In 2004, a major renovation was completed for the Bedford Baptist Church in Bedford, NS, and B.D. Stevens Ltd., along with PINTO, was awarded the 2004 Tilt-up Achievement Award from the Tilt-up Concrete Association (TCA) as an outstanding example of tilt-up concrete construction.  The irregular panel shapes presented a unique challenge in reinforcing the panels as well as lifting the panels into place.
                         <br /> <br/>
-                        Project: Bedford Baptist Church · About the Award: For more information
+                        Project: <a href="/projects/institutional/bedford-church">Bedford Baptist Church</a> · About the Award: <a href="https://tilt-up.org/awards/" target="_blank" rel="noreferrer nofollow noopener">For more information</a>
                         </p>
                     </div>
                 </div>
             </div>
             <div className="affil-section">
-                <div className="text"><p>As a member of several industry governing bodies, PINTO rigorously applies stringent standards and codes of conduct in doing business with our clients and abiding by our obligations to the general public. Affiliations:</p></div>
+                <div className="text"><p>As a member of several industry governing bodies, PINTO rigorously applies stringent standards and codes of conduct in doing business with our clients and abiding by our obligations to the general public. The following are our affiliations.</p></div>
                 <div className="affil">
                     <a href="https://www.acec.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={acec} alt="ACEC"/></a>
                     <a href="https://engineersnovascotia.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={ens} alt="Engineers Nova Scotia"/></a>
                     <a href="https://www.cens.org/" target="_blank" rel="noreferrer nofollow noopener"><img src={cens} alt="CENS"/></a>
                     <a href="https://www.egbc.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={egbc} alt="EGBC"/></a>
-                    <a href="https://www.apegnb.com/" target="_blank" rel="noreferrer nofollow noopener"><img src={eng} alt="APEGNB"/></a>
+                    <a href="http://technova.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={tech} alt="Tech Nova"/></a>
+                </div>
+                <div className="affil">
                     <a href="https://www.pegnl.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={pegnl} alt="PENGL"/></a>
                     <a href="http://www.apegga.org/" target="_blank" rel="noreferrer nofollow noopener"><img src={ap} alt="APEGGA"/></a>
                     <a href="https://www.peo.on.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={peo} alt="PEO"/></a>
-                    <a href="http://technova.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={tech} alt="Tech Nova"/></a>
+                    <a href="https://www.apegnb.com/" target="_blank" rel="noreferrer nofollow noopener"><img src={eng} alt="APEGNB"/></a>
                 </div>
             </div>
         </section>
