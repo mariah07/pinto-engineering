@@ -32,9 +32,9 @@ const Contact = () => {
                         <div>
                             <h2>Halifax</h2>
                             <ul>
-                                <li><i class="fas fa-phone"></i> (902) 420-9800</li>
-                                <li><i class="fas fa-fax"></i> (902) 484-7288</li>
-                                <li><i class="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
+                                <li><i className="fas fa-phone tooltip"></i> <a href="tel:+19024209800"> (902) 420-9800</a></li>
+                                <li><i className="fas fa-fax" alt="fax"></i> (902) 484-7288</li>
+                                <li><i className="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
                             </ul>
                             <p>
                             Suite 401-3480 Joseph Howe Drive, <br />
@@ -61,9 +61,9 @@ const Contact = () => {
                         <div>
                             <h2>St John's</h2>
                             <ul>
-                                <li><i class="fas fa-phone"></i> (709) 700-2139</li>
-                                <li><i class="fas fa-fax"></i> (902) 484-7288</li>
-                                <li><i class="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
+                                <li><i className="fas fa-phone"></i> <a href="tel:+17097002139"> (709) 700-2139</a></li>
+                                <li><i className="fas fa-fax"></i> (902) 484-7288</li>
+                                <li><i className="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
                             </ul>
                             <p>St. John's, <br/> Newfoundland and Labrador, <br/>Canada</p>
                         </div>

@@ -77,6 +77,10 @@
     list-style: none;
 }
 
+.company-contact .company-box ul li i{
+    padding-right: 5px;
+}
+
 #halifax {
     background-color: white;
     width: 30%;

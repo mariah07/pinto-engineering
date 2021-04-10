@@ -1,5 +1,6 @@
 #project {
     padding: 80px 40px 20px 40px;
+    min-height: 100vh;
 }
 
 #project .box {
@@ -35,7 +36,7 @@
 }
 
 #project .button:hover {
-    background-color:black;
+    background-color:rgb(68, 68, 68);
     color: white;
 }
 

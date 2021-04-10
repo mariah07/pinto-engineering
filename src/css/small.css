@@ -292,7 +292,7 @@
     }
 
     #about .affil-section {
-        display: none;
+        display: none !important;
     }
 
     /* Individual services */
