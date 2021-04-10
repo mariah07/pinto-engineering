@@ -161,6 +161,7 @@
     #project .box h3 {
         left: 20px !important;
         bottom: 10px !important;
+        font-size: 1em !important;
     }
 
     /* Services */
@@ -175,7 +176,7 @@
 
     #services .services-section .service {
         width: 100% !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 10px !important;
     }
 
     #services .services-section .right {
@@ -197,11 +198,12 @@
 
 
     .services-section .service .text h2{
-        font-size: 2em !important;
+        font-size: 1.5em !important;
     }
 
     .services-section .service .text p{
         font-size: 1em !important;
+        font-weight: 400 !important;
     }
 
     #services .services-section .left {
