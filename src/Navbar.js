@@ -37,7 +37,7 @@ const Navbar = () => {
         return () => {
           document.removeEventListener("click", handleClickOutside, false);
         };
-    })
+    });
 
 
       useEffect(() => {
@@ -53,9 +53,6 @@ const Navbar = () => {
             setScroll(false);
             setMobile(false);
          }
-         if(!mobile){
-          setOverlay(false);
-        }
        }) 
        
       }, [history]);
@@ -71,7 +68,7 @@ const Navbar = () => {
             window.removeEventListener("scroll", Scroll, true);
             setScroll(true);
         }
-    }, [])
+    }, []);
 
     return (
         <nav className={scroll ? "scrolling" : ""} ref={wrapperRef}>
@@ -89,7 +86,7 @@ const Navbar = () => {
                 <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
                 <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
             </ul>
-            <i onClick={() => {setMobile(!mobile); setOverlay(!mobile);}} id="mobile-menu" class="fas fa-bars"></i>
+            <i onClick={() => {setMobile(!mobile); setOverlay(!mobile);}} id="mobile-menu" className="fas fa-bars"></i>
         </nav>
     );
 }

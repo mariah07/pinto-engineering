@@ -20,21 +20,21 @@ const Footer = () => {
                 <div className="footer-content">
                     <h3>Contact</h3>
                     <ul className="address">
-                        <li><i class="fas fa-map-marker-alt"></i>
+                        <li><i className="fas fa-map-marker-alt"></i>
                         <p> Suite 401 - 3480 Joseph Howe Drive <br />
                             Halifax, Nova Scotia B3L 4H7<br/>
                             P.O. Box 2555</p></li>
-                        <li className="phone"><i class="fas fa-phone"></i> <p><a href="tel:+18006596618">+1 (800) 659-6618</a>
+                        <li className="phone"><i className="fas fa-phone"></i> <p><a href="tel:+18006596618">+1 (800) 659-6618</a>
                         <br/><a href="tel:+19024209800">+1 (902) 420-9800</a></p></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
+                        <li><i className="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
                     </ul>
                 </div>
                 <div className="footer-content">
                     <h3>Connect</h3>
                     <ul className="social">
-                        <li><a href="https://www.facebook.com/PintoEngineeringLtd" rel="nofollow"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.twitter.com/consultpinto" rel="nofollow"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" rel="nofollow"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/PintoEngineeringLtd" rel="nofollow"><i className="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.twitter.com/consultpinto" rel="nofollow"><i className="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" rel="nofollow"><i className="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>

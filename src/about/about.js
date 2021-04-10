@@ -71,7 +71,7 @@ const About = () => {
             <div className="award-section">
                 <h2>Awards</h2>
                 <div className="award">
-                    <img src={Tril}/>
+                    <img src={Tril} alt="The Trillium"/>
                     <div className="text">
                         <h3>2010 Nova Scotia Lieutenant Governor General’s Award for Engineering</h3>
                         <p>This 20 storey, reinforced concrete multi-use structure located in the heart of downtown Halifax had its share of engineering challenges. Our structural designers created a three-dimensional model of the structure using finite element analysis software that included dynamic analysis.  Structures with eccentric offsets like the Trillium are considered 'irregular structures' and only a dynamic approach can lead to realistic estimates of the torque distributions resulting from earthquake loads. The Trillium won the 2010 Nova Scotia Lieutenant Governor General's Award for Engineering.
@@ -80,7 +80,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="award">
-                    <img src={Church}/>
+                    <img src={Church} alt="Bedford Baptist Church"/>
                     <div className="text">
                         <h3>2004 Tilt-up Achievement Award</h3>
                         <p>
