@@ -33,7 +33,6 @@
     margin-top: 100px;
     font-weight: 400;
     color: rgb(55, 48, 63);
-    text-shadow: 0 0 1px black, 0 0 1px black,0 0 1px black,0 0 1px black;
     padding: 10px;
   }
   
@@ -103,7 +102,7 @@
   }
   
   .between h2 {
-    font-size: 4em;
+    font-size: 3em;
     margin: 0px;
     color: rgb(206, 202, 202);
   }
