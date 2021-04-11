@@ -62,7 +62,7 @@ const Home = () => {
             <div className="bottom">
             </div>
             <div className="quote">
-                <div className="bubble"  data-aos="zoom-in-left">
+                <div className="bubble"  data-aos="fade-in">
                     <i className="fas fa-quote-left"></i>
                     <p>We have and continue to enjoy and reap the benefits of a good business relationship with PINTO Engineering. We highly recommend your team for any aspect of structural design or consulting.  We find you reliable, efficient and extremely knowledgeable. Moreover, your expertise in mediation and arbitration adds a very important dimension to your design, and subsequently has benefited our projects.
                     <br /><br />
