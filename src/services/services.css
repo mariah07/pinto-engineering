@@ -35,7 +35,7 @@
 
 .services-section .service img{
     width: 35%;
-    height:200px;
+    max-height:200px;
     margin-right: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px black;
@@ -49,7 +49,7 @@
 .services-section .service .text p{
     padding-bottom: 20px;
     font-size: 1.1em;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .services-section .service .text h2{
