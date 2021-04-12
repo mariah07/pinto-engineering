@@ -25,13 +25,12 @@
 }
 
 #project .button {
-    padding: 10px 30px;
-    text-transform: uppercase;
-    border-radius: 25px;
-    font-size: 1.1em;
-    border: 1px solid black;
-    background-color: transparent;
-    color:black;
+    padding: 10px 25px;
+    border-radius: 50%;
+    font-size: 2em;
+    border: 10px ridge white;
+    background-color: lightgray;
+    color:white;
     transition: all 0.3s ease-in-out;
 }
 

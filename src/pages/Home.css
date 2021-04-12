@@ -160,7 +160,7 @@
     color:white;
     border: none;
     font-size: 1.3em;
-    transition: all 0.4 ease-in-out;
+    transition: all 0.3s ease-in-out;
     border: 4px outset white;
   }
   
