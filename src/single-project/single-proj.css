@@ -12,9 +12,10 @@
 }
 
 #single-project a {
-    padding: 10px 20px;
+    padding: 5px 14px;
     border-radius: 50%;
-    background-color: darkslategray;
+    border: 10px ridge white;
+    background-color: lightgray;
     color:white;
 }
 

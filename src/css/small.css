@@ -10,6 +10,10 @@
         border: none;
     }
 
+    .scrolling .active {
+        border: none;
+    }
+
     .scrolling #mobile-menu{
         color: black;
         text-shadow: none;
@@ -294,7 +298,22 @@
     }
 
     #about .affil-section {
-        display: none !important;
+        padding: 50px 20px 0 20px !important;
+    }
+
+    #about .affil-section .affil {
+        flex-wrap:wrap;
+        justify-content: center;
+        margin-top: 0 !important;
+    }
+
+    #about .affil-section .affil a{
+        margin-right: 20px !important;
+    }
+
+    #about .affil-section .affil img{
+        max-width: 150px !important;
+        max-height: 80px !important;
     }
 
     /* Individual services */

@@ -1,12 +1,12 @@
 #footer {
-    background-color: rgb(55, 58, 58);
+    background-color: lightgray;
 }
 
 .footer{
     display:flex;
     padding: 50px 60px;
-    background-color: rgb(27, 26, 27);
-    color: white;
+    background-color: lightgray;
+    color: black;
 }
 
 .footer-content {
@@ -21,8 +21,9 @@
 }
 
 .footer-content h3 {
-    color: darkgray;
-    font-size: 1.5em;
+    color: rgb(73, 73, 73);
+    font-size: 1.3em;
+    text-transform: uppercase;
 }
 
 .footer-content ul {
@@ -33,7 +34,7 @@
 
 .footer-content ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     transition: all 0.3 ease-in-out;
 }
 
@@ -63,6 +64,7 @@
 #footer .footer-content .explore li {
     margin-bottom: 5px;
     font-size: 1.1em;
+    font-weight: 500;
 }
 
 #footer .footer-content .social li {
