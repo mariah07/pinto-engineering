@@ -35,7 +35,7 @@
 }
 
 #project .button:hover {
-    background-color:rgb(68, 68, 68);
+    background-color:darkslategray;
     color: white;
 }
 
