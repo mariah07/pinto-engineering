@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                     <div id="map">
                         <div className="map">
-                        <iframe
+                        <iframe title="Map of Pinto Engineering"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1419.0744085550023!2d-63.6314823419212!3d44.65531109477499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a21a679ac3483%3A0xbe93c82aa4dff88d!2s3480%20Joseph%20Howe%20Dr%2C%20Halifax%2C%20NS%20B3L%204H7!5e0!3m2!1sen!2sca!4v1617296839096!5m2!1sen!2sca"
                             width="100%"
                             height="450"
