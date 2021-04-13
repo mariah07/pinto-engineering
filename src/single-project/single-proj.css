@@ -20,10 +20,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-#single-project a:hover {
-    background-color: darkslategray;
-}
-
 #single-project .text {
     display: flex;
     align-items: center;
