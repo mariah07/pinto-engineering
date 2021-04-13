@@ -69,6 +69,8 @@
     .hero h1{
         font-size: 2em !important;
         margin-bottom: 20px !important;
+        padding: 10px !important;
+        background-color: transparent !important;
     }
 
     .hero p {
