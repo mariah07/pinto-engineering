@@ -24,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 25px;
   }
   
   .hero h1{
@@ -88,9 +88,9 @@
   }
   
   .between h2 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin: 0px;
-    font-weight: 630;
+    font-weight: 500;
     color: white;
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
   }
@@ -104,7 +104,7 @@
   
   .between p {
     width: 80%;
-    font-size: 1.2em;
+    font-size: 1.12em;
     font-weight: 450;
     padding: 30px;
     border: 2px ridge grey;
