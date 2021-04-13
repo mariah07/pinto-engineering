@@ -71,6 +71,7 @@
         margin-bottom: 20px !important;
         padding: 10px !important;
         background-color: transparent !important;
+        text-shadow: 0 0 200px white, 0 0 50px white, 0 0 10px white !important;
     }
 
     .hero p {

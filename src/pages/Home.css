@@ -34,7 +34,7 @@
     font-weight: 350;
     color: rgb(43, 43, 43);
     padding: 20px 15px;
-    background-color: rgba(240, 240, 240, 0.534);
+    background-color: rgba(240, 240, 240, 0.589);
     text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 200px rgb(240, 240, 240), 0 0 200px rgb(240, 240, 240), 0 0 200px rgb(240, 240, 240), 0 0 500px rgb(240, 240, 240);
   }
   
@@ -43,7 +43,7 @@
     font-size: 0.8em;
     font-weight: 400;
     color: black;
-    text-shadow: 0 0 30px white, 0 0 20px white, 0 0 30px rgb(240, 240, 240);
+    text-shadow: 0 0 50px whitesmoke, 0 0 30px white, 0 0 20px white;
     padding: 30px 10px;
   }
 
