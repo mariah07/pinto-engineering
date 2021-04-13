@@ -5,8 +5,8 @@
 .footer{
     display:flex;
     padding: 50px 60px;
-    border: 20px solid rgb(206, 206, 206);
-    background-color: rgb(240, 240, 240);
+    border: 20px solid rgb(219, 219, 219);
+    background-color: whitesmoke;
     color: black;
 }
 
