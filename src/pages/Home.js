@@ -31,7 +31,6 @@ const Home = () => {
                     <img src={tril} alt="The Trillium"/>
                 </div>
                 <div data-aos="fade-in" className="text">
-                    <h2>Who We Are</h2>
                     <p>PINTO has many project successes in the commercial, healthcare, residential, transportation, marine, and institutional sectors including several LEED certified projects. One of our recent project successes, “The Trillium”, (a 20-story residential, commercial, and retail complex and winner of the 2010 Nova Scotia Lieutenant Governor General’s award for Excellence in Engineering) is a testament to our team’s ability to work together to be innovative, tackle challenging issues, and overcome obstacles.</p>
                     <a href="/about">Learn More</a>
                 </div>
