@@ -38,7 +38,7 @@ const About = () => {
                 PINTO has many project successes in the commercial, healthcare, residential, transportation, marine, and institutional sectors including several LEED certified projects. One of our recent project successes, “The Trillium”, (a 20-story residential, commercial, and retail complex and winner of the 2010 Nova Scotia Lieutenant Governor General’s award for Excellence in Engineering) is a testament to our team’s ability to work together to be innovative, tackle challenging issues, and overcome obstacles.
                 </div>
             </div>
-            <div className="adv-content">
+            <div className="adv-content" id="the-pinto-advantage">
                 <h2>The Pinto Advantage</h2>
                 <div className="content">
                     <div className="box" data-aos="fade-in">
@@ -68,7 +68,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="award-section">
+            <div className="award-section" id="awards">
                 <h2>Awards</h2>
                 <div className="award">
                     <img src={Tril} alt="The Trillium"/>
@@ -91,7 +91,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="affil-section">
+            <div className="affil-section" id="affiliations">
                 <div className="text"><p>As a member of several industry governing bodies, PINTO rigorously applies stringent standards and codes of conduct in doing business with our clients and abiding by our obligations to the general public. The following are our affiliations.</p></div>
                 <div className="affil">
                     <a href="https://www.acec.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={acec} alt="ACEC"/></a>

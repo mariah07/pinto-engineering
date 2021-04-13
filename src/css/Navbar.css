@@ -58,7 +58,7 @@ a {
   .nav-bar li a {
     color: white;
     font-weight:500;
-    font-size: 1.15rem;
+    font-size: 1.05em;
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black,  0 0 1px black,  0 0 1px black,  0 0 1px black;
     display: inline-block;
     width: 100%;
@@ -68,6 +68,10 @@ a {
 
   .nav-bar li a:hover {
     border-bottom: 1px solid black;
+  }
+
+  .scrolling .nav-bar li a:hover {
+    border-bottom: 1px solid lightgray;
   }
 
   .logo img {
@@ -95,7 +99,7 @@ a {
     color: rgb(77, 77, 77);
     padding: 15px 20px;
     margin: 0;
-    font-size: 1em;
+    font-size: 0.9em;
     text-shadow: none !important;
     border: 1px solid lightgray;
   }
