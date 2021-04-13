@@ -5,7 +5,7 @@
 .footer{
     display:flex;
     padding: 50px 60px;
-    border: 10px ridge rgb(235, 235, 235);
+    border: 10px ridge white;
     background-color: whitesmoke;
     color: black;
 }
