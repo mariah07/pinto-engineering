@@ -24,12 +24,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 60px;
   }
   
   .hero h1{
     margin:0;
-    font-size: 3em;
+    font-size: 3.05em;
     margin-top: 100px;
     font-weight: 350;
     color: rgb(43, 43, 43);
@@ -43,21 +43,6 @@
     color: black;
     text-shadow: 0 0 30px white, 0 0 20px white;
     padding: 30px 10px;
-  }
-  
-  .hero a {
-    padding: 10px 60px;
-    transition: all 0.4 ease-in-out;
-    font-size: 1.3em;
-    border-radius: 10px;
-    border: 1px solid rgb(27, 14, 26);
-    color: white;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 2px black,0 0 2px black;
-    background-color: transparent;
-  }
-  .hero a:hover {
-    background-color: grey;
-    color: white;
   }
 
   .scrolltop {
