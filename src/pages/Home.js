@@ -10,7 +10,7 @@ import { Helmet } from "react-helmet";
 
 const Home = () => {
     useEffect(() => {
-        Aos.init({duration: 2000, disable: 'mobile'});
+        Aos.init({duration: 2500, disable: 'mobile'});
         window.scrollTo(0, 0);
     }, []);
     return (

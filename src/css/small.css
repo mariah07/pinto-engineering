@@ -327,8 +327,12 @@
         padding: 70px 10px !important;
     }
 
+    #design .title {
+        width: 95% !important;
+    }
+
     #design h1 {
-        font-size: 2.5em !important;
+        font-size: 2.1em !important;
     }
 
     #design img {

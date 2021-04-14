@@ -14,7 +14,9 @@ const Investigation = () => {
                 <meta name="description" content="We offer mediation and arbitration, feasibility studies, and condition assessment."/>
             </Helmet>
             <div className="overlay"></div>
-            <h1>Investigation & Reports</h1>
+            <div className="title">
+                <h1>Investigation & Reports</h1>
+            </div>
             <p>
             </p>
             <img src={engineer} alt=""/>
