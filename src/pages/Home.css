@@ -35,7 +35,7 @@
     color: rgb(43, 43, 43);
     padding: 20px 16px;
     background-color: rgba(240, 240, 240, 0.589);
-    text-shadow: 0 0 20px rgb(255, 255, 255), 0 0 200px rgb(240, 240, 240), 0 0 200px rgb(240, 240, 240), 0 0 200px rgb(240, 240, 240), 0 0 500px rgb(240, 240, 240);
+    text-shadow: 0 0 200px rgb(240, 240, 240), 0 0 500px rgb(240, 240, 240);
   }
   
   .hero p {

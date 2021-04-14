@@ -10,8 +10,10 @@ import { Helmet } from "react-helmet";
 
 const Home = () => {
     useEffect(() => {
-        Aos.init({duration: 2500, disable: 'mobile'});
         window.scrollTo(0, 0);
+    }, []);
+    useEffect(() => {
+        Aos.init({duration: 2500, disable: 'mobile'});
     }, []);
     return (
         <section className="home-section">
@@ -72,6 +74,6 @@ const Home = () => {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 export default Home;
