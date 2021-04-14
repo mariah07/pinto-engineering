@@ -14,7 +14,9 @@ const ProjectManagement = () => {
                 <meta name="description" content="We offer construction review, shop drawing review, constructions administration, and project coordination."/>
             </Helmet>
             <div className="overlay"></div>
-            <h1>Project Management</h1>
+            <div className="title">
+                <h1>Project Management</h1>
+            </div>
             <p>
             </p>
             <img src={architect} alt=""/>

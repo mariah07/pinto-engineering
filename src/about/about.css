@@ -1,5 +1,4 @@
 #about .about-header {
-    font-size: 2em;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +10,9 @@
 }
 
 #about .about-header h1 {
-    color: rgb(131, 131, 131);
-    text-shadow: 3px 2px black;
+    color: rgb(149, 148, 150);
+    text-shadow: 3px 3px black, 0 0 20px rgba(255, 255, 255, 0.5);
+    font-size: 3.5em;
 }
 
 #about .main-content {

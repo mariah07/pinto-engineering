@@ -14,7 +14,9 @@ const EngineeringDesign = () => {
                 <meta name="description" content="We offer structural consulting services, and structural remediation and restoration."/>
             </Helmet>
             <div className="overlay"></div>
-            <h1>Engineering Design</h1>
+            <div className="title">
+                <h1>Engineering Design</h1>
+            </div>
             <p>
             </p>
             <img src={building} alt=""/>
