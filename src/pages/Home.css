@@ -97,10 +97,12 @@
   
   .between p {
     width: 75%;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight:lighter;
     padding: 30px;
-    border: 10px ridge rgba(236, 236, 236, 0.712);
+    border: 2px ridge rgb(104, 104, 104);
+    border-top: 5px ridge rgb(104, 104, 104);
+    border-bottom: 5px ridge rgb(104, 104, 104);
     box-shadow: 10px 30px 10px rgba(128, 128, 128, 0.13);
   }
   
@@ -135,7 +137,7 @@
     border-radius: 25px;
     padding: 10px 60px;
     border: 1px solid rgb(150, 144, 151);
-    background-color: rgb(150, 144, 151);
+    background-color: rgb(97, 97, 97);
     color:white;
     border: none;
     font-size: 1.3em;
@@ -160,8 +162,8 @@
   }
   
   .panel h3 {
-    color:rgb(123, 116, 124);
-    font-weight: 400;
+    color:rgb(51, 51, 51);
+    font-weight: 500;
   }
   
   .panel .image {
@@ -178,14 +180,14 @@
   }
   
   .panel .text {
-    background-color: rgba(255, 255, 255, 0.829);
+    background-color: white;
     border-radius: 2px;
     padding: 20px;
     height: fit-content;
     font-weight:400;
     width: 40%;
     z-index: 1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.219);
   }
   
   #panel1 {
