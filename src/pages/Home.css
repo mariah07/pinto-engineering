@@ -25,25 +25,25 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px; 
+    padding: 0 !important;
+    background-color: rgba(240, 240, 240, 0.89);
+    width: 70%;
   }
   
   .hero h1{
     margin:0;
     font-size: 3em;
-    margin-top: 100px;
     font-weight: 350;
     color: rgb(43, 43, 43);
     padding: 20px 16px;
-    background-color: rgba(240, 240, 240, 0.94);
   }
   
   .hero p {
-    width: 70%;
-    font-size: 0.77em;
+    width: 75%;
+    font-size: 0.75em;
     font-weight: 430;
     color: black;
-    text-shadow: 0 0 50px rgba(245, 245, 245, 0.788), 0 0 30px white, 0 0 20px rgba(255, 255, 255, 0.76), 0 0 7px rgba(255, 255, 255, 0.404), 0 0 3px whitesmoke;
-    padding: 30px 10px;
+    padding-bottom: 20px;
   }
 
   .scrolltop {
@@ -96,11 +96,11 @@
   }
   
   .between p {
-    width: 80%;
-    font-size: 1.12em;
+    width: 70%;
+    font-size: 1.1em;
     font-weight: 450;
     padding: 30px;
-    border: 2px ridge grey;
+    border: 5px ridge grey;
     box-shadow: 10px 30px 10px rgba(128, 128, 128, 0.13);
   }
   
