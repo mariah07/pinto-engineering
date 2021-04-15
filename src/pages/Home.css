@@ -26,7 +26,7 @@
     justify-content: center;
     margin-top: 50px; 
     padding: 0 !important;
-    background-color: rgba(240, 240, 240, 0.94);
+    background-color: rgba(240, 240, 240, 0.93);
     width: 70%;
   }
   
@@ -40,14 +40,10 @@
   
   .hero p {
     width: 75%;
-    font-size: 0.75em;
+    font-size: 0.72em;
     font-weight: 430;
     color: black;
     padding-bottom: 20px;
-  }
-
-  .scrolltop {
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.404);
   }
   
   .scrolltop h2 {
@@ -109,6 +105,7 @@
   .scrolltop {
     padding: 20px;
     background-color:white;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.404);
     color:black;
     top: 50px;
     position:sticky;
@@ -186,6 +183,7 @@
     height: fit-content;
     font-weight:400;
     width: 40%;
+    border: 1px solid black;
     z-index: 1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.219);
   }
@@ -238,8 +236,9 @@
   
   .quote .bubble p {
     padding-left: 10px;
-    font-size: 0.95em;
-    font-weight: 300;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: rgb(82, 82, 82);
   }
   
   .quote .author {
