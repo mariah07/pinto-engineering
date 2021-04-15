@@ -13,7 +13,7 @@ const Home = () => {
         window.scrollTo(0, 0);
     }, []);
     useEffect(() => {
-        Aos.init({duration: 2500, disable: 'mobile'});
+        Aos.init({duration: 2000, disable: 'mobile'});
     }, []);
     return (
         <section className="home-section">
