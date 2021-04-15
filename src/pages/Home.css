@@ -26,7 +26,7 @@
     justify-content: center;
     margin-top: 50px; 
     padding: 0 !important;
-    background-color: rgba(240, 240, 240, 0.89);
+    background-color: rgba(240, 240, 240, 0.94);
     width: 70%;
   }
   
@@ -96,11 +96,11 @@
   }
   
   .between p {
-    width: 70%;
-    font-size: 1.1em;
-    font-weight: 450;
+    width: 75%;
+    font-size: 1.2em;
+    font-weight:lighter;
     padding: 30px;
-    border: 5px ridge grey;
+    border: 10px ridge rgba(236, 236, 236, 0.712);
     box-shadow: 10px 30px 10px rgba(128, 128, 128, 0.13);
   }
   
@@ -160,7 +160,8 @@
   }
   
   .panel h3 {
-    color:rgb(123, 116, 124)
+    color:rgb(123, 116, 124);
+    font-weight: 400;
   }
   
   .panel .image {
@@ -177,13 +178,14 @@
   }
   
   .panel .text {
-    background-color: rgba(253, 253, 249, 0.829);
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.829);
+    border-radius: 2px;
     padding: 20px;
     height: fit-content;
+    font-weight:400;
     width: 40%;
     z-index: 1;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.219);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
   }
   
   #panel1 {
