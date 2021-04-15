@@ -33,17 +33,16 @@
     margin-top: 100px;
     font-weight: 350;
     color: rgb(43, 43, 43);
-    padding: 20px 17px;
-    background-color: rgba(240, 240, 240, 0.912);
-    text-shadow: 0 0 200px rgb(240, 240, 240), 0 0 500px rgb(240, 240, 240);
+    padding: 20px 16px;
+    background-color: rgba(240, 240, 240, 0.94);
   }
   
   .hero p {
     width: 70%;
-    font-size: 0.8em;
-    font-weight: 400;
+    font-size: 0.77em;
+    font-weight: 430;
     color: black;
-    text-shadow: 0 0 50px whitesmoke, 0 0 30px white, 0 0 20px white;
+    text-shadow: 0 0 50px rgba(245, 245, 245, 0.788), 0 0 30px white, 0 0 20px rgba(255, 255, 255, 0.76), 0 0 7px rgba(255, 255, 255, 0.404), 0 0 3px whitesmoke;
     padding: 30px 10px;
   }
 
