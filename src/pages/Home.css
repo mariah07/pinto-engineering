@@ -26,7 +26,7 @@
     justify-content: center;
     margin-top: 50px; 
     padding: 0 !important;
-    background-color: rgba(240, 240, 240, 0.93);
+    background-color: rgba(240, 240, 240, 0.95);
     width: 70%;
   }
   
@@ -35,12 +35,12 @@
     font-size: 3em;
     font-weight: 350;
     color: rgb(43, 43, 43);
-    padding: 20px 16px;
+    padding: 30px 0 20px 0;
   }
   
   .hero p {
     width: 75%;
-    font-size: 0.72em;
+    font-size: 0.7em;
     font-weight: 430;
     color: black;
     padding-bottom: 20px;
@@ -97,9 +97,10 @@
     font-weight:lighter;
     padding: 50px 30px;
     border: 2px ridge rgb(104, 104, 104);
-    border-top: 5px ridge rgb(104, 104, 104);
+    border-top: none;
+    border-right: none;
     border-bottom: 5px ridge rgb(104, 104, 104);
-    box-shadow: 10px 30px 10px rgba(128, 128, 128, 0.13);
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.644);
   }
   
   .scrolltop {
@@ -133,17 +134,18 @@
     margin-bottom: 30px;
     border-radius: 25px;
     padding: 10px 60px;
-    border: 1px solid rgb(150, 144, 151);
-    background-color: rgb(97, 97, 97);
-    color:white;
+    border: 1px solid black;
+    background-color: white;
+    color:black;
     border: none;
     font-size: 1.3em;
     transition: all 0.3s ease-in-out;
-    border: 4px outset white;
+    border: 4px outset rgb(196, 196, 196);
   }
   
   .scrolltop a:hover {
-    background-color:rgb(68, 54, 68);
+    background-color:black;
+    color:white;
   }
 
   .animation {
@@ -195,13 +197,15 @@
   }
   
   #panel2 {
-    background-color:rgb(245, 244, 244);
+    background-color:white;
+    border-top: 1px solid black;
     position: sticky;
     top: calc(35vh);
   }
   
   #panel3 {
     background-color:white;
+    border-top: 1px solid black;
     position: sticky;
     top: calc(35vh);
   }
@@ -225,13 +229,14 @@
     padding: 15px;
     position: relative;
     color: black;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 245, 239);
     border-radius: 10px;
   }
   
   .quote .bubble i {
     font-size: 2em;
     color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black;
   }
   
   .quote .bubble p {
@@ -246,7 +251,7 @@
   }
   
   .quote .author a {
-    color: rgb(63, 18, 63);
+    color: rgb(64, 18, 102);
     transition: all 0.3 ease-in-out;
   }
   
@@ -259,9 +264,9 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    border-left: 24px solid rgb(235, 235, 235);
+    border-left: 24px solid rgb(245, 245, 239);
     border-right: 12px solid transparent;
-    border-top: 12px solid rgb(235, 235, 235);
+    border-top: 12px solid rgb(245, 245, 239);
     border-bottom: 20px solid transparent;
     right: 50px;
     bottom: -25px;
