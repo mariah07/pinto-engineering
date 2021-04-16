@@ -10,9 +10,9 @@
 }
 
 #about .about-header h1 {
-    color: rgb(204, 204, 204);
-    text-shadow: 3px 3px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    font-size: 3.5em;
+    color: rgb(241, 241, 241);
+    text-shadow: 3px 3px black, 0 0 2px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-size: 4em;
 }
 
 #about .main-content {
