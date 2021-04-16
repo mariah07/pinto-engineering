@@ -96,9 +96,7 @@
     font-size: 1.1em;
     font-weight:lighter;
     padding: 50px 30px;
-    border: 2px ridge rgb(104, 104, 104);
-    border-top: none;
-    border-right: none;
+    border-left: 2px ridge rgb(104, 104, 104);
     border-bottom: 5px ridge rgb(104, 104, 104);
     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.644);
   }
