@@ -25,7 +25,7 @@ const Contact = () => {
                     <p>Please contact us using any of the methods below. For additional information, please visit and 
                         follow our company <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" rel="nofollow">LinkedIn page.</a></p>
                     </div>
-                    <img src={contact} alt=""/>
+                    <img src={contact} alt="" loading="eager"/>
                 </div>
                 <div className="company-contact">
                     <div className="company-box" id="halifax">

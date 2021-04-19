@@ -19,7 +19,7 @@ const ProjectManagement = () => {
             </div>
             <p>
             </p>
-            <img src={architect} alt=""/>
+            <img src={architect} alt="" loading="eager"/>
             <div className="banner">
                 <div className="border"></div>
                 <h2>Construction Review</h2>

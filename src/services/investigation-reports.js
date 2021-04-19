@@ -19,7 +19,7 @@ const Investigation = () => {
             </div>
             <p>
             </p>
-            <img src={engineer} alt=""/>
+            <img src={engineer} alt="" loading="eager"/>
             <div className="banner">
                 <div className="border"></div>
                 <h2>Mediation and Arbitration</h2>
