@@ -71,7 +71,7 @@ const About = () => {
             <div className="award-section" id="awards">
                 <h2>Awards</h2>
                 <div className="award">
-                    <img src={Tril} alt="The Trillium"/>
+                    <img src={Tril} alt="The Trillium" loading="lazy"/>
                     <div className="text">
                         <h3>2010 Nova Scotia Lieutenant Governor General’s Award for Engineering</h3>
                         <p>This 20 storey, reinforced concrete multi-use structure located in the heart of downtown Halifax had its share of engineering challenges. Our structural designers created a three-dimensional model of the structure using finite element analysis software that included dynamic analysis.  Structures with eccentric offsets like the Trillium are considered 'irregular structures' and only a dynamic approach can lead to realistic estimates of the torque distributions resulting from earthquake loads. The Trillium won the 2010 Nova Scotia Lieutenant Governor General's Award for Engineering.
@@ -80,7 +80,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="award">
-                    <img src={Church} alt="Bedford Baptist Church"/>
+                    <img src={Church} alt="Bedford Baptist Church" loading="lazy"/>
                     <div className="text">
                         <h3>2004 Tilt-up Achievement Award</h3>
                         <p>
@@ -94,17 +94,17 @@ const About = () => {
             <div className="affil-section" id="affiliations">
                 <div className="text"><p>As a member of several industry governing bodies, PINTO rigorously applies stringent standards and codes of conduct in doing business with our clients and abiding by our obligations to the general public. The following are our affiliations.</p></div>
                 <div className="affil">
-                    <a href="https://www.acec.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={acec} alt="ACEC"/></a>
-                    <a href="https://engineersnovascotia.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={ens} alt="Engineers Nova Scotia"/></a>
-                    <a href="https://www.cens.org/" target="_blank" rel="noreferrer nofollow noopener"><img src={cens} alt="CENS"/></a>
-                    <a href="https://www.egbc.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={egbc} alt="EGBC"/></a>
-                    <a href="http://technova.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={tech} alt="Tech Nova"/></a>
+                    <a href="https://www.acec.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={acec} alt="ACEC" loading="lazy"/></a>
+                    <a href="https://engineersnovascotia.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={ens} alt="Engineers Nova Scotia" loading="lazy"/></a>
+                    <a href="https://www.cens.org/" target="_blank" rel="noreferrer nofollow noopener"><img src={cens} alt="CENS" loading="lazy"/></a>
+                    <a href="https://www.egbc.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={egbc} alt="EGBC" loading="lazy"/></a>
+                    <a href="http://technova.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={tech} alt="Tech Nova" loading="lazy"/></a>
                 </div>
                 <div className="affil">
-                    <a href="https://www.pegnl.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={pegnl} alt="PENGL"/></a>
-                    <a href="http://www.apegga.org/" target="_blank" rel="noreferrer nofollow noopener"><img src={ap} alt="APEGGA"/></a>
-                    <a href="https://www.peo.on.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={peo} alt="PEO"/></a>
-                    <a href="https://www.apegnb.com/" target="_blank" rel="noreferrer nofollow noopener"><img src={eng} alt="APEGNB"/></a>
+                    <a href="https://www.pegnl.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={pegnl} alt="PENGL" loading="lazy"/></a>
+                    <a href="http://www.apegga.org/" target="_blank" rel="noreferrer nofollow noopener"><img src={ap} alt="APEGGA" loading="lazy"/></a>
+                    <a href="https://www.peo.on.ca/" target="_blank" rel="noreferrer nofollow noopener"><img src={peo} alt="PEO" loading="lazy"/></a>
+                    <a href="https://www.apegnb.com/" target="_blank" rel="noreferrer nofollow noopener"><img src={eng} alt="APEGNB" loading="lazy"/></a>
                 </div>
             </div>
         </section>

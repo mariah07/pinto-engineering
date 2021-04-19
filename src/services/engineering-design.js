@@ -19,7 +19,7 @@ const EngineeringDesign = () => {
             </div>
             <p>
             </p>
-            <img src={building} alt=""/>
+            <img src={building} alt="" loading="eager"/>
             <div className="banner">
                 <div className="border"></div>
                 <h2>Structural - Buildings</h2>

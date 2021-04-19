@@ -1,5 +1,6 @@
 {
-  "name": "website2",
+  "name": "pinto",
+  "homepage": "https://consultpinto.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
