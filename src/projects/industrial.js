@@ -17,11 +17,11 @@ const Industrial = () => {
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/industrial-aviation/texas-duct"><img src={texas} alt="Texas Duct - PINTO Engineering"/>
+                    <a href="/projects/industrial-aviation/texas-duct"><img loading="eager" src={texas} alt="Texas Duct - PINTO Engineering"/>
                     <h3>Texas Duct, Texas, United States</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/industrial-aviation/thomas-hill"><img src={thomas} alt="Thomas Hill Environmental Retro Fit - PINTO Engineering"/>
+                    <a href="/projects/industrial-aviation/thomas-hill"><img loading="eager" src={thomas} alt="Thomas Hill Environmental Retro Fit - PINTO Engineering"/>
                     <h3>Thomas Hill Environmental Retro Fit, Burns & McDonnell, Kansas City, Missouri, USA</h3></a>
                 </div>
             </div>

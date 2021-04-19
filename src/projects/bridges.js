@@ -17,11 +17,11 @@ const Bridges = () => {
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/bridges/margaret-bridge"><img src={bridge} alt="Margaret Bridge - PINTO Engineering"/>
+                    <a href="/projects/bridges/margaret-bridge"><img loading="eager" src={bridge} alt="Margaret Bridge - PINTO Engineering"/>
                     <h3>Princess Margaret Bridge, Fredericton, NB</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/bridges/railway-bridge"><img src={bridge2} alt="Railway Bridge - PINTO Engineering"/>
+                    <a href="/projects/bridges/railway-bridge"><img loading="eager" src={bridge2} alt="Railway Bridge - PINTO Engineering"/>
                     <h3>Little Bras D’or Railway Bridge Replacement, Highway 105, Cape Breton County, NS</h3></a>
                 </div>
             </div>

@@ -26,7 +26,7 @@ const Services = () => {
             </div>
             <div className="services-section">
                 <div className="service right" data-aos="fade-right">
-                    <img src={building} alt=""/>
+                    <img loading="lazy" src={building} alt=""/>
                     <div className="text">
                         <h2>Engineering Design</h2>
                         <p>We offer structural consulting services,
@@ -41,10 +41,10 @@ const Services = () => {
                         <p>We offer construction review, shop drawing review, constructions administration, and project coordination</p>
                         <a href="/services/project-management">Learn More</a>
                     </div>
-                    <img src={architect} alt=""/>
+                    <img loading="lazy" src={architect} alt=""/>
                 </div>
                 <div className="service right" data-aos="fade-right">
-                    <img src={engineer} alt=""/>
+                    <img loading="lazy" src={engineer} alt=""/>
                     <div className="text">
                         <h2>Investigation & Reports</h2>
                         <p>We offer mediation and arbitration, feasibility studies, and condition assessment</p>
