@@ -47,7 +47,7 @@
     padding: 20px;
     margin-bottom: 50px;
     border: 1px solid lightgray;
-    box-shadow: 0 5px 5px rgb(49, 6, 49);
+    box-shadow: 0 5px 5px rgb(0, 0, 0);
 }
 
 #about .award-section {
@@ -57,9 +57,8 @@
 #about .award-section h2{
     margin-top:0;
     font-size: 4em;
-    color:white;
-    font-weight: 500;
-    text-shadow: 0 0 2px black;
+    color:rgb(119, 119, 119);
+    font-weight: 300;
     text-align: center;
 }
 

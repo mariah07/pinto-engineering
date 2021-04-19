@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <section id="NotFound">
             <div className="overlay"></div>
-            <div className="image"><img src={error} alt="Page is not Found"/></div>
+            <div loading="eager" className="image"><img src={error} alt="Page is not Found"/></div>
         </section>
     )
 }

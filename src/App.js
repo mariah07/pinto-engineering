@@ -69,7 +69,22 @@ import Dock from './single-project/wharves/dock';
 import Woodside from './single-project/wharves/woodside';
 import NotFound from "./pages/NotFound";
 
+import im1 from "./pages/building2.jpeg";
+import im2 from "./img/building.jpg";
+import im3 from "./img/engineer.jpg";
+import im4 from "./img/architect.jpg";
+import im5 from "./about/building.jpeg";
+import im6 from "./services/services.jpg";
+
 class App extends React.Component  {
+  componentDidMount() {
+    const imagesPreload = [im1, im2, im3, im4, im5];
+    imagesPreload.forEach((image) => {
+        const newImage = new Image();
+        newImage.src = image;
+        window[image] = newImage;
+    });
+  }
   render(){
     return (
       <Router>
