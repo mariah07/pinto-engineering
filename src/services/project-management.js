@@ -16,6 +16,7 @@ const ProjectManagement = () => {
             <div className="overlay"></div>
             <div className="title">
                 <h1>Project Management</h1>
+                <div className="triangle"></div>
             </div>
             <p>
             </p>

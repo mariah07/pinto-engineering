@@ -114,12 +114,13 @@ import im42 from "./img/waterton.jpg";
 import im43 from "./img/armoury.jpg";
 import im44 from "./img/woodside.jpg";
 import im45 from './contact/contact-photo.jpeg';
+import im46 from "./img/grand.jpg";
 
 class App extends React.Component  {
   componentDidMount() {
     const imagesPreload = [im1, im2, im3, im4, im5, im6, im7, im8, im9, im10, im11, im12, im13, im14, im15,
     im16, im17, im18, im19, im20, im21, im22, im23, im24, im25, im26, im27, im28, im29, im30, im31, im32, im33,
-    im34, im35, im36, im37, im38, im39, im40, im41, im42, im43, im44, im45];
+    im34, im35, im36, im37, im38, im39, im40, im41, im42, im43, im44, im45, im46];
     imagesPreload.forEach((image) => {
         const newImage = new Image();
         newImage.src = image;

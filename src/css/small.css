@@ -65,6 +65,10 @@
     }
 
     /* Home Page */
+
+    .hero .hero-text {
+        width: 70% !important;
+    }
     
     .hero h1{
         font-size: 2em !important;
@@ -329,6 +333,10 @@
 
     #design {
         padding: 70px 10px !important;
+    }
+
+    #design .triangle {
+        display: none;
     }
 
     #design .title {

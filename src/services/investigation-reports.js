@@ -16,6 +16,7 @@ const Investigation = () => {
             <div className="overlay"></div>
             <div className="title">
                 <h1>Investigation & Reports</h1>
+                <div className="triangle"></div>
             </div>
             <p>
             </p>
