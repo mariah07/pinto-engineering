@@ -1,6 +1,7 @@
 import './css/App.css';
 import './css/Navbar.css';
 import './css/small.css';
+import './css/medium.css';
 import './css/Footer.css';
 import Home from './pages/Home.js';
 import EngineeringDesign from './services/engineering-design.js'

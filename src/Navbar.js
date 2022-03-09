@@ -42,8 +42,7 @@ const Navbar = () => {
 
       useEffect(() => {
         return history.listen((location) => { 
-          if(location.pathname !== "/" && location.pathname !== "/services" && location.pathname !== "/about" 
-            && location.pathname !== "/contact"){
+          if(location.pathname !== "/" && location.pathname !== "/contact"){
             window.removeEventListener("scroll", Scroll, true);
             setScroll(true);
             setMobile(false);
@@ -59,8 +58,7 @@ const Navbar = () => {
 
 
       useEffect(() => {
-        if(window.location.pathname === "/" || window.location.pathname === "/services" || window.location.pathname === "/about"
-          || window.location.pathname === "/contact" ) {
+        if(window.location.pathname === "/" || window.location.pathname === "/contact" ) {
             window.addEventListener("scroll", Scroll, true);
             setScroll(false);
           }
@@ -75,8 +73,9 @@ const Navbar = () => {
             <div className="logo"><a href="/"><img src={logo} alt=""/></a></div>
             <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : "", opacity: mobile ? "1" : ""}}>
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
-                <li><NavLink to="/services" className="menu">Services</NavLink>
+                <li><a className="menu">Services <i class="fas fa-angle-down"></i></a>
                     <div className="dropdown-menu">
+                        <div className='menu-space'></div>
                         <NavLink to="/services/engineering-design" className="dropdown" activeClassName="active">Engineering Design</NavLink>
                         <NavLink to="/services/project-management" className="dropdown" activeClassName="active">Project Management</NavLink>
                         <NavLink to="/services/investigation-reports" className="dropdown" activeClassName="active">Investigation & Reports</NavLink>

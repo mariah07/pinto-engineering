@@ -9,8 +9,8 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: flex-end;
     color: rgb(245, 245, 245);
     font-size: 1.5em;
     text-align: center;
@@ -18,16 +18,30 @@
     padding-bottom: 150px;
     min-height: 100vh;
   }
+
+  .hero::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid rgb(73, 17, 73);
+    border-right: 10px solid purple;
+    border-top: 40px solid rgb(73, 17, 73);
+    border-bottom: 40px solid purple;
+    right: 52.5%;
+    bottom: -10px;
+    z-index: 2;
+  }
   
   .hero .hero-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 100px; 
-    padding: 0 !important;
+    margin-right: 20%;
+    padding: 0 20px;
     background-color: rgba(240, 240, 240, 0.95);
-    width: 60%;
+    width: 30%;
+    border-radius: 5%;
   }
   
   .hero h1{
@@ -55,58 +69,13 @@
     font-size: 2em;
   }
   
-  .between {
+  .scroll-bottom {
     display: flex;
-    background-color: white;
-    color:black;
-    min-height: 100vh;
-    border-top: 10px double lightgray;
-    border-bottom: 10px ridge lightgray;
-  }
-
-  .between .image {
-    width: 53%;
-  }
-
-  .between .image img {
-    object-fit: cover;
-    width: 100%;
-    border-radius: 0;
-    height: 100%;
-    border: 10px inset rgb(248, 248, 248);
-  }
-
-  .between .text {
-    width: 49%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .between a{
-    background-color: rgb(238, 236, 236);
-    border: 5px;
-    color: black;
-    padding: 10px 30px;
-  }
-  
-  .between p {
-    width: 75%;
-    font-size: 1.1em;
-    font-weight:lighter;
-    padding: 50px 30px;
-    border-left: 2px ridge rgb(104, 104, 104);
-    border-top: 1px ridge rgb(104, 104, 104);
-    border-right: 2px ridge rgb(104, 104, 104);
-    border-bottom: 10px ridge rgb(104, 104, 104);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644);
   }
   
   .scrolltop {
     padding: 20px;
     background-color:white;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.404);
     color:black;
     top: 50px;
     position:sticky;
@@ -116,96 +85,84 @@
     flex-direction: column;
     z-index: 1;
     text-align: center;
-    height: 30vh;
+    height: 20vh;
   }
   
-  .animation {
-    background-color: lightslategrey;
-  }
-
   .scrolltop h2 {
-    font-weight: 400;
+    font-weight: 350;
     color: black;
-    font-size: 2.5em;
-  }
-  
-  .scrolltop a {
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    border-radius: 25px;
-    padding: 10px 60px;
-    border: 1px solid black;
-    background-color: white;
-    color:black;
-    border: none;
-    font-size: 1.3em;
-    transition: all 0.3s ease-in-out;
-    border: 4px outset rgb(196, 196, 196);
-  }
-  
-  .scrolltop a:hover {
-    background-color:darkgray;
-    color:white;
+    font-size: 2.6em;
   }
 
   .animation {
     background-color: white;
+    width: 50%;
   }
   
-  .panel {
+  .animation .panel {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 70vh;
     overflow: hidden;
+    position: sticky;
+    top: calc(25vh);
   }
   
   .panel h3 {
     color:rgb(51, 51, 51);
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 3em;
+    margin-top: -10px;
   }
-  
-  .panel .image {
-    display:flex;
-    justify-content: center;
-    width: 50%;
-  }
-  
-  .panel img {
-    width: 90%;
-    border-radius: 10px;
-    border: 2px solid white;
-    box-shadow: 6px 10px 15px rgba(0, 0, 0, 0.575);
-  }
-  
+
   .panel .text {
     background-color: white;
     border-radius: 2px;
-    padding: 20px;
+    padding: 10px;
     height: fit-content;
     font-weight:400;
-    width: 40%;
+    width: 60%;
     z-index: 1;
+    font-size: 1.2em;
   }
   
   #panel1 {
     background-color: white;
-    position: sticky;
-    top: calc(35vh);
+    height: 80vh;
   }
   
   #panel2 {
-    background-color:white;
-    border-top: 1px solid black;
-    position: sticky;
-    top: calc(35vh);
+    background-image: url('../img/church.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color: rgb(144, 177, 118);
+    height: 160vh;
   }
   
   #panel3 {
     background-color:white;
-    border-top: 1px solid black;
-    position: sticky;
-    top: calc(35vh);
+    height: 80vh;
+  }
+
+  #panel4 {
+    background-image: url('../img/ISL_Building_Pic.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-color: aquamarine;
+    height: 160vh;
+  }
+
+  #panel5 {
+    background-color: white;
+    height: 80vh;
+  }
+
+  #panel6 {
+    background-image: url('../img/armourysquare-bighero_960_411_c1.jpg');
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-color: burlywood;
+    height: 80vh;
   }
   
   .bottom {
@@ -266,4 +223,32 @@
     border-bottom: 20px solid transparent;
     right: 50px;
     bottom: -25px;
+  }
+
+  .end-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .end-page .questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .end-page .questions a {
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(64, 20, 105);
+    color: white;
+    text-transform: uppercase;
+    padding:20px 20px;
+    transition: all 0.3s ease;
+  }
+
+  .end-page .questions a:hover {
+    background-color: lightgray;
+    cursor: pointer;
   }

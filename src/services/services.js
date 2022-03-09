@@ -22,10 +22,10 @@ const Services = () => {
             </Helmet>
             <div className="overlay"></div>
             <div className="services-header">
-                <h1 data-aos="fade-up">Services</h1>
+                <h1>Services</h1>
             </div>
             <div className="services-section">
-                <div className="service right" data-aos="fade-right">
+                <div className="service right">
                     <img loading="lazy" src={building} alt=""/>
                     <div className="text">
                         <h2>Engineering Design</h2>
@@ -35,15 +35,15 @@ const Services = () => {
                         <a href="/services/engineering-design">Learn More</a>
                     </div>
                 </div>
-                <div className="service left" data-aos="fade-left">
+                <div className="service right">
+                    <img loading="lazy" src={architect} alt=""/>
                     <div className="text">
                         <h2>Project Management</h2>
                         <p>We offer construction review, shop drawing review, constructions administration, and project coordination</p>
                         <a href="/services/project-management">Learn More</a>
                     </div>
-                    <img loading="lazy" src={architect} alt=""/>
                 </div>
-                <div className="service right" data-aos="fade-right">
+                <div className="service right">
                     <img loading="lazy" src={engineer} alt=""/>
                     <div className="text">
                         <h2>Investigation & Reports</h2>
