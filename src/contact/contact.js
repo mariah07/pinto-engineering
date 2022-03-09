@@ -1,12 +1,27 @@
 import React, {useEffect} from "react";
 import './contact.css';
-import contact from './contact-photo.jpeg';
+import emailjs from "emailjs-com";
 import { Helmet } from "react-helmet";
 
 const Contact = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    function sendEmail(e) {
+        e.preventDefault();
+        
+        emailjs.sendForm('service_2r6gz18', 'template_nft3mm8', e.target, '6U4Jbh9QhSeAxhgaT')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+
+        alert("Message Sent");
+
+        e.target.reset();
+    }
 
     return (
         <section id="contact">
@@ -16,16 +31,40 @@ const Contact = () => {
             </Helmet>
             <div className="overlay"></div>
             <div className="contact-header">
-                <h1>Contact PINTO</h1>
+                <h1>The team at PINTO</h1>
+                <h4>looks forward to working with you on your next project</h4>
             </div>
             <div className="contact-main">
+                <div className="contact-form">
+                    <form onSubmit={sendEmail}>
+                        <div className="row-one">
+                            <div className="form-row name">
+                                <label>Your Name</label>
+                                <input type="text" className="input-one" name="name" required/>
+                            </div>
+                            <div className="form-row email">
+                                <label>Your Email</label>
+                                <input type="email" className="input-one" name="email" required/>
+                            </div>
+                        </div>
+                        <div className="form-row">
+                            <label >Subject</label>
+                            <input type="text" className="input-two" name="subject" required/>
+                        </div>
+                        <div className="form-row">
+                            <label>Your Message</label>
+                            <textarea name="message" required></textarea>
+                        </div>
+                        <div className="form-row">
+                            <button type="submit">Contact</button>
+                        </div>
+                    </form>
+                </div>
                 <div className="company-info">
                     <div className="text">
-                    <h2>The team at PINTO looks forward to working with you on your next project.</h2>
                     <p>Please contact us using any of the methods below. For additional information, please visit and 
                         follow our company <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" rel="nofollow">LinkedIn page.</a></p>
                     </div>
-                    <img src={contact} alt="" loading="eager"/>
                 </div>
                 <div className="company-contact">
                     <div className="company-box" id="halifax">

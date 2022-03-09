@@ -28,7 +28,7 @@ const About = () => {
             </Helmet>
             <div className="overlay"></div>
             <div className="about-header">
-                <h1 data-aos="fade-in">About PINTO Engineering</h1>
+                <h1 data-aos="fade-in">PINTO Engineering Limited</h1>
                 <p></p>
             </div>
             <div className="main-content">
@@ -76,7 +76,7 @@ const About = () => {
                         <h3>2010 Nova Scotia Lieutenant Governor General’s Award for Engineering</h3>
                         <p>This 20 storey, reinforced concrete multi-use structure located in the heart of downtown Halifax had its share of engineering challenges. Our structural designers created a three-dimensional model of the structure using finite element analysis software that included dynamic analysis.  Structures with eccentric offsets like the Trillium are considered 'irregular structures' and only a dynamic approach can lead to realistic estimates of the torque distributions resulting from earthquake loads. The Trillium won the 2010 Nova Scotia Lieutenant Governor General's Award for Engineering.
                         <br /> <br/>
-                        Project: <a href="/projects/mixed-use-development/the-trillium">The Trillium</a></p>
+                        Project: <a href="/projects/mixed-use-development/the-trillium" target="_blank">The Trillium</a></p>
                     </div>
                 </div>
                 <div className="award">
@@ -86,7 +86,7 @@ const About = () => {
                         <p>
                         In 2004, a major renovation was completed for the Bedford Baptist Church in Bedford, NS, and B.D. Stevens Ltd., along with PINTO, was awarded the 2004 Tilt-up Achievement Award from the Tilt-up Concrete Association (TCA) as an outstanding example of tilt-up concrete construction.  The irregular panel shapes presented a unique challenge in reinforcing the panels as well as lifting the panels into place.
                         <br /> <br/>
-                        Project: <a href="/projects/institutional/bedford-church">Bedford Baptist Church</a> · About the Award: <a href="https://tilt-up.org/awards/" target="_blank" rel="noreferrer nofollow noopener">For more information</a>
+                        Project: <a href="/projects/institutional/bedford-church" target="_blank">Bedford Baptist Church</a> · About the Award: <a href="https://tilt-up.org/awards/" target="_blank" rel="noreferrer nofollow noopener">For more information</a>
                         </p>
                     </div>
                 </div>

@@ -46,25 +46,32 @@
     .nav-bar li a {
         color: black !important;
         text-shadow: none !important;
+        margin-left: 10%;
     }
 
     .nav-bar li a:hover {
         border: none !important;
     }
 
-    .nav-bar .dropdown-menu:hover {
-        display:none !important;
+    .nav-bar .dropdown-menu{
+        display: block;
+        position: relative;
+        margin-left: 10%;
     }
 
-    .nav-bar .menu:hover + .dropdown-menu{
-        display: none !important;
-      }
+    .nav-bar .dropdown-menu a {
+        border: none;
+    }
 
     #footer{
         padding: 10px !important;
     }
 
     /* Home Page */
+
+    .hero .hero-text {
+        width: 70% !important;
+    }
     
     .hero h1{
         font-size: 2em !important;
@@ -100,6 +107,14 @@
         text-align: center;
     }
 
+    .scroll-bottom {
+        flex-direction: column;
+    }
+
+    .animation {
+        width: 100% !important;
+    }
+
     .scrolltop h2 {
         font-size: 2em !important;
     }
@@ -110,8 +125,20 @@
         text-align: center;
     }
 
-    #panel2 {
-        flex-direction:column-reverse;
+    #panel1 {
+        display: none;
+    }
+
+    #panel3 {
+        display: none;
+    }
+
+    #panel5 {
+        display: none;
+    }
+
+    .animation #panel2 {
+        height: 80vh;
     }
 
     .panel p {
@@ -233,15 +260,42 @@
         height: 300px !important;
     }
 
+    #single-project .text {
+        width: 100% !important;
+    }
+
     #single-project .text p {
+        width: 100% !important;
+    }
+
+    #single-project .alice-carousel {
+        float: none !important;
         width: 100% !important;
     }
 
     /* Contact */
 
     #contact .contact-header {
-        font-size: 1.5em !important;
+        font-size: 1.1em !important;
         padding: 50px 20px 10px 20px !important;
+        text-align: center;
+        height: fit-content !important;
+    }
+
+    #contact .contact-form form {
+        width: 90% !important;
+    }
+
+    #contact .contact-form form .row-one {
+        flex-direction: column;
+    }
+
+    #contact .contact-form form .row-one .name {
+        width: 100%;
+    }
+    
+    #contact .contact-form form .row-one .email {
+        width: 100%;
     }
 
     #contact .contact-main .company-info {
@@ -275,7 +329,9 @@
     /* About */
 
     #about .about-header h1 {
-        font-size: 2em !important;
+        font-size: 2.1em !important;
+        margin-left: 20% !important;
+        text-shadow: 5px 5px 5px white, 5px 5px 5px white, 5px 5px 5px white;
     }
 
     #about .main-content {
@@ -329,6 +385,10 @@
 
     #design {
         padding: 70px 10px !important;
+    }
+
+    #design .triangle {
+        display: none;
     }
 
     #design .title {

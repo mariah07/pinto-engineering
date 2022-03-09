@@ -6,11 +6,8 @@
     font-size: 4em;
     text-shadow: 0 0 10px rgb(131, 131, 131);
     color:white;
-    background-image: url("./services.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -80px;
-    height: 80vh;
+    background-color: rgb(30, 31, 29);
+    height: 300px;
 }
 
 #services .services-section {

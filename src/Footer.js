@@ -5,8 +5,8 @@ const Footer = () => {
         <section id="footer">
             <div className="footer">
                 <div className="footer-content desc">
-                    <h3>PINTO Engineering</h3>
-                    <p>PINTO Engineering Limited is an established structural engineering consulting practice having served national and international clients across government, public, and private sectors since 1987. Over the years we have built significant confidence in our clients who have come to expect that PINTO will outperform benchmarks and deliver value on every project. </p>
+                    <h2>PINTO</h2>
+                    <h4>Engineering LTD.</h4>
                 </div>
                 <div className="footer-content">
                     <h3>Explore</h3>
@@ -32,14 +32,14 @@ const Footer = () => {
                 <div className="footer-content">
                     <h3>Connect</h3>
                     <ul className="social">
-                        <li><a href="https://www.facebook.com/PintoEngineeringLtd" rel="nofollow"><i className="fab fa-facebook-square"></i></a></li>
-                        <li><a href="https://www.twitter.com/consultpinto" rel="nofollow"><i className="fab fa-twitter-square"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" rel="nofollow"><i className="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/PintoEngineeringLtd" target="_blank" rel="nofollow noreferrer"><i className="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.twitter.com/consultpinto" target="_blank" rel="nofollow noreferrer"><i className="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" target="_blank" rel="nofollow noreferrer"><i className="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div className="copy-right">
-                <p>© 1987 - 2021 Malcolm Pinto Engineering. All rights reserved.</p>
+                <p>© 1987 - 2022 Malcolm Pinto Engineering. All rights reserved.</p>
             </div>
         </section>
     )

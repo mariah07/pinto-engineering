@@ -1,8 +1,6 @@
 #about .about-header {
     display:flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     background-image: url("./building.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,9 +8,12 @@
 }
 
 #about .about-header h1 {
-    color: rgb(241, 241, 241);
-    text-shadow: 3px 3px black, 0 0 2px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-    font-size: 4em;
+    color: rgb(102, 90, 124);
+    text-shadow: 1px 1px black, 0 0 1px black, 0 0 1px black;
+    font-size: 5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    margin-left: 15%;
 }
 
 #about .main-content {
