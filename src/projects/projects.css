@@ -43,9 +43,7 @@
 }
 
 #project .button:hover {
-    border-block-end-color: purple;
-    border-right-color: purple;
-    color:purple;
+    box-shadow: 0 0 3px black;
 }
 
 #project .box h3 {

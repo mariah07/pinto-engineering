@@ -63,7 +63,7 @@ const Contact = () => {
                 <div className="company-info">
                     <div className="text">
                     <p>Please contact us using any of the methods below. For additional information, please visit and 
-                        follow our company <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" rel="nofollow">LinkedIn page.</a></p>
+                        follow our company <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" target="_blank" rel="nofollow noreferrer">LinkedIn page.</a></p>
                     </div>
                 </div>
                 <div className="company-contact">

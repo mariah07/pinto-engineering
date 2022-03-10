@@ -21,9 +21,7 @@
 }
 
 #single-project a:hover {
-    border-block-end-color: purple;
-    border-right-color: purple;
-    color:purple;
+    box-shadow: 0 0 3px black;
 }
 
 #single-project .text {
