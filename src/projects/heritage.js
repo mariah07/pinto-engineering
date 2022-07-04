@@ -16,7 +16,11 @@ const Heritage = () => {
             <Helmet>
                 <title>Heritage | Pinto Engineering</title>
                 <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+                <meta name="robots" content="index,follow"/>
             </Helmet>
+            <div className="button-area">
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
+            </div>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -41,9 +45,6 @@ const Heritage = () => {
                     <a href="/projects/heritage/uniacke-estate-museum"><img loading="eager" src={uniacke} alt="Uniacke Estate Museum - PINTO Engineering"/>
                     <h3>Uniacke Estate Museum, Mt. Uniacke, NS</h3></a>
                 </div>
-            </div>
-            <div className="button-area">
-                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )

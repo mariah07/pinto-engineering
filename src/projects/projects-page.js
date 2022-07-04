@@ -16,10 +16,11 @@ const Projects = () => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <section id="project">
+        <section id="project" className="project-page">
             <Helmet>
                 <title>Projects | Pinto Engineering</title>
                 <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+                <meta name="robots" content="index,follow"/>
             </Helmet>
             <div className="overlay"></div>
             <div className="row">

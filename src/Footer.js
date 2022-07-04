@@ -9,16 +9,6 @@ const Footer = () => {
                     <h4>Engineering LTD.</h4>
                 </div>
                 <div className="footer-content">
-                    <h3>Explore</h3>
-                    <ul className="explore">
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div className="footer-content">
-                    <h3>Contact</h3>
                     <ul className="address">
                         <li><i className="fas fa-map-marker-alt"></i>
                         <p> Suite 401 - 3480 Joseph Howe Drive <br />
@@ -30,7 +20,6 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer-content">
-                    <h3>Connect</h3>
                     <ul className="social">
                         <li><a href="https://www.facebook.com/PintoEngineeringLtd" target="_blank" rel="nofollow noreferrer"><i className="fab fa-facebook-square"></i></a></li>
                         <li><a href="https://www.twitter.com/consultpinto" target="_blank" rel="nofollow noreferrer"><i className="fab fa-twitter-square"></i></a></li>

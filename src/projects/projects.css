@@ -1,6 +1,10 @@
 #project {
-    padding: 80px 40px 20px 40px;
+    padding: 60px 40px 100px 40px;
     min-height: 100vh;
+}
+
+.project-page {
+    padding-top: 120px !important;
 }
 
 #project .box {
@@ -24,15 +28,15 @@
 }
 
 #project .box:hover img {
-    transform:scale(1.1);
-    filter: invert(20%)  saturate(10%);
+    transform:scale(1.02);
+    filter:contrast(150%) saturate(10%);
 }
 
 #project .button {
-    padding: 10px 25px;
+    padding: 2px 14px;
     border-radius: 50%;
     font-size: 2em;
-    border: 10px ridge white;
+    border: 5px ridge white;
     background-color: lightgray;
     color:white;
     transition: all 0.3s ease-in-out;
@@ -54,5 +58,7 @@
     color: white;
     text-shadow: 0 0 5px black;
     padding: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
     background-color: rgba(0, 0, 0, 0.418);
 }

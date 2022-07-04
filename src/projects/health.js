@@ -16,7 +16,11 @@ const Health = () => {
             <Helmet>
                 <title>Health | Pinto Engineering</title>
                 <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+                <meta name="robots" content="index,follow"/>
             </Helmet>
+            <div className="button-area">
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
+            </div>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -41,9 +45,6 @@ const Health = () => {
                     <a href="/projects/health/northwood-continuing-care"><img loading="eager" src={northwood} alt="Northwood Continuing Care - PINTO Engineering"/>
                     <h3>Northwood Continuing Care Centre - Ivany Place, Bedford, NS</h3></a>
                 </div>
-            </div>
-            <div className="button-area">
-                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )

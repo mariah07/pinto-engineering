@@ -17,7 +17,11 @@ const Mixed = () => {
             <Helmet>
                 <title>Mixed-Use Development | Pinto Engineering</title>
                 <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+                <meta name="robots" content="index,follow"/>
             </Helmet>
+            <div className="button-area">
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
+            </div>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -46,9 +50,6 @@ const Mixed = () => {
                     <a href="/projects/mixed-use-development/marriott-residence-inn"><img loading="eager" src={marriott} alt="Marriott Residence Inn - PINTO Engineering"/>
                     <h3>Marriott Residence Inn, Halifax, NS</h3></a>
                 </div>
-            </div>
-            <div className="button-area">
-                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )

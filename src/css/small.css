@@ -69,105 +69,47 @@
 
     /* Home Page */
 
-    .hero .hero-text {
-        width: 70% !important;
-    }
-    
-    .hero h1{
-        font-size: 2em !important;
-        margin-bottom: 20px !important;
-        padding: 10px !important;
-        background-color: transparent !important;
-        text-shadow: 0 0 200px white, 0 0 50px white, 0 0 10px white !important;
-    }
-
     .hero p {
         display: none;
     }
 
-    .between h2 {
-        font-size: 2em !important;
-    }
-
-    .between {
-        align-items: center;
-    }
-
-    .between .image {
+    .hero::before {
         display: none;
     }
 
-    .between .text {
+    .between .services-items {
+        flex-direction:column-reverse;
+    }
+
+    .between .services-items:nth-child(2) {
+        flex-direction:column;
+    }
+
+    .between .services-items .services-desc {
         width: 100% !important;
     }
 
-    .between p {
-        width: 100% !important;
+    .between .services-items .services-desc h2 {
+        font-size: 1.2em !important;
+    }
+
+    .between .services-items .services-desc h4 {
         font-size: 1em !important;
-        text-align: center;
     }
 
-    .scroll-bottom {
-        flex-direction: column;
+    .between .services-items img {
+        width: 100% !important;
+    }
+    .scroll-section {
+        display: none;
     }
 
-    .animation {
+    .video-section iframe {
         width: 100% !important;
     }
 
-    .scrolltop h2 {
-        font-size: 2em !important;
-    }
-
-    .panel {
-        flex-direction: column;
-        padding: 0;
-        text-align: center;
-    }
-
-    #panel1 {
-        display: none;
-    }
-
-    #panel3 {
-        display: none;
-    }
-
-    #panel5 {
-        display: none;
-    }
-
-    .animation #panel2 {
-        height: 80vh;
-    }
-
-    .panel p {
-        display: none;
-    }
-
-    .panel .text {
-        width: 80% !important;
-        padding: 0 !important;
-    }
-
-    .panel img {
-        width: 90% !important;
-    }
-
-    .panel .image {
-        width: 100% !important
-    }
-
-    .hero p {
-        width: 70% !important;
-      }
-
-      .between p {
-        width: 70% !important;;
-      }
-
-    .between p {
-        padding: 0 !important;
+    .hero h1 {
+        font-size: 1.7em !important;
     }
 
     .quote .bubble {
@@ -282,6 +224,10 @@
         height: fit-content !important;
     }
 
+    #contact .contact-form {
+        flex-direction: column;
+    }
+
     #contact .contact-form form {
         width: 90% !important;
     }
@@ -322,8 +268,9 @@
         border-left: none;
     }
 
-    #contact .company-contact #map {
-        width: 100% !important;
+    #contact #map {
+        padding-top: 20px;
+        width: 90% !important;
     }
 
     /* About */
@@ -335,7 +282,12 @@
     }
 
     #about .main-content {
-        padding: 20px !important;
+        padding: 10px !important;
+    }
+
+    #about .main-content .text {
+        font-size: 0.9em !important;
+
     }
 
     #about .award-section {
@@ -401,11 +353,16 @@
 
     #design img {
         width: 100% !important;
+        height: 45vh !important;
     }
 
     #design .banner {
         padding: 2px !important;
         padding-left: 15px !important;
+    }
+
+    #design .services-section {
+        flex-direction: column-reverse;
     }
 
     .banner p {

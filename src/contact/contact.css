@@ -2,37 +2,54 @@
     padding-bottom: 100px;
 }
 
+#contact *:not(i) {
+    font-family: 'IBM Plex Serif';
+}
+
 #contact .contact-header {
-    background-color:rgb(150, 144, 144); 
-    color: rgb(255, 255, 255);
-    text-shadow: 0 1px 2px black;
+    background-image: url('./construct.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
     height: fit-content;
+    display:flex;
+}
+
+#contact .contact-header .header-text {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: rgba(144, 138, 107, 0.411);
 }
 
 #contact .contact-header h1{
-    padding-top: 70px;
+    padding-top: 80px;
     margin:0;
-    font-size: 3em;
-    font-weight: 300;
+    font-size: 4em;
+    color: white;
+    font-weight: 400;
+    text-shadow: 0 1px 0 grey;
 }
 
 #contact .contact-header h4 {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 600;
     margin-top: 5px;
+    text-transform: capitalize;
+    text-shadow: 1px 0 0 grey;
+    font-style: italic;
+    padding-bottom: 10px;
 }
 
 .contact-main {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 #contact .contact-form {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
 }
 
@@ -48,7 +65,7 @@
     display: block;
     padding-bottom: 7px;
     font-size: medium;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #contact .contact-form .row-one {
@@ -100,7 +117,7 @@
     text-transform: uppercase;
     font-size: small;
     color:white;
-    background-color: rgb(61, 26, 94);
+    background-color: rgb(78, 60, 95);
     border-radius: 5px;
     transition: all 0.3s ease;
 }
@@ -151,18 +168,20 @@
 
 #contact .company-contact {
     display: flex;
-    padding-top: 30px;
+    justify-content: space-evenly;
+    padding-top: 100px;
     padding-bottom: 20px;
 }
 
 #contact .company-contact .company-box {
-    padding: 40px;
+    padding: 60px 10px;
     color: black;
     font-weight:500;
     display: flex;
+    border-radius: 5px;
     justify-content: space-evenly;
-    border: 12px solid rgba(66, 62, 62, 0.678);
-    border-style: outset;
+    border: 1px outset rgba(66, 62, 62, 0.678);
+    background-color: rgba(245, 245, 220, 0.258);
 }
 
 #contact .company-contact .company-box p {

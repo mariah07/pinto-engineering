@@ -18,7 +18,11 @@ const Commerical = () => {
             <Helmet>
                 <title>Commercial | Pinto Engineering</title>
                 <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+                <meta name="robots" content="index,follow"/>
             </Helmet>
+            <div className="button-area">
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
+            </div>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -53,9 +57,6 @@ const Commerical = () => {
                     <a href="/projects/commercial/comfort-inn"><img loading="eager" src={comfort} alt="Comfort Inn - PINTO Engineering"/>
                     <h3>Comfort Inn, Halifax, NS</h3></a>
                 </div>
-            </div>
-            <div className="button-area">
-                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )
