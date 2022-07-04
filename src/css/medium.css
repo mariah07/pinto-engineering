@@ -9,11 +9,25 @@
 
     /* Home Page */
 
-    .hero .hero-text {
-        width: 50% !important;
+    .hero h1 {
+        font-size: 2.5em !important;
     }
 
-    .panel .text p {
-        display: none !important;
+    .hero p {
+        right: 0.7% !important;
     }
+
+    .video-section iframe {
+        width: 90% !important;
+    }
+
+    .panel h3 {
+        font-size: 1.2em !important;
+    }
+
+    .panel .text {
+        font-size: 1em !important;
+        width: 100% !important;
+    }
+
 }

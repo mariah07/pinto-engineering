@@ -4,15 +4,14 @@
   }
   
   .hero {
-    background-image: url('./building2.jpeg');
+    background-image: url('https://imgur.com/vErTeU9.gif');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     color: rgb(245, 245, 245);
-    font-size: 1.5em;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 150px;
@@ -24,12 +23,11 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    border-left: 10px solid rgb(73, 17, 73);
-    border-right: 10px solid purple;
-    border-top: 40px solid rgb(73, 17, 73);
-    border-bottom: 40px solid purple;
-    right: 52.5%;
-    bottom: -10px;
+    border-left: 3px dotted rgb(255, 255, 255);
+    border-top: 60px dotted rgb(255, 255, 255);
+    border-bottom: 60px dotted white;
+    right: 3%;
+    bottom: 0;
     z-index: 2;
   }
   
@@ -37,36 +35,129 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20%;
-    padding: 0 20px;
-    background-color: rgba(240, 240, 240, 0.95);
-    width: 30%;
-    border-radius: 5%;
+    padding: 240px 0 20px 0;
+    width: 80%;
   }
   
   .hero h1{
     margin:0;
-    font-size: 2.5em;
-    font-weight: 350;
-    color: rgb(43, 43, 43);
-    padding: 30px 0 20px 0;
+    font-size: 3em;
+    word-spacing: 0.18em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    color: white;
+    line-height: 2.2em;
   }
   
   .hero p {
-    width: 75%;
-    font-size: 0.7em;
-    font-weight: 430;
-    color: black;
+    position: absolute;
+    right: 1.2%;
+    bottom: 12%;
+    font-size: 1.4em;
+    color: white;
     padding-bottom: 20px;
+  }
+
+  .hero p button {
+    background-color: transparent;
+    border: none;
+    color:white;
+    transform: rotate(90deg);
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .between {
+    position: relative;
+  }
+
+  .between .anchor {
+    position: absolute; 
+    top: -50px;
+    right: 0;
+  }
+
+  .between .services-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 40px;
+    background-color: rgb(230, 222, 212);
+    overflow: visible;
+  }
+
+  .between .services-items .services-desc {
+    z-index: 1;
+    width: 50%;
+  }
+
+  .between .services-items .services-desc h2 {
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 2em;
+    word-spacing: 0.1em;
+  }
+
+  .between .services-items .services-desc h4 {
+    font-weight: 100;
+    font-size: 1.2em;
+    margin-left:50px;
+    line-height: 1.6em;
+    color:rgb(71, 71, 71);
+  }
+
+  .between .services-items img {
+    z-index: 1;
+    width: 35%;
+    height: 300px;
+  }
+
+  .between .services-items:nth-child(1) {
+    padding-top: 100px;
+  }
+
+  .between .services-items:nth-child(3) {
+    padding-bottom: 100px;
+  }
+
+  .between .services-items:nth-child(1)::before {
+    background-color: #fff;
+    content: '';
+    height: 608px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width:80%;
+  }
+
+  .between .services-items:nth-child(2)::before {
+    background-color: #fff;
+    content: '';
+    height: 508px;
+    right: 0;
+    position: absolute;
+    top: 35%;
+    width: 57%;
+  }
+
+  .between .services-items:nth-child(3)::before {
+    background-color: #fff;
+    content: '';
+    height: 700px;
+    left: 0;
+    position: absolute;
+    top: 60%;
+    width: 60%;
   }
   
   .scrolltop h2 {
-    font-size: 3em;
-    margin-bottom: 30px;
-  }
-  
-  .scrolltop a {
+    font-weight: 400;
+    color: rgb(74, 74, 74);
     font-size: 2em;
+    font-family: 'IBM Plex Serif';
+    margin-bottom: 30px;
+    font-style: italic;
   }
   
   .scroll-bottom {
@@ -75,7 +166,7 @@
   
   .scrolltop {
     padding: 20px;
-    background-color:white;
+    background-color:whitesmoke;
     color:black;
     top: 50px;
     position:sticky;
@@ -86,12 +177,6 @@
     z-index: 1;
     text-align: center;
     height: 20vh;
-  }
-  
-  .scrolltop h2 {
-    font-weight: 350;
-    color: black;
-    font-size: 2.6em;
   }
 
   .animation {
@@ -105,25 +190,41 @@
     align-items: center;
     overflow: hidden;
     position: sticky;
-    top: calc(25vh);
+    top: calc(25.5vh);
+  }
+
+  .animation .panel-text {
+    border: 15px inset whitesmoke;
+  }
+
+  .animation .panel-image {
+    border: 50px outset whitesmoke;
   }
   
   .panel h3 {
-    color:rgb(51, 51, 51);
     font-weight: 600;
-    font-size: 3em;
+    color: rgb(74, 74, 74);
+    font-size: 2.1em;
+    font-style: italic;
+    line-height: 1.3em;
+    word-spacing: 0.1em;
+    letter-spacing: 0.1em;
     margin-top: -10px;
+    text-align: center;
   }
 
   .panel .text {
     background-color: white;
     border-radius: 2px;
-    padding: 10px;
+    padding: 15px 80px;
     height: fit-content;
     font-weight:400;
-    width: 60%;
+    width: 85%;
     z-index: 1;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+    color:rgb(71, 71, 71);
   }
   
   #panel1 {
@@ -169,6 +270,13 @@
     height: 100px;
     background-color: white;
     z-index:1;
+  }
+
+  .video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
   }
   
   .quote {
@@ -238,17 +346,26 @@
     padding-bottom: 50px;
   }
 
+  .end-page .questions h2 {
+    font-weight: 400;
+    font-size: 2em;
+  }
+
   .end-page .questions a {
     border: none;
-    border-radius: 25px;
-    background-color: rgb(64, 20, 105);
+    border-radius: 20px;
+    background-color: rgb(33, 30, 35);
     color: white;
     text-transform: uppercase;
-    padding:20px 20px;
+    padding:11px 15px;
+    border: none;
     transition: all 0.3s ease;
+    font-weight: 500;
+    text-align: center;
   }
 
   .end-page .questions a:hover {
     background-color: lightgray;
+    color: black;
     cursor: pointer;
   }

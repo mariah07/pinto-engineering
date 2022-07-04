@@ -30,11 +30,11 @@ const Wedgewood = () => {
                     <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
                     <img src={image4} className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
                 </AliceCarousel>
-            </div>
-            <div className="text">
+                <div className="text">
                 <p>
                 PINTO provided structural design and construction administration services for a six-level, 80 unit residential complex on Parkland Drive in Halifax.  The following elements were included in the design: reinforced concrete foundations, reinforced concrete columns & shearwalls, and 220,000 square feet of concrete floor & roof slabs including underground parking. The project was completed in 2003.
                 </p>
+            </div>
             </div>
         </section>
     );

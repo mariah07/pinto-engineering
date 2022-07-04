@@ -13,7 +13,11 @@ const Bridges = () => {
             <Helmet>
                 <title>Bridges | Pinto Engineering</title>
                 <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+                <meta name="robots" content="index,follow"/>
             </Helmet>
+            <div className="button-area">
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
+            </div>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -24,9 +28,6 @@ const Bridges = () => {
                     <a href="/projects/bridges/railway-bridge"><img loading="eager" src={bridge2} alt="Railway Bridge - PINTO Engineering"/>
                     <h3>Little Bras D’or Railway Bridge Replacement, Highway 105, Cape Breton County, NS</h3></a>
                 </div>
-            </div>
-            <div className="button-area">
-                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )

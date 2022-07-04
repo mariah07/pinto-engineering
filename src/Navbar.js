@@ -72,13 +72,14 @@ const Navbar = () => {
         <nav className={scroll ? "scrolling" : ""} ref={wrapperRef}>
             <div className="logo"><a href="/"><img src={logo} alt=""/></a></div>
             <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : "", opacity: mobile ? "1" : ""}}>
-                <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                 <li><a className="menu">Services <i class="fas fa-angle-down"></i></a>
                     <div className="dropdown-menu">
-                        <div className='menu-space'></div>
-                        <NavLink to="/services/engineering-design" className="dropdown" activeClassName="active">Engineering Design</NavLink>
-                        <NavLink to="/services/project-management" className="dropdown" activeClassName="active">Project Management</NavLink>
-                        <NavLink to="/services/investigation-reports" className="dropdown" activeClassName="active">Investigation & Reports</NavLink>
+                      <div className='menu-space'></div>
+                        <div className='menu-box'>
+                          <NavLink to="/services/engineering-design" className="dropdown" activeClassName="active">Engineering Design</NavLink>
+                          <NavLink to="/services/project-management" className="dropdown" activeClassName="active">Project Management</NavLink>
+                          <NavLink to="/services/investigation-reports" className="dropdown" activeClassName="active">Investigation & Reports</NavLink>
+                        </div>
                     </div>
                 </li>
                 <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>

@@ -11,15 +11,16 @@
 }
 
 .footer-content {
-    width: 22%;
+    width: 26%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer-content h2 {
+    margin-top: 0;
     color: black;
-    font-size: 4.5em;
+    font-size: 6em;
     text-transform: uppercase;
 }
 
@@ -30,7 +31,9 @@
 }
 
 .footer-content h4 {
-    margin-top: -70px;
+    margin-top: -90px;
+    font-size: 1.4em;
+    text-transform: uppercase;
 }
 
 .footer-content ul {
@@ -55,7 +58,7 @@
 }
 
 .footer-content .social i {
-    font-size: 2em;
+    font-size: 5em;
 }
 
 .footer-content .social {
@@ -81,7 +84,7 @@
 #footer .footer-content .address li {
     display: flex;
     margin-bottom: 5px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #footer .footer-content .address .phone {
@@ -92,7 +95,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-right: 20px;
 }
 

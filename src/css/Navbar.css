@@ -58,17 +58,21 @@ a {
   .nav-bar li a {
     color: white;
     font-weight:500;
-    font-size: 1.02em;
-    text-shadow: 0 0 1px black, 0 0 1px black,  0 0 1px black,  0 0 1px black, 0 0 5px black;
+    font-size: 1.05em;
+    letter-spacing: 0.1em;
     display: inline-block;
     width: 100%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Serif';
     text-transform: uppercase;
     transition: all 0.3 ease-in-out;
   }
 
+  .nav-bar li a i {
+    margin-left: 5px;
+  }
+
   .nav-bar li a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
     cursor: pointer;
   }
 
@@ -78,8 +82,7 @@ a {
 
   .logo img {
     height: 50px;
-    filter: contrast(200%)  drop-shadow(0 0 1px rgba(255, 255, 255, 0.747)) drop-shadow(0 0 0.3px rgba(255, 255, 255, 0.747));
-
+    filter: contrast(250%);
   }
 
   .nav-bar .menu:hover + .dropdown-menu {
@@ -96,8 +99,27 @@ a {
     padding: 0;
   }
 
+  .nav-bar .dropdown-menu::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 21px 25px 21px 0;
+    border-color: transparent grey;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 3%;
+    margin-left: 8px;
+  }
+
   .nav-bar .dropdown-menu .menu-space {
-    padding: 5px;
+    padding: 20px;
+  }
+
+  .nav-bar .dropdown-menu .menu-box {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
   }
 
   .nav-bar .dropdown-menu a {
@@ -107,10 +129,13 @@ a {
     font-size: 0.9em;
     text-shadow: none !important;
     background-color:white;
+    border: 3px solid grey;
+    margin-top: 10px;
   }
 
   .nav-bar .dropdown-menu a:hover {
-    background-color: rgb(212, 212, 212) !important;
+    background-color: rgb(112, 112, 112) !important;
+    color: white !important;
   }
 
   .nav-bar .dropdown-menu a:nth-of-type(odd) {

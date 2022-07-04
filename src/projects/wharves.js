@@ -13,7 +13,11 @@ const Wharves = () => {
             <Helmet>
                 <title>Wharves | Pinto Engineering</title>
                 <meta name="description" content="PINTO has contributed to nearly 2,500 projects since being established in 1987 including commercial, industrial, residential high-rises, bridges, and more."/>
+                <meta name="robots" content="index,follow"/>
             </Helmet>
+            <div className="button-area">
+                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
+            </div>
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
@@ -24,9 +28,6 @@ const Wharves = () => {
                     <a href="/projects/wharves/national-gypsum-dock"><img loading="eager" src={dock} alt="National Gypsum Dock - PINTO Engineering"/>
                     <h3>National Gypsum Dock, Dartmouth, NS</h3></a>
                 </div>
-            </div>
-            <div className="button-area">
-                <a className="button" href="/projects"><i class="fas fa-angle-left"></i></a>
             </div>
         </section>
     )
