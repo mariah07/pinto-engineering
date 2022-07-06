@@ -2,6 +2,7 @@ import React, {useEffect, useRef} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './Home.css';
+import video from "./big-boat.mp4";
 import building from "../img/building.jpg"
 import engineer from "../img/engineer.jpg"
 import architect from "../img/architect.jpg"
@@ -26,6 +27,10 @@ const Home = () => {
             </Helmet>
             <div className="overlay"></div>
             <div className="hero">
+
+            <video autoPlay muted loop playsInline src={video}>
+            </video>
+          
                 <div className="hero-text">
                     <h1>We provide 
                     State-of-the-art technology, 

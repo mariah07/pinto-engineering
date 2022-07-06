@@ -36,8 +36,6 @@ const Mixed = () => {
                     <a href="/projects/mixed-use-development/mary-ann"><img loading="eager" src={maryann} alt="Mary Ann Development - PINTO Engineering"/>
                     <h3>Mary Ann Development, Halifax, NS</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/mixed-use-development/duckworth-street-metropark"><img loading="eager" src={duckworth} alt="Duckworth Street Metropark - PINTO Engineering"/>
                     <h3>Duckworth Street Metropark, St John's, Newfoundland and Labrador</h3></a>

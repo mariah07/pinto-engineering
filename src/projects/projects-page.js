@@ -25,8 +25,8 @@ const Projects = () => {
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/bridges"><img loading="eager" src={bridge} alt="Bridges that Pinto Engineering has worked on"/>
-                    <h3>Bridges</h3></a>
+                    <a href="/projects/residential"><img loading="eager" src={residential} alt="Residential projects that Pinto Engineering has worked on"/>
+                    <h3>Residential</h3></a>
                 </div>
                 <div className="box">
                     <a href="/projects/commercial"><img loading="eager" src={commercial} alt="Commercial projects that Pinto Engineering has worked on"/>
@@ -36,8 +36,6 @@ const Projects = () => {
                     <a href="/projects/heritage"><img loading="eager" src={heritage} alt="Heritage projects that Pinto Engineering has worked on"/>
                     <h3>Heritage</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/industrial-aviation"><img loading="eager" src={industiral} alt="Industrial projects that Pinto Engineering has worked on"/>
                     <h3>Industrial & Aviation</h3></a>
@@ -50,15 +48,13 @@ const Projects = () => {
                     <a href="/projects/health"><img loading="eager" src={health} alt="Hospital & Wellness projects that Pinto Engineering has worked on"/>
                     <h3>Health</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/mixed-use-development"><img loading="eager" src={mixed} alt="Mixed Use Development projects that Pinto Engineering has worked on"/>
                     <h3>Mixed-Use Development</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/residential"><img loading="eager" src={residential} alt="Residential projects that Pinto Engineering has worked on"/>
-                    <h3>Residential</h3></a>
+                    <a href="/projects/bridges"><img loading="eager" src={bridge} alt="Bridges that Pinto Engineering has worked on"/>
+                    <h3>Bridges</h3></a>
                 </div>
                 <div className="box">
                     <a href="/projects/wharves"><img loading="eager" src={wharves} alt="Wharves projects that Pinto Engineering has worked on"/>

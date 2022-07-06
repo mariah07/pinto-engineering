@@ -13,7 +13,7 @@
 
 #about .about-header h1 {
     color: rgb(63, 58, 70);
-    text-shadow: 1px 1px black, 0 0 1px black, 0 0 1px black;
+    text-shadow: 0.5px 0.5px 0 black;
     font-size: 4.8em;
     width: 30%;
     margin-left: 14%;
@@ -30,7 +30,7 @@
     padding: 20px;
     width: 90%;
     font-size: 1.05em;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.07em;
     word-spacing: 0.2em;
     line-height: 1.4em;
     color: rgb(43, 43, 43);
@@ -67,7 +67,7 @@
     word-spacing: 0.05em;
     line-height: 1.5em;
     border: 1px solid lightgray;
-    box-shadow: 5px 3px 5px rgb(0, 0, 0);
+    box-shadow: 3px 7px 2px rgb(0, 0, 0);
 }
 
 #about .award-section {

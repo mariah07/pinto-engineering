@@ -34,8 +34,6 @@ const Institutional = () => {
                     <a href="/projects/institutional/inverness-memorial-hospital"><img loading="eager" src={inverness} alt="Inverness Consolidated Memorial Hospital - PINTO Engineering"/>
                     <h3>Inverness Consolidated Memorial Hospital, Inverness, NS</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/institutional/moncton-law-courts"><img loading="eager" src={mocton} alt="Moncton Law Courts - PINTO Engineering"/>
                     <h3>Moncton Law Courts, Moncton, NB</h3></a>

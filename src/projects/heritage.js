@@ -35,8 +35,6 @@ const Heritage = () => {
                     <a href="/projects/heritage/morris-street"><img loading="eager" src={morris} alt="Morris Street Renovation - PINTO Engineering"/>
                     <h3>5247 Morris Street Renovation, Halifax, NS</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/heritage/st-george-anglican-church"><img loading="eager" src={george} alt="St George Anglican Church - PINTO Engineering"/>
                     <h3>St. Georges Anglican Church Restoration, Halifax, NS</h3></a>

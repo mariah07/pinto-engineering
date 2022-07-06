@@ -47,6 +47,7 @@ a {
   nav .nav-bar li {
     padding: 0px 20px;
     margin-left: 20px;
+    margin-top: 10px;
   }
 
   nav #mobile-menu {
@@ -62,7 +63,7 @@ a {
     letter-spacing: 0.1em;
     display: inline-block;
     width: 100%;
-    font-family: 'IBM Plex Serif';
+    font-family: 'IBM';
     text-transform: uppercase;
     transition: all 0.3 ease-in-out;
   }
@@ -82,7 +83,7 @@ a {
 
   .logo img {
     height: 50px;
-    filter: contrast(250%);
+    filter: contrast(200%);
   }
 
   .nav-bar .menu:hover + .dropdown-menu {

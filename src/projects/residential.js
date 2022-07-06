@@ -36,8 +36,6 @@ const Residential = () => {
                     <a href="/projects/residential/la-villa"><img loading="eager" src={lavilla} alt="La Villa Residential Apartment - PINTO Engineering"/>
                     <h3>La Villa Residential Apartments, Halifax, NS</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/residential/convoy-quay-gardens"><img loading="eager" src={convoy} alt="Convoy Quay Gardens - PINTO Engineering"/>
                     <h3>Convoy Quay Gardens, Halifax, NS</h3></a>

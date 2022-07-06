@@ -3,11 +3,23 @@
     /* Navbar */
 
     .nav {
-        padding: 5px 50px !important;
+        padding: 5px 20px !important;
+    }
+
+    .nav-bar li a i {
+        margin-left: 0 !important;
+    }
+
+    nav .nav-bar li {
+        margin-left: 0 !important;
     }
 
 
     /* Home Page */
+
+    .hero .hero-text {
+        width: 80% !important;
+    }
 
     .hero h1 {
         font-size: 2.5em !important;
@@ -30,4 +42,45 @@
         width: 100% !important;
     }
 
+    /* Project */
+
+    #project .box {
+        width: 50% !important;
+        float: left;
+    }
+
+    #single-project .carousel {
+        width: 100% !important;
+    }
+
+    #single-project .text p {
+        border: 4px outset rgb(154, 154, 154) !important;
+        padding: 12px !important;
+    }
+
+    /* Individual Services */
+
+    #design {
+        padding: 70px 40px !important;
+    }
+
+    #design img {
+        height: 400px !important;
+    }
+
+    #design .triangle {
+        border-top: 12px solid rgba(68, 61, 79, 0.591) !important;
+        border-right: 600px solid transparent !important;
+    }
+
+    .banner p {
+        width: 90% !important;
+    }
+
+    /* About */
+
+    .about-header h1 {
+        font-size: 3.1em !important;
+        margin-left: 15% !important;
+    }
 }

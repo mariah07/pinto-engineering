@@ -35,8 +35,6 @@ const Health = () => {
                     <a href="/projects/health/foyer-longterm-care-facility"><img loading="eager" src={foyer} alt="Foyer Pere Fiset Long Term Care Facility - PINTO Engineering"/>
                     <h3>Foyer Pere Fiset Long Term Care Facility, Cheticamp, NS</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/health/windsor-elms-village"><img loading="eager" src={windsor} alt="Windsor Elms Village - PINTO Engineering"/>
                     <h3>Windsor Elms Village, Falmouth, NS</h3></a>

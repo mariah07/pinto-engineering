@@ -32,7 +32,7 @@
         padding: 60px 0 0 0;
         background-color: white;
         height: 150vh;
-        width: 50%;
+        width: 60%;
         transform: translateX(500px);
         transition: 0.3s ease-in-out;
         opacity: 0;
@@ -56,11 +56,11 @@
     .nav-bar .dropdown-menu{
         display: block;
         position: relative;
-        margin-left: 10%;
     }
 
     .nav-bar .dropdown-menu a {
         border: none;
+        margin-left: -20px !important;
     }
 
     #footer{
@@ -68,6 +68,10 @@
     }
 
     /* Home Page */
+
+    .hero .hero-text {
+        width: 90% !important;
+    }
 
     .hero p {
         display: none;
@@ -95,6 +99,7 @@
 
     .between .services-items .services-desc h4 {
         font-size: 1em !important;
+        margin-left:5px !important;
     }
 
     .between .services-items img {
@@ -104,12 +109,17 @@
         display: none;
     }
 
+    .video-section p {
+        text-align: center;
+        align-self: center;
+    }
+
     .video-section iframe {
         width: 100% !important;
     }
 
     .hero h1 {
-        font-size: 1.7em !important;
+        font-size: 1.4em !important;
     }
 
     .quote .bubble {
@@ -124,9 +134,11 @@
 
     #project {
         padding: 80px 10px 20px 10px !important;
+        align-items: center;
     }
 
     #project .row {
+        flex:none !important;
         flex-direction: column;
     }
 
@@ -134,10 +146,14 @@
         width: 90% !important;
     }
 
+    #project .box img {
+        height:fit-content !important;
+    }
+
     #project .box h3 {
         left: 20px !important;
-        bottom: 10px !important;
-        font-size: 1.1em !important;
+        bottom: 3px !important;
+        font-size: 0.9em !important;
     }
 
     /* Services */
@@ -191,7 +207,7 @@
     /* Single Project */
 
     #single-project {
-        padding: 80px 20px 80px 20px !important;
+        padding: 80px 5px 80px 5px !important;
     }
 
     #single-project .carousel  {
@@ -208,6 +224,9 @@
 
     #single-project .text p {
         width: 100% !important;
+        min-height: auto !important;
+        padding: 10px !important;
+        border: 4px outset rgb(154, 154, 154) !important;
     }
 
     #single-project .alice-carousel {
@@ -276,18 +295,24 @@
     /* About */
 
     #about .about-header h1 {
-        font-size: 2.1em !important;
+        font-size: 2.3em !important;
         margin-left: 20% !important;
-        text-shadow: 5px 5px 5px white, 5px 5px 5px white, 5px 5px 5px white;
+        text-shadow: 3px 2px 0 white !important;
     }
 
     #about .main-content {
-        padding: 10px !important;
+        padding: 1px !important;
     }
 
     #about .main-content .text {
         font-size: 0.9em !important;
+        width: 100% !important;
 
+    }
+
+    #about .adv-content .content .box{
+        padding: 5px !important;
+        font-size: 0.9em !important;
     }
 
     #about .award-section {
@@ -345,6 +370,7 @@
 
     #design .title {
         width: 95% !important;
+        padding-bottom: 20px !important;
     }
 
     #design h1 {
@@ -361,12 +387,17 @@
         padding-left: 15px !important;
     }
 
+    #design .banner h2 {
+        font-size: 1.4em !important;
+    }
+
     #design .services-section {
         flex-direction: column-reverse;
     }
 
     .banner p {
         width: 90% !important;
+        font-size: 1.1em !important;
     }
 
         /* Footer */

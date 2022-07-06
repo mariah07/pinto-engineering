@@ -37,8 +37,6 @@ const Commerical = () => {
                     <a href="/projects/commercial/market-square"><img loading="eager" src={market} alt="Market Square - PINTO Engineering"/>
                     <h3>Market Square, Saint John, NB</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/commercial/isl-digital-marketing"><img loading="eager" src={isl} alt="ISL Digital Marketing - PINTO Engineering"/>
                     <h3>ISL Digital Marketing, Halifax, NS</h3></a>
@@ -51,8 +49,6 @@ const Commerical = () => {
                     <a href="/projects/commercial/covington-station"><img loading="eager" src={coving} alt="Covington Station - PINTO Engineering"/>
                     <h3>Covington Station, Kentville, NS</h3></a>
                 </div>
-            </div>
-            <div className="row">
                 <div className="box">
                     <a href="/projects/commercial/comfort-inn"><img loading="eager" src={comfort} alt="Comfort Inn - PINTO Engineering"/>
                     <h3>Comfort Inn, Halifax, NS</h3></a>

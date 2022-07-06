@@ -9,7 +9,7 @@
     margin-bottom: 30px;
     border: 2px inset rgb(80, 48, 125);
     border-radius: 5px;
-    box-shadow: 2px 2px 3px rgb(70, 70, 70);
+    box-shadow: 2px 2px 5px rgb(70, 70, 70);
 }
 
 #design .title {
@@ -22,7 +22,6 @@
     font-weight: 400;
     color: rgb(70, 64, 71);
     border-bottom-right-radius: 25px;
-    text-shadow: 1px 1px 0 grey;
     font-style: italic;
     margin-left: 20px;
 }
@@ -32,7 +31,7 @@
     width: 60vw;
     height: 0;
     border-top: 18px solid rgba(68, 61, 79, 0.591);
-    border-right: 800px solid transparent;
+    border-right: 1000px solid transparent;
 }
 
 #design .banner {
@@ -60,9 +59,11 @@
     line-height: 1.34em;
     letter-spacing: 0.03em;
     word-spacing: 0.2em;
+    margin-left: 20px;
 }
 
 .banner h2 {
     font-size: 1.7em;
     text-transform: uppercase;
+    color:rgb(70, 64, 71);
 }
