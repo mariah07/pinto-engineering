@@ -2,8 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./wat-gallery/waterton.jpg";
-import image2 from "./wat-gallery/waterton2.jpg";
 
 const Waterton = () => {
     useEffect(() => {
@@ -23,8 +21,10 @@ const Waterton = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for The Waterton"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for The Waterton"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242617/consult_pinto/waterton2_uh8yod.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for The Waterton"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242616/consult_pinto/waterton_a74fiu.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for The Waterton"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

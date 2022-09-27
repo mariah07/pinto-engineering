@@ -42,20 +42,20 @@ const Contact = () => {
                     <form onSubmit={sendEmail}>
                         <div className="row-one">
                             <div className="form-row name">
-                                <label>Your Name</label>
+                                <label>Name <span>*</span></label>
                                 <input type="text" className="input-one" name="name" required/>
                             </div>
                             <div className="form-row email">
-                                <label>Your Email</label>
+                                <label>Email <span>*</span></label>
                                 <input type="email" className="input-one" name="email" required/>
                             </div>
                         </div>
                         <div className="form-row">
-                            <label >Subject</label>
+                            <label >Subject <span>*</span></label>
                             <input type="text" className="input-two" name="subject" required/>
                         </div>
                         <div className="form-row">
-                            <label>Your Message</label>
+                            <label>Message</label>
                             <textarea name="message" required></textarea>
                         </div>
                         <div className="form-row">

@@ -2,10 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./wo-gallery/woodside.jpg";
-import image2 from "./wo-gallery/woodside2.jpg";
-import image3 from "./wo-gallery/woodside3.jpg";
-import image4 from "./wo-gallery/woodside4.jpg";
 
 const Woodside = () => {
     useEffect(() => {
@@ -25,10 +21,14 @@ const Woodside = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
-                    <img src={image4} className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664244128/consult_pinto/woodside_xsyc1r.jpg" 
+                    className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664244128/consult_pinto/woodside2_hknxgo.jpg" 
+                    className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664244128/consult_pinto/woodside3_ssjsdr.jpg" 
+                    className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664244128/consult_pinto/woodside4_dsklvw.jpg" 
+                    className="sliderimage" alt="PINTO provided design and construction administration services for Woodside Ferry Terminal Pontoon"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

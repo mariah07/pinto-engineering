@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./tex-gallery/texas.jpg";
-import image2 from "./tex-gallery/texas2.jpg";
-import image3 from "./tex-gallery/texas3.jpg";
 
 const Texas = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Texas = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241393/consult_pinto/texas_ebd6dq.jpg" 
+                    className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241393/consult_pinto/texas3_dwjjrf.jpg" 
+                    className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241393/consult_pinto/texas2_itrduv.jpg" 
+                    className="sliderimage" alt="PINTO provided design services for Texas Duct"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

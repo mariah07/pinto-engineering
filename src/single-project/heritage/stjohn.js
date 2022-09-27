@@ -2,8 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./stj-gallery/SJChurch.jpg";
-import image2 from "./stj-gallery/stjohn2.jpg";
 
 const StJohn = () => {
     useEffect(() => {
@@ -23,8 +21,10 @@ const StJohn = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St John’s Anglican Church Restoration"/>
-                    <img src={image2} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St John’s Anglican Church Restoration"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240840/consult_pinto/SJChurch_fzx52h.jpg" 
+                    className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St John’s Anglican Church Restoration"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240840/consult_pinto/stjohn2_foudvh.jpg" 
+                    className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St John’s Anglican Church Restoration"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

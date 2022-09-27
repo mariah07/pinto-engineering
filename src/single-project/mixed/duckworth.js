@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./duck-gallery/duckworth.jpg";
-import image2 from "./duck-gallery/duckworth2.jpg";
-import image3 from "./duck-gallery/duckworth3.jpg";
 
 const Duckworth = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Duckworth = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241978/consult_pinto/duckworth_vwqrme.jpg"
+                    className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241978/consult_pinto/duckworth2_hotd10.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241978/consult_pinto/duckworth3_blhhu1.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design services for Duckworth Street Metropark"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>

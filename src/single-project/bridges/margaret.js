@@ -2,10 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./m-gallery/mbridge.jpg";
-import image2 from "./m-gallery/mbridge1.jpg";
-import image3 from "./m-gallery/mbridge2.jpg";
-import image4 from "./m-gallery/mbridge3.jpg";
 
 const Margaret = () => {
     useEffect(() => {
@@ -25,10 +21,14 @@ const Margaret = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
-                    <img src={image2} className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
-                    <img src={image3} className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
-                    <img src={image4} className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664215989/consult_pinto/mbridge_l1p6jt.jpg" 
+                    className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664215989/consult_pinto/mbridge2_xtspei.jpg" 
+                    className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664215988/consult_pinto/mbridge1_y7yags.jpg" 
+                    className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664215988/consult_pinto/mbridge3_audibn.jpg" 
+                    className="sliderimage" alt="PINTO was engaged by SNC-Lavalin to act as peer reviewer for the design engineers on the refurbishment of the Princess Margaret Bridge"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

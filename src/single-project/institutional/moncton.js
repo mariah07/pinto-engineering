@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./mon-gallery/mocton.jpg";
-import image2 from "./mon-gallery/mocton2.jpg";
-import image3 from "./mon-gallery/mocton3.jpg";
 
 const Moncton = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Moncton = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided construction administration services for Moncton Law Courts"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided construction administration services for Moncton Law Courts"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided construction administration services for Moncton Law Courts"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241558/consult_pinto/mocton_pyhdpi.jpg" 
+                    className="sliderimage" alt="PINTO provided construction administration services for Moncton Law Courts"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241558/consult_pinto/mocton3_ewp2op.jpg" 
+                    className="sliderimage" alt="PINTO provided construction administration services for Moncton Law Courts"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241558/consult_pinto/mocton2_aacsph.jpg" 
+                    className="sliderimage" alt="PINTO provided construction administration services for Moncton Law Courts"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>

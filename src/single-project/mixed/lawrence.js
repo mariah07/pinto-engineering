@@ -2,8 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./law-gallery/St._Lawrence.jpg";
-import image2 from "./law-gallery/St._Lawrence2.jpg";
 
 const Lawrence = () => {
     useEffect(() => {
@@ -23,8 +21,10 @@ const Lawrence = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Saint Lawrence Place"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Saint Lawrence Place"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241984/consult_pinto/St._Lawrence_bcxwfh.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Saint Lawrence Place"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241984/consult_pinto/St._Lawrence2_p19bic.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Saint Lawrence Place"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

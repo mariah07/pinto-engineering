@@ -2,7 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./gran-gallery/grand.jpg";
 
 const Grand = () => {
     useEffect(() => {
@@ -22,7 +21,8 @@ const Grand = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Grand Haven Heights"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242605/consult_pinto/grand_w0fw0t.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Grand Haven Heights"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./bri-gallery/brigadoon.jpg";
-import image2 from "./bri-gallery/brigadoon2.jpg";
-import image3 from "./bri-gallery/brigadoon3.jpg";
 
 const Brigadoon = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Brigadoon = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Brigadoon Village"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Brigadoon Village"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for Brigadoon Village"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241971/consult_pinto/brigadoon_yewraw.jpg"
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Brigadoon Village"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241970/consult_pinto/brigadoon2_kcreor.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Brigadoon Village"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241970/consult_pinto/brigadoon3_hl3hjp.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Brigadoon Village"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>

@@ -1,14 +1,5 @@
 import "./projects.css"
 import React, {useEffect} from "react";
-import bridge from "../img/bridge.jpg";
-import commercial from "../img/isl.jpg";
-import heritage from "../img/SJChurch2.jpg";
-import industiral from "../img/texas.jpg";
-import institutional from "../img/church.jpg";
-import health from "../img/northwood.jpg";
-import mixed from "../img/trillium.jpg";
-import residential from "../img/wedgewood.jpg";
-import wharves from "../img/dock.jpg";
 import { Helmet } from "react-helmet";
 
 const Projects = () => {
@@ -25,43 +16,47 @@ const Projects = () => {
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/bridges"><img loading="eager" src={bridge} alt="Bridges that Pinto Engineering has worked on"/>
-                    <h3>Bridges</h3></a>
-                </div>
-                <div className="box">
-                    <a href="/projects/commercial"><img loading="eager" src={commercial} alt="Commercial projects that Pinto Engineering has worked on"/>
-                    <h3>Commerical</h3></a>
-                </div>
-                <div className="box">
-                    <a href="/projects/heritage"><img loading="eager" src={heritage} alt="Heritage projects that Pinto Engineering has worked on"/>
-                    <h3>Heritage</h3></a>
-                </div>
-            </div>
-            <div className="row">
-                <div className="box">
-                    <a href="/projects/industrial-aviation"><img loading="eager" src={industiral} alt="Industrial projects that Pinto Engineering has worked on"/>
-                    <h3>Industrial & Aviation</h3></a>
-                </div>
-                <div className="box">
-                    <a href="/projects/institutional"><img loading="eager" src={institutional} alt="Institutional projects that Pinto Engineering has worked on"/>
-                    <h3>Institutional</h3></a>
-                </div>
-                <div className="box">
-                    <a href="/projects/health"><img loading="eager" src={health} alt="Hospital & Wellness projects that Pinto Engineering has worked on"/>
-                    <h3>Health</h3></a>
-                </div>
-            </div>
-            <div className="row">
-                <div className="box">
-                    <a href="/projects/mixed-use-development"><img loading="eager" src={mixed} alt="Mixed Use Development projects that Pinto Engineering has worked on"/>
-                    <h3>Mixed-Use Development</h3></a>
-                </div>
-                <div className="box">
-                    <a href="/projects/residential"><img loading="eager" src={residential} alt="Residential projects that Pinto Engineering has worked on"/>
+                    <a href="/projects/residential"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664242622/consult_pinto/wedgewood_ceesed.jpg" 
+                    alt="Residential projects that Pinto Engineering has worked on"/>
                     <h3>Residential</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/wharves"><img loading="eager" src={wharves} alt="Wharves projects that Pinto Engineering has worked on"/>
+                    <a href="/projects/commercial"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220609/consult_pinto/isl_tabq15.jpg" 
+                    alt="Commercial projects that Pinto Engineering has worked on"/>
+                    <h3>Commerical</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/heritage"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664240840/consult_pinto/SJChurch_fzx52h.jpg" 
+                    alt="Heritage projects that Pinto Engineering has worked on"/>
+                    <h3>Heritage</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/industrial-aviation"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664241393/consult_pinto/texas_ebd6dq.jpg" alt="Industrial projects that Pinto Engineering has worked on"/>
+                    <h3>Industrial & Aviation</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/institutional"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664241547/consult_pinto/church_eogdyo.jpg" 
+                    alt="Institutional projects that Pinto Engineering has worked on"/>
+                    <h3>Institutional</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/health"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664221816/consult_pinto/northwood_oge6kf.jpg" 
+                    alt="Hospital & Wellness projects that Pinto Engineering has worked on"/>
+                    <h3>Health</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/mixed-use-development"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664242002/consult_pinto/trillium_jking7.jpg" 
+                    alt="Mixed Use Development projects that Pinto Engineering has worked on"/>
+                    <h3>Mixed-Use Development</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/bridges"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664215989/consult_pinto/mbridge_l1p6jt.jpg"
+                    alt="Bridges that Pinto Engineering has worked on"/>
+                    <h3>Bridges</h3></a>
+                </div>
+                <div className="box">
+                    <a href="/projects/wharves"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664244121/consult_pinto/dock_tam7sh.jpg" 
+                    alt="Wharves projects that Pinto Engineering has worked on"/>
                     <h3>Wharves</h3></a>
                 </div>
             </div>

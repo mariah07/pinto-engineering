@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./mor-gallery/morris.jpg";
-import image2 from "./mor-gallery/morris2.jpg";
-import image3 from "./mor-gallery/morris3.jpg";
 
 const Morris = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Morris = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240808/consult_pinto/morris_gjpzoq.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240808/consult_pinto/morris3_v5lzvx.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240808/consult_pinto/morris2_wvrcgx.jpg"
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for 5247 Morris Street"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

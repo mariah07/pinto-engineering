@@ -2,8 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./trill-gallery/trillium.jpg";
-import image2 from "./trill-gallery/trillium2.jpg";
 
 const Trillium = () => {
     useEffect(() => {
@@ -23,8 +21,10 @@ const Trillium = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for The Trillium"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for The Trillium"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242002/consult_pinto/trillium_jking7.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for The Trillium"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242002/consult_pinto/trillium2_rm8f60.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for The Trillium"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

@@ -1,12 +1,10 @@
 .home-section {
-    width:100;
+    width:100%;
     background-color: white;
   }
   
   .hero {
-    background-image: url('https://imgur.com/vErTeU9.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,6 +14,22 @@
     padding-top: 10px;
     padding-bottom: 150px;
     min-height: 100vh;
+    width:inherit;
+  }
+
+  .hero video {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    overflow:hidden;
+  }
+
+  .hero video source{
+    width: 100%;
+    height: 100%;
   }
 
   .hero::before {
@@ -35,18 +49,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 240px 0 20px 0;
-    width: 80%;
+    padding: 200px 0 20px 0;
+    width: 70%;
+    z-index: 1;
   }
   
   .hero h1{
     margin:0;
-    font-size: 3em;
+    font-size: 3.2em;
     word-spacing: 0.18em;
-    letter-spacing: 0.15em;
-    font-weight: 500;
-    color: white;
-    line-height: 2.2em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: 'IBM Plex Serif';
+    line-height: 1.8em;
+    z-index: 2;
+    text-shadow: 1px 0 10px rgb(62, 62, 62), 0 0 50px black;
   }
   
   .hero p {
@@ -56,6 +74,7 @@
     font-size: 1.4em;
     color: white;
     padding-bottom: 20px;
+    z-index: 1;
   }
 
   .hero p button {
@@ -67,6 +86,7 @@
     font-size: 0.9em;
     font-weight: 500;
     font-style: italic;
+    text-shadow: 1px 0 10px rgb(62, 62, 62);
   }
 
   .between {
@@ -83,13 +103,17 @@
     display: flex;
     justify-content: space-evenly;
     padding: 50px 40px;
-    background-color: rgb(230, 222, 212);
+    background-color: rgba(196, 182, 164, 0.484);
     overflow: visible;
   }
 
   .between .services-items .services-desc {
     z-index: 1;
-    width: 50%;
+    width: 47%;
+  }
+
+  .between .services-items .services-desc:nth-child(2) {
+    min-height: 450px;
   }
 
   .between .services-items .services-desc h2 {
@@ -101,10 +125,15 @@
 
   .between .services-items .services-desc h4 {
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-left:50px;
     line-height: 1.6em;
     color:rgb(71, 71, 71);
+  }
+
+  .between .services-items .services-desc h4::first-letter {
+    margin-left: 10px;
+    font-size: 1.2em;
   }
 
   .between .services-items img {
@@ -124,7 +153,7 @@
   .between .services-items:nth-child(1)::before {
     background-color: #fff;
     content: '';
-    height: 608px;
+    height: 708px;
     left: 0;
     position: absolute;
     top: 0;
@@ -134,7 +163,7 @@
   .between .services-items:nth-child(2)::before {
     background-color: #fff;
     content: '';
-    height: 508px;
+    height: 608px;
     right: 0;
     position: absolute;
     top: 35%;
@@ -147,8 +176,8 @@
     height: 700px;
     left: 0;
     position: absolute;
-    top: 60%;
-    width: 60%;
+    top: 63%;
+    width: 65%;
   }
   
   .scrolltop h2 {
@@ -166,7 +195,7 @@
   
   .scrolltop {
     padding: 20px;
-    background-color:whitesmoke;
+    background-color:rgb(230, 229, 229);
     color:black;
     top: 50px;
     position:sticky;
@@ -194,11 +223,7 @@
   }
 
   .animation .panel-text {
-    border: 15px inset whitesmoke;
-  }
-
-  .animation .panel-image {
-    border: 50px outset whitesmoke;
+    border: 10px solid rgb(230, 229, 229);
   }
   
   .panel h3 {
@@ -221,10 +246,13 @@
     font-weight:400;
     width: 85%;
     z-index: 1;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.6em;
     letter-spacing: 0.05em;
     color:rgb(71, 71, 71);
+    border-bottom: 1px dashed black;
+    border-right: 2px dashed black;
+    padding-bottom: 40px;
   }
   
   #panel1 {
@@ -237,6 +265,8 @@
     background-repeat:no-repeat;
     background-size:contain;
     background-color: rgb(144, 177, 118);
+    border: 80px outset rgb(144, 177, 118);
+    border-top: 120px solid rgb(144, 177, 118);
     height: 160vh;
   }
   
@@ -245,11 +275,21 @@
     height: 80vh;
   }
 
+  #panel5 .text {
+    border: none;
+    border-top: 1px dashed black;
+    border-left: 2px dashed black;
+    padding-top:50px;
+    margin-top: -50px;
+  }
+
   #panel4 {
     background-image: url('../img/ISL_Building_Pic.jpg');
     background-repeat:no-repeat;
     background-size:contain;
     background-color: aquamarine;
+    border: 80px inset aquamarine;
+    border-top: 120px solid aquamarine;
     height: 160vh;
   }
 
@@ -263,6 +303,8 @@
     background-repeat:no-repeat;
     background-size: contain;
     background-color: burlywood;
+    border: 80px inset burlywood;
+    border-top: 120px solid burlywood;
     height: 80vh;
   }
   
@@ -277,6 +319,10 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 70px;
+  }
+
+  .video-section p {
+    padding-bottom: 8px;
   }
   
   .quote {

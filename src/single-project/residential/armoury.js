@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./arm-gallery/armoury.jpg";
-import image2 from "./arm-gallery/armoury2.jpg";
-import image3 from "./arm-gallery/armoury3.jpg";
 
 const Armoury = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Armoury = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Armoury Square"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Armoury Square"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for Armoury Square"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242595/consult_pinto/armoury_iv9npp.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Armoury Square"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242595/consult_pinto/armoury2_fe9zca.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Armoury Square"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242595/consult_pinto/armoury3_ufw4gr.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Armoury Square"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

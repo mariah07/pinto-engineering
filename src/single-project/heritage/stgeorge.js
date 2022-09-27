@@ -2,11 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./stg-gallery/st_george.jpg";
-import image2 from "./stg-gallery/george2.jpg";
-import image3 from "./stg-gallery/george3.jpg";
-import image4 from "./stg-gallery/george4.jpg";
-import image5 from "./stg-gallery/george5.jpg";
 
 const StGeorge = () => {
     useEffect(() => {
@@ -26,11 +21,14 @@ const StGeorge = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
-                    <img src={image2} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
-                    <img src={image3} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
-                    <img src={image4} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
-                    <img src={image5} className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240828/consult_pinto/st_george_zpv8jn.jpg" 
+                    className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240828/consult_pinto/george3_vil4ar.jpg" 
+                    className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240828/consult_pinto/george5_v4nqdp.jpg" 
+                    className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664240827/consult_pinto/george4_n0dg2v.jpg" 
+                    className="sliderimage" alt="PINTO was engaged to provide structural design and construction administration services for St. Georges Anglican Church Restoration"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

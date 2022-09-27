@@ -2,8 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./marr-gallery/marriott.jpg";
-import image2 from "./marr-gallery/marriott2.jpg";
 
 const Marriott = () => {
     useEffect(() => {
@@ -23,8 +21,10 @@ const Marriott = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Marriott Residence Inn"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Marriott Residence Inn"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241990/consult_pinto/marriott_xdmz0l.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Marriott Residence Inn"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241990/consult_pinto/marriott2_y3imcm.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Marriott Residence Inn"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>
