@@ -114,10 +114,10 @@ a {
     height: 0px;
     border-style: solid;
     border-width: 21px 25px 21px 0;
-    border-color: transparent grey;
+    border-color: transparent rgb(53, 53, 53);
     transform: rotate(90deg);
     position: absolute;
-    top: 3%;
+    top: 2.8%;
     margin-left: 8px;
   }
 
@@ -139,14 +139,14 @@ a {
     letter-spacing: 0.1em !important;
     text-shadow: none !important;
     background-color:white;
-    border: 3px solid grey;
+    border: 3px solid rgb(53, 53, 53);
     margin-top: 10px;
   }
 
   .nav-bar .dropdown-menu a:hover {
-    background-color: rgb(112, 112, 112) !important;
+    background-color: rgb(53, 53, 53) !important;
     color: white !important;
-    border: 3px solid grey !important;
+    border: 3px solid rgb(53, 53, 53) !important;
   }
 
   .nav-bar .dropdown-menu a:nth-of-type(odd) {
