@@ -63,6 +63,12 @@
         margin-left: -20px !important;
     }
 
+    .nav-bar .dropdown-menu a:hover {
+        background-color: transparent !important;
+        color: black !important;
+        border: none !important;
+    }
+
     #footer{
         padding: 10px !important;
     }
@@ -91,6 +97,8 @@
 
     .between .services-items .services-desc {
         width: 100% !important;
+        background-color: white;
+        padding: 5px 10px;
     }
 
     .between .services-items .services-desc h2 {
@@ -109,13 +117,28 @@
         display: none;
     }
 
+    .between .services-items:nth-child(1)::before {
+        background-color: transparent !important;
+    }
+
+    .between .services-items:nth-child(2)::before {
+        background-color: transparent !important;
+    }
+
+    .between .services-items:nth-child(3)::before {
+        background-color: transparent !important;
+    }
+
     .video-section p {
         text-align: center;
         align-self: center;
+        font-size: 0.9em;
+        padding: 0 40px;
     }
 
     .video-section iframe {
         width: 100% !important;
+        height: 300px !important;
     }
 
     .hero h1 {
@@ -226,11 +249,14 @@
         width: 100% !important;
         min-height: auto !important;
         padding: 10px !important;
-        border: 4px outset rgb(154, 154, 154) !important;
     }
 
     #single-project .alice-carousel {
         float: none !important;
+        width: 100% !important;
+    }
+
+    #single-project .sliderimage {
         width: 100% !important;
     }
 
@@ -370,7 +396,8 @@
 
     #design .title {
         width: 95% !important;
-        padding-bottom: 20px !important;
+        padding-bottom: 0 !important;
+        margin-bottom: -50px;
     }
 
     #design h1 {

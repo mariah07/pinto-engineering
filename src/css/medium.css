@@ -49,12 +49,23 @@
         float: left;
     }
 
+    #single-project .alice-carousel {
+        width: 60% !important;
+    }
+
+    #single-project .text {
+        width: 40% !important;
+    }
+
     #single-project .carousel {
         width: 100% !important;
     }
 
+    #single-project .sliderimage {
+        width: 100% !important;
+    }
+
     #single-project .text p {
-        border: 4px outset rgb(154, 154, 154) !important;
         padding: 12px !important;
     }
 
