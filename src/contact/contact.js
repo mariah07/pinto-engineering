@@ -11,7 +11,7 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
         
-        emailjs.sendForm('service_2r6gz18', 'template_nft3mm8', e.target, '6U4Jbh9QhSeAxhgaT')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_FORM_ID)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
