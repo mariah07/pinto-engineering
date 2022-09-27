@@ -1,7 +1,5 @@
 import "./projects.css"
 import React, {useEffect} from "react";
-import bridge from "../img/bridge.jpg";
-import bridge2 from "../img/bridge2.jpg";
 import {Helmet} from "react-helmet";
 
 const Bridges = () => {
@@ -21,11 +19,13 @@ const Bridges = () => {
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/bridges/margaret-bridge"><img loading="eager" src={bridge} alt="Margaret Bridge - PINTO Engineering"/>
+                    <a href="/projects/bridges/margaret-bridge"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664215989/consult_pinto/mbridge_l1p6jt.jpg"
+                    alt="Margaret Bridge - PINTO Engineering"/>
                     <h3>Princess Margaret Bridge, Fredericton, NB</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/bridges/railway-bridge"><img loading="eager" src={bridge2} alt="Railway Bridge - PINTO Engineering"/>
+                    <a href="/projects/bridges/railway-bridge"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664216015/consult_pinto/rbridge_tcovu7.jpg"
+                    alt="Railway Bridge - PINTO Engineering"/>
                     <h3>Little Bras D’or Railway Bridge Replacement, Highway 105, Cape Breton County, NS</h3></a>
                 </div>
             </div>

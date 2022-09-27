@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./market-gallery/market.jpg";
-import image2 from "./market-gallery/market2.jpg";
-import image3 from "./market-gallery/market3.jpg";
 
 const Market = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Market = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided services for Market Square"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided services for Market Square"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided services for Market Square"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664220722/consult_pinto/market_cac4z1.jpg" 
+                    className="sliderimage" alt="PINTO provided services for Market Square"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664220723/consult_pinto/market3_jxtxft.jpg" 
+                    className="sliderimage" alt="PINTO provided services for Market Square"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664220723/consult_pinto/market2_nor2x2.jpg" 
+                    className="sliderimage" alt="PINTO provided services for Market Square"/>
                 </AliceCarousel>
                 <div className="text">
                 </div>

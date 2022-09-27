@@ -64,7 +64,7 @@
     font-family: 'IBM Plex Serif';
     line-height: 1.8em;
     z-index: 2;
-    text-shadow: 1px 1px 0 rgb(62, 62, 62), 0 0 40px black;
+    text-shadow: 1px 0 10px rgb(62, 62, 62), 0 0 50px black;
   }
   
   .hero p {
@@ -86,6 +86,7 @@
     font-size: 0.9em;
     font-weight: 500;
     font-style: italic;
+    text-shadow: 1px 0 10px rgb(62, 62, 62);
   }
 
   .between {
@@ -108,7 +109,11 @@
 
   .between .services-items .services-desc {
     z-index: 1;
-    width: 50%;
+    width: 47%;
+  }
+
+  .between .services-items .services-desc:nth-child(2) {
+    min-height: 450px;
   }
 
   .between .services-items .services-desc h2 {
@@ -120,10 +125,15 @@
 
   .between .services-items .services-desc h4 {
     font-weight: 100;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-left:50px;
     line-height: 1.6em;
     color:rgb(71, 71, 71);
+  }
+
+  .between .services-items .services-desc h4::first-letter {
+    margin-left: 10px;
+    font-size: 1.2em;
   }
 
   .between .services-items img {
@@ -143,7 +153,7 @@
   .between .services-items:nth-child(1)::before {
     background-color: #fff;
     content: '';
-    height: 608px;
+    height: 708px;
     left: 0;
     position: absolute;
     top: 0;
@@ -153,7 +163,7 @@
   .between .services-items:nth-child(2)::before {
     background-color: #fff;
     content: '';
-    height: 508px;
+    height: 608px;
     right: 0;
     position: absolute;
     top: 35%;
@@ -166,8 +176,8 @@
     height: 700px;
     left: 0;
     position: absolute;
-    top: 60%;
-    width: 60%;
+    top: 63%;
+    width: 65%;
   }
   
   .scrolltop h2 {
@@ -213,11 +223,7 @@
   }
 
   .animation .panel-text {
-    border: 15px inset rgb(230, 229, 229);
-  }
-
-  .animation .panel-image {
-    border: 20px outset rgb(230, 229, 229);
+    border: 10px solid rgb(230, 229, 229);
   }
   
   .panel h3 {
@@ -240,10 +246,13 @@
     font-weight:400;
     width: 85%;
     z-index: 1;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.6em;
     letter-spacing: 0.05em;
     color:rgb(71, 71, 71);
+    border-bottom: 1px dashed black;
+    border-right: 2px dashed black;
+    padding-bottom: 40px;
   }
   
   #panel1 {
@@ -256,6 +265,8 @@
     background-repeat:no-repeat;
     background-size:contain;
     background-color: rgb(144, 177, 118);
+    border: 80px outset rgb(144, 177, 118);
+    border-top: 120px solid rgb(144, 177, 118);
     height: 160vh;
   }
   
@@ -264,11 +275,21 @@
     height: 80vh;
   }
 
+  #panel5 .text {
+    border: none;
+    border-top: 1px dashed black;
+    border-left: 2px dashed black;
+    padding-top:50px;
+    margin-top: -50px;
+  }
+
   #panel4 {
     background-image: url('../img/ISL_Building_Pic.jpg');
     background-repeat:no-repeat;
     background-size:contain;
     background-color: aquamarine;
+    border: 80px inset aquamarine;
+    border-top: 120px solid aquamarine;
     height: 160vh;
   }
 
@@ -282,6 +303,8 @@
     background-repeat:no-repeat;
     background-size: contain;
     background-color: burlywood;
+    border: 80px inset burlywood;
+    border-top: 120px solid burlywood;
     height: 80vh;
   }
   

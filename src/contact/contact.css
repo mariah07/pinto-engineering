@@ -25,7 +25,7 @@
 }
 
 #contact .contact-header h1{
-    padding-top: 80px;
+    padding-top: 90px;
     margin:0;
     font-size: 4em;
     color: white;
@@ -40,11 +40,11 @@
     text-transform: capitalize;
     text-shadow: 1px 0 0 grey;
     font-style: italic;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .contact-main {
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 #contact .contact-form {
@@ -117,7 +117,7 @@
     text-transform: uppercase;
     font-size: small;
     color:white;
-    background-color: rgb(78, 60, 95);
+    background-color: rgb(62, 55, 69);
     border-radius: 5px;
     transition: all 0.3s ease;
 }

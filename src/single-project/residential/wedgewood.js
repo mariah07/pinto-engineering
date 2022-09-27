@@ -2,10 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./wed-gallery/wedgewood.jpg";
-import image2 from "./wed-gallery/wedgewood2.jpg";
-import image3 from "./wed-gallery/wedgewood3.jpg";
-import image4 from "./wed-gallery/wedgewood4.jpg";
 
 const Wedgewood = () => {
     useEffect(() => {
@@ -25,10 +21,14 @@ const Wedgewood = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
-                    <img src={image4} className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242622/consult_pinto/wedgewood_ceesed.jpg"
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242622/consult_pinto/wedgewood2_jr1axy.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242623/consult_pinto/wedgewood3_nixk3p.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664242622/consult_pinto/wedgewood4_jiics9.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Wedgewood Condominium"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>

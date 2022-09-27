@@ -2,10 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./nor-gallery/northwood.jpg";
-import image2 from "./nor-gallery/northwood2.jpg";
-import image3 from "./nor-gallery/northwood3.jpg";
-import image4 from "./nor-gallery/northwood4.jpg";
 
 const Northwood = () => {
     useEffect(() => {
@@ -25,10 +21,14 @@ const Northwood = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
-                    <img src={image4} className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664221816/consult_pinto/northwood_oge6kf.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664221816/consult_pinto/northwood2_eea5by.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664221817/consult_pinto/northwood4_djcndr.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664221817/consult_pinto/northwood3_txuhj0.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Northwood Continuing Care Centre"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>

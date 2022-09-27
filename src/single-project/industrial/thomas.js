@@ -2,7 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./tom-gallery/Thomos_duct.jpg";
 
 const Thomas = () => {
     useEffect(() => {
@@ -22,7 +21,8 @@ const Thomas = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided design services for Thomas Hill Environmental Retro Fit"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664241401/consult_pinto/Thomos_duct_sfmv4j.jpg" 
+                    className="sliderimage" alt="PINTO provided design services for Thomas Hill Environmental Retro Fit"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>

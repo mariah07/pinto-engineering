@@ -2,7 +2,7 @@ import React, {useEffect, useRef} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './Home.css';
-import video from "./big-boat.mp4";
+import video from "./Big-Boat-2021.mp4";
 import building from "../img/building.jpg"
 import engineer from "../img/engineer.jpg"
 import architect from "../img/architect.jpg"
@@ -13,7 +13,7 @@ const Home = () => {
         window.scrollTo(0, 0);
     }, []);
     useEffect(() => {
-        Aos.init({duration: 2000, disable: 'mobile'});
+        Aos.init({duration: 3000, disable: 'mobile'});
     }, []);
 
     const scroll = useRef(null);
@@ -28,7 +28,7 @@ const Home = () => {
             <div className="overlay"></div>
             <div className="hero">
 
-            <video autoPlay muted loop playsInline src={video}>
+            <video autoPlay muted loop playsInline src={video} poster="https://res.cloudinary.com/mariah07/image/upload/v1664225710/consult_pinto/Big-Boat-2021_g042al.jpg">
             </video>
           
                 <div className="hero-text">
@@ -104,22 +104,10 @@ const Home = () => {
             </div>
             <div className="video-section">
                 <p>PINTO Engineering is proud to have worked on the Big Boat Shed Revitalization Project</p>
-            <iframe width="50%" height="500"
+            <iframe width="50%" height="450"
             src="https://www.youtube.com/embed/FNn2xue0Wb0">
             </iframe>
             </div>
-            {/*  
-            <div className="quote">
-                <div className="bubble"  data-aos="fade-in">
-                    <i className="fas fa-quote-left"></i>
-                    <p>We have and continue to enjoy and reap the benefits of a good business relationship with PINTO Engineering. We highly recommend your team for any aspect of structural design or consulting.  We find you reliable, efficient and extremely knowledgeable. Moreover, your expertise in mediation and arbitration adds a very important dimension to your design, and subsequently has benefited our projects.
-                    <br /><br />
-                    Thank you for your innovation, dedication and commitment over the years. We wish you continuous success, and look forward for a long and prosperous relationship.</p>
-                </div>
-                <div className="author">
-                    <h4>Wadih Fares, P.Eng., <a href="http://www.wmfares.com/" target="_blank" rel="noreferrer nofollow noopener">W. M. Fares and Associates Incorporated</a></h4>
-                </div>
-            </div>*/}
             <div className="end-page">
                 <div className="questions">
                     <h2>Have Questions?</h2>

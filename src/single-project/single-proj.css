@@ -32,21 +32,22 @@
 
 #single-project .text p::first-letter {
     margin-left: 20px;
+    font-size: 1.1em;
 }
 
 #single-project .text p {
-    border: 8px outset rgb(154, 154, 154);
+    border: 6px dashed rgb(154, 154, 154);
     border-radius: 5px;
     min-height: 55vh;
     padding: 30px;
-    padding-bottom: 40px;
+    padding-top: 50px;
     box-shadow: 3px 6px rgb(50, 39, 53);
     font-size: 1.05em;
     color: rgb(87, 87, 87);
     background-color: rgba(233, 225, 213, 0.199);
     text-align: left;
     font-weight: 500;
-    line-height: 1.35em;
+    line-height: 1.4em;
     letter-spacing: 0.02em;
     word-spacing: 0.05em;
 }
@@ -73,10 +74,11 @@
 
 #single-project .carousel {
     width: 90%;
+    margin-top: 20px;
 }
 
 #single-project .sliderimage {
-    width: 100%;
+    width: 90%;
     height: 500px;
 }
 

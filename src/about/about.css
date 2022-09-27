@@ -32,13 +32,22 @@
     font-size: 1.05em;
     letter-spacing: 0.07em;
     word-spacing: 0.2em;
-    line-height: 1.4em;
     color: rgb(43, 43, 43);
 }
 
 #about .main-content .text h2 {
     font-weight: 500;
     line-height: 1.3em;
+}
+
+#about .main-content .text p {
+    line-height: 1.3em;
+    margin-left: 10px;
+}
+
+#about .main-content .text p::first-letter {
+    margin-left: 10px;
+    font-size: 1.3em;
 }
 
 #about .adv-content {

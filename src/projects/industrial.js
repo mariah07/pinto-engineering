@@ -1,7 +1,5 @@
 import "./projects.css"
 import React, {useEffect} from "react";
-import texas from "../img/texas.jpg";
-import thomas from "../img/Thomos_duct.jpg";
 import {Helmet} from "react-helmet";
 
 const Industrial = () => {
@@ -21,11 +19,13 @@ const Industrial = () => {
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/industrial-aviation/texas-duct"><img loading="eager" src={texas} alt="Texas Duct - PINTO Engineering"/>
+                    <a href="/projects/industrial-aviation/texas-duct"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664241393/consult_pinto/texas_ebd6dq.jpg" 
+                    alt="Texas Duct - PINTO Engineering"/>
                     <h3>Texas Duct, Texas, United States</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/industrial-aviation/thomas-hill"><img loading="eager" src={thomas} alt="Thomas Hill Environmental Retro Fit - PINTO Engineering"/>
+                    <a href="/projects/industrial-aviation/thomas-hill"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664241401/consult_pinto/Thomos_duct_sfmv4j.jpg" 
+                    alt="Thomas Hill Environmental Retro Fit - PINTO Engineering"/>
                     <h3>Thomas Hill Environmental Retro Fit, Burns & McDonnell, Kansas City, Missouri, USA</h3></a>
                 </div>
             </div>

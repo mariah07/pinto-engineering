@@ -1,12 +1,5 @@
 import "./projects.css"
 import React, {useEffect} from "react";
-import citadel from "../img/citadel.jpg";
-import highfield from "../img/Highfield.jpg";
-import market from "../img/market.jpg";
-import isl from "../img/isl.jpg";
-import glen from "../img/glen.jpg";
-import coving from "../img/coving.jpg";
-import comfort from "../img/comfort.jpg";
 import {Helmet} from "react-helmet";
 
 const Commerical = () => {
@@ -26,31 +19,38 @@ const Commerical = () => {
             <div className="overlay"></div>
             <div className="row">
                 <div className="box">
-                    <a href="/projects/commercial/citadel-inn"><img loading="eager" src={citadel} alt="Citadel Inn - PINTO Engineering"/>
+                    <a href="/projects/commercial/citadel-inn"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220223/consult_pinto/citadel_azevql.jpg" 
+                    alt="Citadel Inn - PINTO Engineering"/>
                     <h3>Citadel Inn Redevelopment, Halifax, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/highfield-plaza"><img loading="eager" src={highfield} alt="Highfield Plaza - PINTO Engineering"/>
+                    <a href="/projects/commercial/highfield-plaza"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220547/consult_pinto/Highfield_uxjnsk.jpg" 
+                    alt="Highfield Plaza - PINTO Engineering"/>
                     <h3>Highfield Plaza, Dartmouth, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/market-square"><img loading="eager" src={market} alt="Market Square - PINTO Engineering"/>
+                    <a href="/projects/commercial/market-square"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220722/consult_pinto/market_cac4z1.jpg" 
+                    alt="Market Square - PINTO Engineering"/>
                     <h3>Market Square, Saint John, NB</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/isl-digital-marketing"><img loading="eager" src={isl} alt="ISL Digital Marketing - PINTO Engineering"/>
+                    <a href="/projects/commercial/isl-digital-marketing"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220609/consult_pinto/isl_tabq15.jpg" 
+                    alt="ISL Digital Marketing - PINTO Engineering"/>
                     <h3>ISL Digital Marketing, Halifax, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/glenbourne-plaza"><img loading="eager" src={glen} alt="Glenbourne Plaza - PINTO Engineering"/>
+                    <a href="/projects/commercial/glenbourne-plaza"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220509/consult_pinto/glen_masdnz.jpg" 
+                    alt="Glenbourne Plaza - PINTO Engineering"/>
                     <h3>Glenbourne Plaza, Halifax, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/covington-station"><img loading="eager" src={coving} alt="Covington Station - PINTO Engineering"/>
+                    <a href="/projects/commercial/covington-station"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220476/consult_pinto/coving_qnkagl.jpg" 
+                    alt="Covington Station - PINTO Engineering"/>
                     <h3>Covington Station, Kentville, NS</h3></a>
                 </div>
                 <div className="box">
-                    <a href="/projects/commercial/comfort-inn"><img loading="eager" src={comfort} alt="Comfort Inn - PINTO Engineering"/>
+                    <a href="/projects/commercial/comfort-inn"><img loading="eager" src="https://res.cloudinary.com/mariah07/image/upload/v1664220330/consult_pinto/comfort_tjffdo.jpg" 
+                    alt="Comfort Inn - PINTO Engineering"/>
                     <h3>Comfort Inn, Halifax, NS</h3></a>
                 </div>
             </div>

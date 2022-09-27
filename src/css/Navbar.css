@@ -17,16 +17,21 @@ a {
   }
 
   .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid lightgray;
   }
 
   .scrolling .active {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
   }
 
   .scrolling {
     background-color:white;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.062);
+  }
+
+
+  .scrolling .nav-bar li {
+    margin-top: 0;
   }
 
   .scrolling .nav-bar li a {
@@ -36,6 +41,7 @@ a {
 
   .scrolling .logo img {
     opacity: 1;
+    height: 40px;
   }
   
   nav .nav-bar {
@@ -47,7 +53,7 @@ a {
   nav .nav-bar li {
     padding: 0px 20px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   nav #mobile-menu {
@@ -59,13 +65,14 @@ a {
   .nav-bar li a {
     color: white;
     font-weight:500;
-    font-size: 1.05em;
-    letter-spacing: 0.1em;
+    font-size: 0.95em;
+    letter-spacing: 0.2em;
     display: inline-block;
     width: 100%;
-    font-family: 'IBM';
+    font-family: 'IBM Plex Serif';
     text-transform: uppercase;
     transition: all 0.3 ease-in-out;
+    text-shadow: 0.5px 0 10px rgb(62, 62, 62);
   }
 
   .nav-bar li a i {
@@ -82,8 +89,9 @@ a {
   }
 
   .logo img {
-    height: 50px;
-    filter: contrast(200%);
+    height: 60px;
+    filter: contrast(200%) drop-shadow(1px 1px 20px #efefef);;
+    
   }
 
   .nav-bar .menu:hover + .dropdown-menu {
@@ -128,6 +136,7 @@ a {
     padding: 13px 20px;
     margin: 0;
     font-size: 0.9em;
+    letter-spacing: 0.1em !important;
     text-shadow: none !important;
     background-color:white;
     border: 3px solid grey;
@@ -137,6 +146,7 @@ a {
   .nav-bar .dropdown-menu a:hover {
     background-color: rgb(112, 112, 112) !important;
     color: white !important;
+    border: 3px solid grey !important;
   }
 
   .nav-bar .dropdown-menu a:nth-of-type(odd) {

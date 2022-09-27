@@ -2,10 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./r-gallery/rbridge.jpg";
-import image2 from "./r-gallery/rbridge2.jpg";
-import image3 from "./r-gallery/rbridge3.jpg";
-import image4 from "./r-gallery/rbridge4.jpg";
 
 const Railway = () => {
     useEffect(() => {
@@ -25,10 +21,14 @@ const Railway = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
-                    <img src={image4} className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664216015/consult_pinto/rbridge_tcovu7.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664216015/consult_pinto/rbridge2_tm3be9.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664216015/consult_pinto/rbridge3_pf0qy5.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664216014/consult_pinto/rbridge4_ckom0o.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design services for Little Bras D’or Railway Bridge Replacement"/>
                 </AliceCarousel>
                 <div className="text">
                     <p>

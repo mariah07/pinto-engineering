@@ -2,9 +2,6 @@ import React, {useEffect} from "react";
 import "../single-proj.css"
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from "./win-gallery/windsor.jpeg";
-import image2 from "./win-gallery/windsor2.jpeg";
-import image3 from "./win-gallery/windsor3.jpeg";
 
 const Windsor = () => {
     useEffect(() => {
@@ -24,9 +21,12 @@ const Windsor = () => {
             </div>
             <div className="carousel">
                 <AliceCarousel infinite={true} disableButtonsControls={true} buttonsDisabled={true} autoPlay={true} autoPlayInterval="4000">
-                    <img src={image1} className="sliderimage" alt="PINTO provided structural design and construction administration services for Windsor Elms Village"/>
-                    <img src={image2} className="sliderimage" alt="PINTO provided structural design and construction administration services for Windsor Elms Village"/>
-                    <img src={image3} className="sliderimage" alt="PINTO provided structural design and construction administration services for Windsor Elms Village"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664221835/consult_pinto/windsor_daggtl.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Windsor Elms Village"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664221834/consult_pinto/windsor3_ftru8y.jpg"
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Windsor Elms Village"/>
+                    <img src="https://res.cloudinary.com/mariah07/image/upload/v1664221835/consult_pinto/windsor2_chethq.jpg" 
+                    className="sliderimage" alt="PINTO provided structural design and construction administration services for Windsor Elms Village"/>
                 </AliceCarousel>
                 <div className="text">
                 <p>
