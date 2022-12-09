@@ -17,10 +17,10 @@ const Investigation = () => {
             <div className="overlay"></div>
             <div className="title">
                 <h1>Investigation & Reports</h1>
-                <div className="triangle"></div>
+                <div className="triangle" id="triangle-ir"></div>
             </div>
             <div className="services-section">
-                <div>
+                <div className="section">
                     <div className="banner">
                         <div className="border"></div>
                         <h2>Mediation and Arbitration</h2>
@@ -37,7 +37,7 @@ const Investigation = () => {
                         <p>As part of our technical reporting services, PINTO provides comprehensive condition assessment reports for existing civil, structural, and marine projects. Reports can include detailed, on-site investigations to identify areas of concern and risk, budgetary recommendations, remediation or replacement recommendations, construction sequencing, detailed design concepts, and more.</p>
                     </div>
                 </div>
-                <img src={engineer} alt="" loading="eager"/>
+                <div className="section image"><img src={engineer} alt="" loading="eager" id="image-ir"/><div className="effect" id="effect-ir"></div></div>
             </div>
         </section>
     )

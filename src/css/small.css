@@ -54,7 +54,8 @@
     }
 
     .nav-bar .dropdown-menu{
-        display: block;
+        visibility: visible !important;
+        opacity: 1 !important;
         position: relative;
     }
 
@@ -113,8 +114,38 @@
     .between .services-items img {
         width: 100% !important;
     }
-    .scroll-section {
+
+    .scroll-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .panel .text {
+        padding: 10px 5px !important;
+    }
+
+    #panel1 {
         display: none;
+    }
+
+    #panel4 {
+        display: none;
+    }
+
+    #panel6 {
+        display: none;
+    }
+
+    #panel2 {
+        display: none;
+    }
+
+    #panel5 {
+    }
+
+
+
+    .scroll-section .scroll-bottom .animation {
+        width: 100% !important;
     }
 
     .between .services-items:nth-child(1)::before {
@@ -132,8 +163,9 @@
     .video-section p {
         text-align: center;
         align-self: center;
-        font-size: 0.9em;
+        font-size: 1.2em !important;
         padding: 0 40px;
+        width: 100% !important;
     }
 
     .video-section iframe {
@@ -195,6 +227,14 @@
         align-items: center;
     }
 
+    .services-section .section {
+        width: 100% !important;
+    }
+
+    .services-section .image .effect {
+        display: none;
+    }
+
     #services .services-section .right {
         flex-direction: column;
     }
@@ -233,6 +273,10 @@
         padding: 80px 5px 80px 5px !important;
     }
 
+    #single-project a {
+        position:static !important;
+    }
+
     #single-project .carousel  {
         width: 100% !important;
     }
@@ -248,7 +292,7 @@
     #single-project .text p {
         width: 100% !important;
         min-height: auto !important;
-        padding: 10px !important;
+        padding: 40px 10px !important;
     }
 
     #single-project .alice-carousel {
@@ -262,55 +306,38 @@
 
     /* Contact */
 
-    #contact .contact-header {
-        font-size: 1.1em !important;
-        padding: 50px 20px 10px 20px !important;
-        text-align: center;
+    #contact .contact-form .contact-info {
+        position:initial !important;
+        
+    }
+
+    #contact .contact-form { 
+        flex-direction:column-reverse;
+        margin-top: 0 !important;
+        padding-top: 200px;
         height: fit-content !important;
     }
 
-    #contact .contact-form {
-        flex-direction: column;
-    }
-
     #contact .contact-form form {
-        width: 90% !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 10px !important;
     }
 
-    #contact .contact-form form .row-one {
+    #contact .contact-form .row-one {
         flex-direction: column;
     }
 
-    #contact .contact-form form .row-one .name {
-        width: 100%;
+    #contact .contact-form .row-one .name {
+        width: 100% !important;
     }
     
-    #contact .contact-form form .row-one .email {
-        width: 100%;
-    }
-
-    #contact .contact-main .company-info {
-        flex-direction: column;
-    }
-
-    #contact .company-info .text {
+    #contact .contact-form .row-one .email {
         width: 100% !important;
-        padding: 50px 15px !important;
     }
 
-    #contact .company-info img {
-        width: 100% !important;
-        border-radius: 0px !important;
-    }
-
-    #contact .company-contact {
-        flex-direction: column;
-    }
-
-    #contact .company-contact .company-box {
-        width: 100% !important;
-        border-right: none;
-        border-left: none;
+    #map {
+        top: 5% !important;
     }
 
     #contact #map {
@@ -333,6 +360,14 @@
     #about .main-content .text {
         font-size: 0.9em !important;
         width: 100% !important;
+
+    }
+    #about .main-content .text h2 {
+        font-size: 2em !important;
+    }
+
+    #about .main-content .text p {
+        padding: 20px 0px 30px 0px !important;
 
     }
 

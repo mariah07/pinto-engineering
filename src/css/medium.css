@@ -29,6 +29,10 @@
         right: 0.7% !important;
     }
 
+    .between .services-items .services-desc h4 {
+        background-color: white;
+    }
+
     .video-section iframe {
         width: 90% !important;
     }
@@ -66,7 +70,7 @@
     }
 
     #single-project .text p {
-        padding: 12px !important;
+        padding: 40px 20px !important;
     }
 
     /* Individual Services */
@@ -94,4 +98,28 @@
         font-size: 3.1em !important;
         margin-left: 15% !important;
     }
+
+    /* Contact */
+
+    #contact .contact-form .contact-info {
+        position:initial !important;
+        
+    }
+
+    #contact .contact-form { 
+        flex-direction:column-reverse;
+        margin-top: 0 !important;
+        padding-top: 200px;
+        height: fit-content !important;
+    }
+
+    #contact .contact-form form {
+        width: 80% !important;
+        margin-left: 0 !important;
+    }
+
+    #map {
+        top: 5% !important;
+    }
+
 }

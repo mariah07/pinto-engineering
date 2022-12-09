@@ -31,37 +31,52 @@ const Contact = () => {
                 <meta name="robots" content="index,follow"/>
             </Helmet>
             <div className="overlay"></div>
-            <div className="contact-header">
-                <div className="header-text">
-                    <h1>The team at PINTO</h1>
-                    <h4>looks forward to working with you on your next project</h4>
-                </div>
-            </div>
             <div className="contact-main">
                 <div className="contact-form">
+                    <div className="contact-info">
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li><i class="far fa-address-card"></i> <span>Suite 401-3480 Joseph Howe Drive<br />
+                                Halifax, Nova Scotia<br/>
+                                B3L 4H7 <br/>
+                                P.O. Box 2555</span></li>
+                                <li><i class="fas fa-phone-volume"></i> <span className="phone"><a href="tel:+19024209800"> (902) 420-9800</a> <a href="tel:+18006596618"> (800) 659-6618</a></span></li>
+                                <li><i className="fas fa-fax" alt="fax"></i> (902) 484-7288</li>
+                                <li><i className="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
+                                
+                            </ul>
+                            <div className="social-media">
+                                <a href="https://www.facebook.com/PintoEngineeringLtd" target="_blank" rel="nofollow noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.twitter.com/consultpinto" target="_blank" rel="nofollow noreferrer"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" target="_blank" rel="nofollow noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                    </div>
                     <form onSubmit={sendEmail}>
                         <div className="row-one">
                             <div className="form-row name">
-                                <label>Name <span>*</span></label>
                                 <input type="text" className="input-one" name="name" required/>
+                                <label>Name <span>*</span></label>
                             </div>
                             <div className="form-row email">
-                                <label>Email <span>*</span></label>
                                 <input type="email" className="input-one" name="email" required/>
+                                <label>Email <span>*</span></label>
                             </div>
                         </div>
                         <div className="form-row">
-                            <label >Subject <span>*</span></label>
                             <input type="text" className="input-two" name="subject" required/>
+                            <label >Subject <span>*</span></label>
                         </div>
                         <div className="form-row">
-                            <label>Message</label>
                             <textarea name="message" required></textarea>
+                            <label>Message</label>
                         </div>
                         <div className="form-row">
-                            <button type="submit">Contact</button>
+                            <button type="submit">Send</button>
                         </div>
                     </form>
+                    
+                </div>
+                <div className="company-contact">
                     <div id="map">
                         <div className="map">
                         <iframe title="Map of Pinto Engineering"
@@ -76,40 +91,7 @@ const Contact = () => {
                         />
                         </div>
                     </div>
-                </div>
-                <div className="company-contact">
-                    <div className="company-box" id="halifax">
-                        <div>
-                            <h2>Halifax</h2>
-                            <ul>
-                                <li><i className="fas fa-phone tooltip"></i> <a href="tel:+19024209800"> (902) 420-9800</a></li>
-                                <li><i className="fas fa-fax" alt="fax"></i> (902) 484-7288</li>
-                                <li><i className="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
-                            </ul>
-                            <p>
-                            Suite 401-3480 Joseph Howe Drive, <br />
-                            Halifax, Nova Scotia B3L 4H7<br/>
-                            P.O. Box 2555
-                            </p>
-                        </div>
-                    </div>
-                    <div className="company-box" id="stjohn">
-                        <div>
-                            <h2>St John's</h2>
-                            <ul>
-                                <li><i className="fas fa-phone"></i> <a href="tel:+17097002139"> (709) 700-2139</a></li>
-                                <li><i className="fas fa-fax"></i> (902) 484-7288</li>
-                                <li><i className="fas fa-envelope"></i> <a href="mailto:info@consultpinto.com">info@consultpinto.com</a></li>
-                            </ul>
-                            <p>St. John's, <br/> Newfoundland and Labrador, <br/>Canada</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="company-info">
-                    <div className="text">
-                    <p>Please contact us using any of the methods above. For additional information, please visit and 
-                        follow our company <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" target="_blank" rel="nofollow noreferrer">LinkedIn page.</a></p>
-                    </div>
+                    
                 </div>
             </div>
         </section>

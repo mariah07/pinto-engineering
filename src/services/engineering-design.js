@@ -17,10 +17,10 @@ const EngineeringDesign = () => {
             <div className="overlay"></div>
             <div className="title">
                 <h1>Engineering Design</h1>
-                <div className="triangle"></div>
+                <div className="triangle" id="triangle-en"></div>
             </div>
             <div className="services-section">
-                <div>
+                <div className="section">
                     <div className="banner">
                         <div className="border"></div>
                         <h2>Structural - Buildings</h2>
@@ -37,7 +37,7 @@ const EngineeringDesign = () => {
                         <p>PINTO's services in structural remediation and restoration include heritage restoration & renovation, marine structure remediation as well as timber, steel, & concrete retrofits and renovations. PINTO offers our clients comprehensive, on-site investigation services to accompany restoration and remediation projects in order to minimize costly surprises during the construction process.</p>
                     </div>
                 </div>
-                <img src={building} alt="" loading="eager"/>
+                <div className="section image"><img src={building} alt="" loading="eager" id="image-en"/><div className="effect" id="effect-en"></div></div>
             </div>
         </section>
     )

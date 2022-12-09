@@ -5,18 +5,27 @@
 #about .about-header {
     display:flex;
     align-items: center;
-    background-image: url("./building.jpeg");
+    background-image: url("./construction.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 100vh;
 }
 
 #about .about-header h1 {
-    color: rgb(63, 58, 70);
+    color: white;
     text-shadow: 0.5px 0.5px 0 black;
-    font-size: 4.8em;
-    width: 30%;
+    font-size: 4.7em;
+    width: 40%;
+    text-align: center;
     margin-left: 14%;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    padding: 20px 0;
+    background-color: rgba(245, 245, 245, 0.205);
+}
+
+#about .about-header h4 {
+    font-size: 4em;
 }
 
 #about .main-content {
@@ -28,8 +37,7 @@
 
 #about .main-content .text {
     padding: 20px;
-    width: 90%;
-    font-size: 1.05em;
+    width: 100%;
     letter-spacing: 0.07em;
     word-spacing: 0.2em;
     color: rgb(43, 43, 43);
@@ -37,19 +45,19 @@
 
 #about .main-content .text h2 {
     font-weight: 500;
-    line-height: 1.3em;
+    line-height: 2em;
+    font-size: 2.8em;
+    text-align: center;
+    color:rgb(58, 42, 83);
 }
 
 #about .main-content .text p {
-    padding-top: 20px;
-    padding-right:40px;
-    line-height: 1.3em;
+    padding: 20px 150px 30px 100px;
+    line-height: 2em;
+    font-size: 1.4em;
     margin-left: 10px;
-}
-
-#about .main-content .text p::first-letter {
-    margin-left: 10px;
-    font-size: 1.3em;
+    text-align: center;
+    font-style: italic;
 }
 
 #about .adv-content {
@@ -62,6 +70,7 @@
     letter-spacing: 0.1em;
     word-spacing: 0.1em;
     border-bottom: 1px solid grey;
+    color:rgb(83, 51, 112);
 }
 
 #about .adv-content .content {
@@ -78,20 +87,41 @@
     word-spacing: 0.05em;
     line-height: 1.5em;
     border: 1px solid lightgray;
-    box-shadow: 3px 7px 2px rgb(0, 0, 0);
+    box-shadow: 1px 5px 2px slategray;
+    border-radius: 5px;
+}
+
+#about .adv-content .content .box h3 {
+    color:rgb(75, 81, 86);
+    text-align: center;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+#about .adv-content .content .box p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    padding: 0 40px;
+    letter-spacing: 0.07em;
+    word-spacing: 0.2em;
+    color: rgb(75, 81, 86);
 }
 
 #about .award-section {
-    padding: 0 80px 0 80px;
+    padding: 80px 80px 0 80px;
 }
 
 #about .award-section h2{
     margin-top:0;
     font-size: 4em;
-    color:rgb(78, 74, 74);
+    color:rgb(58, 42, 83);
     font-weight: 300;
     font-family:'IBM Plex Serif';
     text-align: center;
+    letter-spacing: 0.1em;
 }
 
 #about .award-section .award{
@@ -113,12 +143,19 @@
     object-fit: cover;
 }
 
+#about .award-section .award .text h3 {
+    letter-spacing: 0.1em;
+    text-transform:uppercase;
+    font-weight: 400; 
+    text-shadow: 0.1px 0 0 black;
+}
+
 #about .award-section .award .text{
     padding: 20px;
-    line-height: 1.6em;
-    letter-spacing: 0.03em;
-    word-spacing: 0.1em;
     font-size: 1em;
+    line-height: 1.6em;
+    letter-spacing: 0.07em;
+    word-spacing: 0.2em;
 }
 
 #about .affil-section {
@@ -139,7 +176,9 @@
 #about .affil-section .text p{
     width: 90%;
     font-size: 0.9em;
-    line-height: 2em;
+    line-height: 1.6em;
+    letter-spacing: 0.07em;
+    word-spacing: 0.2em;
 }
 
 #about .affil-section .affil {
