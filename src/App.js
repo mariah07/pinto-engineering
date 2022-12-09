@@ -69,7 +69,7 @@ import Dock from './single-project/wharves/dock';
 import Woodside from './single-project/wharves/woodside';
 import NotFound from "./pages/NotFound";
 
-import im2 from "./img/building.jpg"; import im3 from "./img/engineer.jpg"; import im4 from "./img/architect.jpg"; import im5 from "./about/building.jpeg";
+import im2 from "./img/building.jpg"; import im3 from "./img/engineer.jpg"; import im4 from "./img/architect.jpg"; import im5 from "./about/construction.jpg";
 import im6 from "./contact/construct.jpg";
 
 class App extends React.Component  {

@@ -17,10 +17,10 @@ const ProjectManagement = () => {
             <div className="overlay"></div>
             <div className="title">
                 <h1>Project Management</h1>
-                <div className="triangle"></div>
+                <div className="triangle" id="triangle-pj"></div>
             </div>
             <div className="services-section">
-                <div>
+                <div className="section">
                     <div className="banner">
                         <div className="border"></div>
                         <h2>Construction Review</h2>
@@ -42,7 +42,7 @@ const ProjectManagement = () => {
                         <p>Effective communication is critical for the successful completion of a project. PINTO works closely with other disciplines such as architectural, civil, mechanical, and electrical to assist in reducing structural design conflicts. This helps reduce costly coordination issues often discovered during the construction phase of the project and provides piece-of-mind for our clients that PINTO is looking out for their best interests.</p>
                     </div>
                 </div>
-                <img src={architect} alt="" loading="eager"/>
+                <div className="section image"><img src={architect} alt="" loading="eager" id="image-pj"/><div className="effect" id="effect-pj"></div></div>
             </div>
         </section>
     )

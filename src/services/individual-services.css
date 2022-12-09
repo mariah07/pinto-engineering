@@ -1,29 +1,31 @@
 #design {
-    padding: 70px 80px
+    padding: 70px 80px;
 }
 
 #design img {
-    width: 46%;
-    height: 420px;
-    margin-top: 100px;
+    width: 100%;
+    height: 460px;
+    margin-top: 40px;
     border-radius: 2px;
     margin-bottom: 30px;
-    border: 20px inset rgb(63, 59, 69);
+    border: 20px inset whitesmoke;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgb(70, 70, 70);
 }
 
 #design .title {
     width: 70%;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 }
 
 #design h1 {
-    font-size: 3.5em;
+    font-size: 3.6em;
     font-weight: 400;
-    color: rgb(70, 64, 71);
+    letter-spacing: 0.1em;
+    color: rgb(88, 83, 88);
     border-bottom-right-radius: 25px;
     font-style: italic;
+    text-transform: uppercase;
     margin-left: 20px;
 }
 
@@ -31,20 +33,19 @@
     margin-top: -50px;
     width: 60vw;
     height: 0;
-    border-top: 20px solid rgb(48, 45, 52);
-    border-right: 500px solid transparent;
+    border-top: 30px solid rgb(156, 156, 156);
+    border-right: 800px solid transparent;
 }
 
 #design .banner {
     padding-left: 40px;
     border-left: 2px ridge grey;
-    margin: 40px 0;
     position: relative;
     margin-top: 50px;
 }
 
 #design .banner .border {
-    border-left: 2px solid #261352;
+    border-left: 5px solid rgb(187, 187, 187);
     position: absolute;
     top: 15%;
     bottom: 30%;
@@ -53,21 +54,48 @@
 
 .services-section {
     display: flex;
+    justify-content: space-evenly;
 }
 
+.services-section .section {
+    width: 45%;
+}
+
+.services-section .image .effect {
+    border-left: 40vw solid transparent;
+    border-right: 5vw solid transparent;
+    margin-top: -100px;
+}
+
+.services-section .image #effect-en {
+    border-top: 14vw outset burlywood;
+}
+
+.services-section .image #effect-pj {
+    border-top: 14vw outset rgb(87, 83, 107);
+}
+
+.services-section .image #effect-ir {
+    border-top: 14vw outset rgb(129, 141, 129);
+}
+
+
 .banner p {
-    width: 80%;
+    width: 95%;
     font-size: 1.2em;
     line-height: 1.34em;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     word-spacing: 0.2em;
     margin-left: 30px;
     margin-top: 40px;
     padding-bottom: 20px;
+    color: rgb(61, 61, 61);
 }
 
 .banner h2 {
-    font-size: 1.7em;
     text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
     color:rgb(70, 64, 71);
 }

@@ -15,6 +15,7 @@
     padding-bottom: 150px;
     min-height: 100vh;
     width:inherit;
+    overflow: hidden;
   }
 
   .hero video {
@@ -30,19 +31,6 @@
   .hero video source{
     width: 100%;
     height: 100%;
-  }
-
-  .hero::before {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 3px dotted rgb(255, 255, 255);
-    border-top: 60px dotted rgb(255, 255, 255);
-    border-bottom: 60px dotted white;
-    right: 3%;
-    bottom: 0;
-    z-index: 2;
   }
   
   .hero .hero-text {
@@ -67,20 +55,22 @@
     text-shadow: 1px 0 10px rgb(62, 62, 62), 0 0 50px black;
   }
   
-  .hero p {
+  .hero span {
     position: absolute;
-    right: 1.2%;
-    bottom: 12%;
+    right: 8.5%;
+    bottom: 10%;
     font-size: 1.4em;
     color: white;
-    padding-bottom: 20px;
     z-index: 1;
+    width: 0;
   }
 
-  .hero p button {
+  .hero span button {
+    position: relative;
     background-color: transparent;
     border: none;
     color:white;
+    padding-right: 130px;
     transform: rotate(90deg);
     cursor: pointer;
     font-size: 0.9em;
@@ -89,8 +79,38 @@
     text-shadow: 1px 0 10px rgb(62, 62, 62);
   }
 
+  .hero span button::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-left: 60px solid rgb(255, 255, 255);
+    border-right: 60px solid white;
+    right: -3%;
+    bottom: 40%;
+    z-index: 2;
+  }
+
+  .hero .border-pulse {
+    position: absolute;
+    right: -3%;
+    bottom: 30%;
+    width: 10px;
+    height: 9px;
+    background: linear-gradient(
+      183deg,
+      rgb(193, 193, 193),
+      rgba(255, 255, 255, 0.5),
+      transparent 50%
+    );
+    animation: animateTop 3s linear infinite;
+  }
+
+
   .between {
     position: relative;
+    overflow: hidden;
   }
 
   .between .anchor {
@@ -120,11 +140,12 @@
     font-weight: 100;
     font-size: 2em;
     line-height: 2em;
-    word-spacing: 0.1em;
+    letter-spacing: 0.1em;
   }
 
   .between .services-items .services-desc h4 {
     font-weight: 100;
+    letter-spacing: 0.06em;
     font-size: 1.1em;
     margin-left:50px;
     line-height: 1.6em;
@@ -140,6 +161,7 @@
     z-index: 1;
     width: 35%;
     height: 300px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.518);
   }
 
   .between .services-items:nth-child(1) {
@@ -248,10 +270,10 @@
     z-index: 1;
     font-size: 1em;
     line-height: 1.6em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     color:rgb(71, 71, 71);
-    border-bottom: 1px dashed black;
-    border-right: 2px dashed black;
+    border-bottom: 1px dashed rgb(0, 255, 255);
+    border-right: 1.2px dashed rgb(0, 255, 255);
     padding-bottom: 40px;
   }
   
@@ -277,8 +299,8 @@
 
   #panel5 .text {
     border: none;
-    border-top: 1px dashed black;
-    border-left: 2px dashed black;
+    border-top: 1px dashed orangered;
+    border-left: 1.2px dashed orangered;
     padding-top:50px;
     margin-top: -50px;
   }
@@ -307,79 +329,197 @@
     border-top: 120px solid burlywood;
     height: 80vh;
   }
-  
-  .bottom {
+
+  .panel span {
+    position: absolute;
+    border-radius: 100vmax;
+  }
+
+  .panel .top {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 80px;
+    background: linear-gradient(
+      90deg,
+      transparent 50%,
+      rgb(95, 155, 87),
+      rgba(141, 247, 176, 0.5)
+    );
+  }
+
+  .panel #bottom-one {
+    right: 0;
+    bottom: 0;
     height: 100px;
-    background-color: white;
+    background: linear-gradient(
+      90deg,
+      rgb(157, 213, 194),
+      aquamarine,
+      transparent 50%
+    );
+  }
+
+  .panel #right-one {
+    top: 10%;
+    right: 0;
+    width: 40px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 30%,
+      rgb(157, 213, 194),
+      aquamarine
+    );
+  }
+
+  .panel #bottom-two {
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    background: linear-gradient(
+      90deg,
+      rgb(222, 176, 116),
+      burlywood,
+      transparent 50%
+    );
+  }
+
+  .panel #right-two {
+    top: 10%;
+    right: 0;
+    width: 40px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      transparent 30%,
+      rgb(222, 176, 116),
+      burlywood
+    );
+  }
+
+  .panel .left {
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 0;
+    background: linear-gradient(
+      180deg,
+      rgb(95, 155, 87),
+      rgba(141, 247, 176, 0.5),
+      transparent 70%
+    );
+  }
+
+  .top {
+    animation: animateTop 4s ease-in-out infinite;
+  }
+
+  .bottom {
+    animation: animateBottom 4s ease-in-out infinite;
+  }
+
+  .right {
+    animation: animateRight 4s linear infinite;
+  }
+
+  .left {
+    animation: animateLeft 4s ease-in-out infinite;
+  }
+
+  @keyframes animateTop {
+    25% {
+      width: 100%;
+      opacity: 1;
+    }
+
+    30%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes animateBottom {
+    0%,
+    50% {
+      opacity: 0;
+      width: 0;
+    }
+
+    75% {
+      opacity: 1;
+      width: 100%;
+    }
+
+    76%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes animateRight {
+    0%,
+    25% {
+      opacity: 0;
+      height: 0;
+    }
+
+    50% {
+      opacity: 1;
+      height: 100%;
+    }
+
+    55%,
+    100% {
+      height: 100%;
+      opacity: 0;
+    }
+  }
+
+  @keyframes animateLeft {
+    0%,
+    75% {
+      opacity: 0;
+      bottom: 0;
+      height: 0;
+    }
+
+    100% {
+      opacity: 1;
+      height: 100%;
+    }
+  }
+  
+  .bottom-panel {
+    height: 100px;
+    background: rgb(134,134,134);
+    background: linear-gradient(80deg, rgb(62, 62, 62) 50%, rgb(136, 136, 136) 58%, rgba(0,0,0,0.39773003928133754) 300%);
     z-index:1;
   }
 
   .video-section {
     display: flex;
+    background: rgb(134,134,134);
+    background: linear-gradient(80deg, rgb(62, 62, 62) 50%, rgb(136, 136, 136) 58%, rgba(0,0,0,0.39773003928133754) 300%);
     flex-direction: column;
     align-items: center;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
   }
 
   .video-section p {
-    padding-bottom: 8px;
-  }
-  
-  .quote {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 70px;
-  }
-  
-  .quote .bubble {
-    width: 50%;
-    padding: 15px;
-    position: relative;
-    background-color: whitesmoke;
-    border-radius: 10px;
-  }
-  
-  .quote .bubble i {
-    font-size: 2em;
-    color: white;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-  }
-  
-  .quote .bubble p {
-    padding-left: 10px;
-    font-size: 0.92em;
-    font-weight: 400;
-    color: rgb(37, 37, 37);
-  }
-  
-  .quote .author {
+    padding-bottom: 40px;
+    font-size: 2.2em;
+    letter-spacing: 0.1em;
+    color: whitesmoke;
+    width: 80%;
     text-align: center;
-  }
-  
-  .quote .author a {
-    color: rgb(64, 18, 102);
-    transition: all 0.3 ease-in-out;
-  }
-  
-  .quote .author a:hover {
-    color: darkgray;
-  }
-  
-  .quote .bubble:before {
-    content: "";
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    border-left: 24px solid whitesmoke;
-    border-right: 12px solid transparent;
-    border-top: 12px solid whitesmoke;
-    border-bottom: 20px solid transparent;
-    right: 50px;
-    bottom: -25px;
+    line-height: 2em;
+    text-transform: capitalize;
   }
 
   .end-page {
+    background: rgb(134,134,134);
+    background: linear-gradient(80deg, rgb(62, 62, 62) 50%, rgb(136, 136, 136) 58%, rgba(0,0,0,0.39773003928133754) 300%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,25 +529,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
 
   .end-page .questions h2 {
     font-weight: 400;
+    color: white;
     font-size: 2em;
+    letter-spacing: 0.1em;
+    padding-bottom: 5px;
   }
 
   .end-page .questions a {
-    border: none;
-    border-radius: 20px;
-    background-color: rgb(33, 30, 35);
+    border: 1px solid white;
+    background-color: transparent;
     color: white;
     text-transform: uppercase;
-    padding:11px 15px;
-    border: none;
+    padding:20px 40px;
     transition: all 0.3s ease;
     font-weight: 500;
     text-align: center;
+    letter-spacing: 0.1em;
   }
 
   .end-page .questions a:hover {

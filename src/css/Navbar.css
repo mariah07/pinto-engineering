@@ -90,20 +90,22 @@ a {
 
   .logo img {
     height: 60px;
-    filter: contrast(200%) drop-shadow(1px 1px 20px #efefef);;
+    filter: contrast(200%) drop-shadow(1px 1px 40px #efefef);
     
   }
 
   .nav-bar .menu:hover + .dropdown-menu {
-    display: block;
+    visibility: visible;
+    opacity: 1;
   }
 
-  .nav-bar .dropdown-menu:hover {
-    display: block;
+  .nav-bar .dropdown-menu:not(:hover) {
+    visibility: hidden;
+    opacity: 0;
   }
 
   .nav-bar .dropdown-menu {
-    display: none;
+    transition: 0.3s;
     position: absolute;
     padding: 0;
   }
@@ -128,6 +130,7 @@ a {
   .nav-bar .dropdown-menu .menu-box {
     padding: 20px;
     background-color: white;
+    border-radius: 5px;
     border: 1px solid black;
   }
 
@@ -139,14 +142,19 @@ a {
     letter-spacing: 0.1em !important;
     text-shadow: none !important;
     background-color:white;
-    border: 3px solid rgb(53, 53, 53);
+    border: 2px solid rgb(53, 53, 53);
+    border-right: 1px solid rgb(53, 53, 53);
+    border-left: 1px solid rgb(53, 53, 53);
+    border-radius: 3px;
     margin-top: 10px;
   }
 
   .nav-bar .dropdown-menu a:hover {
     background-color: rgb(53, 53, 53) !important;
     color: white !important;
-    border: 3px solid rgb(53, 53, 53) !important;
+    border: 2px solid rgb(53, 53, 53) !important;
+    border-right: 1px solid rgb(53, 53, 53) !important;
+    border-left: 1px solid rgb(53, 53, 53) !important;
   }
 
   .nav-bar .dropdown-menu a:nth-of-type(odd) {

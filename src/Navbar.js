@@ -42,7 +42,7 @@ const Navbar = () => {
 
       useEffect(() => {
         return history.listen((location) => { 
-          if(location.pathname !== "/" && location.pathname !== "/contact"){
+          if(location.pathname !== "/" && location.pathname !== "/contact" && location.pathname !== "/about"){
             window.removeEventListener("scroll", Scroll, true);
             setScroll(true);
             setMobile(false);
@@ -58,7 +58,7 @@ const Navbar = () => {
 
 
       useEffect(() => {
-        if(window.location.pathname === "/" || window.location.pathname === "/contact" ) {
+        if(window.location.pathname === "/" || window.location.pathname === "/contact" || window.location.pathname === "/about") {
             window.addEventListener("scroll", Scroll, true);
             setScroll(false);
           }

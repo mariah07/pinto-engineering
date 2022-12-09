@@ -1,71 +1,98 @@
 #contact {
-    padding-bottom: 100px;
 }
 
 #contact *:not(i) {
     font-family: 'IBM Plex Serif';
 }
 
-#contact .contact-header {
-    background-image: url('./construct.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: whitesmoke;
-    height: fit-content;
-    display:flex;
-}
-
-#contact .contact-header .header-text {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: rgba(144, 138, 107, 0.411);
-}
-
-#contact .contact-header h1{
-    padding-top: 90px;
-    margin:0;
-    font-size: 4em;
-    color: white;
-    font-weight: 400;
-    text-shadow: 0 1px 0 grey;
-}
-
-#contact .contact-header h4 {
-    font-size: 1.5em;
-    font-weight: 600;
-    margin-top: 5px;
-    text-transform: capitalize;
-    text-shadow: 1px 0 0 grey;
-    font-style: italic;
-    padding-bottom: 30px;
-}
 
 .contact-main {
-    padding-top: 50px;
+    background: linear-gradient(90deg, #eaead7 50%, #3e2c67 50%);
 }
 
 #contact .contact-form {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: center;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 130vh;
+    margin-top: -100px;
+}
+
+#contact .contact-form .contact-info {
+    position: absolute;
+    top: 29%;
+    left: 14%;
+    padding: 15px 50px;
+    background-color: #3e2c67;
+    color: white;
+    z-index: 3;
+}
+
+#contact .contact-form .contact-info h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px white;
+}
+
+#contact .contact-form .contact-info ul {
+    list-style-type: none;
+    
+}
+
+#contact .contact-form .contact-info li  {
+   display: flex;
+   margin-left: -40px;
+   margin-bottom: 20px;
+   font-size: 0.9em;
+   font-weight: 300;
+   text-shadow: 1px 1px 2px white;
+}
+
+#contact .contact-form .contact-info li i {
+    font-size: 2em;
+    padding-right: 20px;
+}
+
+#contact .contact-form .contact-info li .phone {
+    margin-left: 6px;
+}
+
+#contact .contact-form .contact-info li a {
+    color: white;
+    display: block;
+}
+
+#contact .contact-form .contact-info .social-media {
+    padding-top: 50px;
+}
+
+#contact .contact-form .contact-info .social-media a {
+    margin-right: 20px;
+    color: white;
 }
 
 #contact .contact-form form {
-    width: 50%;
+    width: 60%;
+    background-color: white;
+    padding: 50px;
+    padding-left: 150px;
+    margin-left: 20%;
 }
 
 #contact .contact-form .form-row {
     padding-top: 15px;
+    position: relative;
 }
 
 #contact .contact-form .form-row label {
-    display: block;
-    padding-bottom: 13px;
-    font-size: medium;
-    font-weight: 500;
+    position: absolute;
+    left: 10px;
+    padding: 5px 0;
+    top: 20px;
+    pointer-events: none;
+    transition: 0.3s;
 }
 
 #contact .contact-form .form-row label span {
@@ -97,9 +124,9 @@
 #contact .contact-form .form-row input {
     width: 45%;
     background-color: white;
-    border: 1px solid grey;
+    border: none;
+    border-bottom: 1px solid grey;
     height: 40px;
-    border-radius: 5px;
     text-size-adjust: 2em;
     padding: 10px;
     font-size: large;
@@ -107,115 +134,58 @@
 
 #contact .contact-form .form-row textarea {
     width: 100%;
-    height: 300px;
-    border: 1px solid grey;
+    height: 200px;
+    border: none;
+    border-bottom: 1px solid grey;
     background-color: white;
-    border-radius: 5px;
     padding: 10px;
     font-size: large;
 }
 
+#contact .contact-form .form-row input:focus,
+#contact .contact-form .form-row textarea:focus {
+    outline: none;
+}
+
+#contact .contact-form .form-row input:focus ~ label,
+#contact .contact-form .form-row input:valid ~ label,
+#contact .contact-form .form-row textarea:focus ~ label,
+#contact .contact-form .form-row textarea:valid ~ label  {
+    transform: translateY(-25px);
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
 #contact .contact-form .form-row button {
-    width: 100%;
-    padding: 20px 0;
+    padding: 20px 50px;
     border:none;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.1em;
     color:white;
-    background-color: rgb(113, 110, 117);
-    border-radius: 5px;
+    background-color: rgb(58, 54, 63);
     transition: all 0.3s ease;
+    font-weight: 400;
+    letter-spacing: 0.05em;
 }
 
 #contact .contact-form .form-row button:hover {
-    background-color: rgb(88, 76, 97);
+    background-color: rgb(68, 62, 71);
     cursor: pointer;
 }
 
-#contact .company-info {
-    display: flex;
-    justify-content:center;
-    padding-top: 20px;
-}
-
-#contact .company-info .text {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    padding: 50px 60px;
-}
-
-#contact .company-info h2 {
-    font-size: 2em;
-    color:darkslategray;
-}
-
-#contact .company-info p {
-    font-size: 1em;
-    font-weight: 400;
-}
-
-#contact .company-info p a {
-    color: darkslategray;
-    font-style: italic;
-}
-
-#contact .company-info p a:hover {
-    color: purple;
-}
-
-#contact .company-info img {
-    width: 50%;
-    height: 100%;
-    border-bottom-left-radius: 200px;
-}
-
 #contact .company-contact {
+    background-color: #eaead7;
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 100px;
-    padding-bottom: 20px;
-}
-
-#contact .company-contact .company-box {
-    padding: 60px 10px;
-    color: black;
-    font-weight:500;
-    display: flex;
-    border-radius: 5px;
-    justify-content: space-evenly;
-    border: 1px outset rgba(66, 62, 62, 0.678);
-    background-color: rgba(245, 245, 220, 0.258);
-}
-
-#contact .company-contact .company-box p {
-    font-weight: 400 !important;
-}
-
-#contact .company-contact .company-box a {
-    text-decoration: none;
-    color: rgb(48, 38, 48);
-}
-
-.company-contact .company-box ul {
-    list-style: none;
-}
-
-.company-contact .company-box ul li i{
-    padding-right: 5px;
-}
-
-#halifax {
-    background-color: white;
-    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    position: relative;
+    height: 500px;
 }
 
 #map {
-    width: 40%;
-}
-
-#stjohn {
-    background-color: white;
-    width: 30%;
+    width: 60%;
+    position: absolute;
+    top: -20%;
 }

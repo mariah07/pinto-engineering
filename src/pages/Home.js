@@ -36,7 +36,8 @@ const Home = () => {
                     State-of-the-art technology, 
                     highly personalized services, 
                     innovative and cost effective solutions</h1>
-                    <p><button onClick={executeScroll}>scroll</button></p>
+                    <span><button onClick={executeScroll}>scroll<span className="border-pulse"></span></button>
+                    </span>
                 </div>
             </div>
             <div className="between">
@@ -80,12 +81,16 @@ const Home = () => {
                         <div id="panel1" className="panel panel-text">
                             <div className="text"><h3>ISL Digital Marketing</h3>
                             <p>PINTO Engineering provided structural design and construction administration services for a three-storey office building near the downtown Halifax business district. The limited downtown footprint provided a challenge to coordinate the tilt panels with the interior structural steel since the temporary panel bracing needed to remain in place while the floors were constructed around them. The following elements were included in the design:  reinforced concrete foundations, structural steel floor framing, structural steel roof framing, reinforced concrete tilt-up panels including lifting and bracing design.</p></div>
+                            <span class="right" id="right-one"></span>
+                            <span class="bottom" id="bottom-one"></span>
                         </div>
                         <div id="panel2" className="panel panel-image">
                         </div>
                         <div id="panel3" className="panel panel-text">
                             <div className="text"><h3>Armoury Square</h3>
                             <p>PINTO provided structural design and construction administration services for a 11-storey residential complex overlooking the historic Halifax Common.  The following elements were included in the design: reinforced concrete foundations, reinforced concrete columns and shearwalls, and 236,000 square feet of concrete floor and roof slabs including underground parking. </p></div>
+                            <span class="right" id="right-two"></span>
+                            <span class="bottom" id="bottom-two"></span>
                         </div>
                     </div>
                     <div className="animation">
@@ -94,13 +99,15 @@ const Home = () => {
                         <div id="panel5" className="panel panel-text">
                             <div className="text"><h3>Bedford Baptist Church</h3>
                             <p>PINTO provided structural design and construction administration services for an extension to the Bedford Baptist Church in Bedford, NS. The following elements were included in the design: reinforced concrete foundations, structural steel roof framing, timber roof framing, reinforced concrete tilt-up panels including lifting and bracing design. PINTO received 2004 Tilt-up Achievement Award from the Tilt-up Concrete Association as an outstanding example of tilt-up concrete construction.</p></div>
+                            <span class="left"></span>
+                            <span class="top"></span>
                         </div>
                         <div id="panel6" className="panel panel-image">
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="bottom">
+            <div className="bottom-panel">
             </div>
             <div className="video-section">
                 <p>PINTO Engineering is proud to have worked on the Big Boat Shed Revitalization Project</p>
