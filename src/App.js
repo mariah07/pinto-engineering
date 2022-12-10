@@ -1,12 +1,12 @@
 import './css/App.css';
-import './css/Navbar.css';
+import './navbar/Navbar.css';
 import './css/small.css';
 import './css/medium.css';
-import './css/Footer.css';
-import Home from './pages/Home.js';
+import './footer/Footer.css';
+import Home from './home/Home.js';
 import EngineeringDesign from './services/engineering-design.js'
-import Navbar from './Navbar.js';
-import Footer from './Footer.js';
+import Navbar from './navbar/Navbar.js';
+import Footer from './footer/Footer.js';
 import React from 'react';
 import {
   BrowserRouter as Router,

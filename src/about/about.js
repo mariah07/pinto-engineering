@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./about.css";
-import Tril from '../pages/trill.jpg'; 
+import Tril from '../home/trill.jpg'; 
 import Church from '../img/church.jpg'; 
 import tech from "./tech-logo.png";
 import peo from "./peo-logo.png";
