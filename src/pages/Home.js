@@ -28,8 +28,7 @@ const Home = () => {
             <div className="overlay"></div>
             <div className="hero">
 
-            <video autoPlay muted loop playsInline src={video} poster="https://res.cloudinary.com/mariah07/image/upload/v1664225710/consult_pinto/Big-Boat-2021_g042al.jpg">
-            </video>
+            <video autoPlay={true} muted={true} loop={true} playsInline={true} src={video} poster="https://res.cloudinary.com/mariah07/image/upload/v1664225710/consult_pinto/Big-Boat-2021_g042al.jpg"/>
           
                 <div className="hero-text">
                     <h1>We provide 
