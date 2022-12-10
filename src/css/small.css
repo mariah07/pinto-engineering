@@ -20,7 +20,7 @@
     }
 
     nav {
-        padding: 0 20px !important;
+        padding: 0 10px !important;
     }
 
     nav .nav-bar {
@@ -32,7 +32,7 @@
         padding: 60px 0 0 0;
         background-color: white;
         height: 150vh;
-        width: 60%;
+        width: 70%;
         transform: translateX(500px);
         transition: 0.3s ease-in-out;
         opacity: 0;
@@ -70,6 +70,10 @@
         border: none !important;
     }
 
+    nav .nav-bar .dropdown-menu::before {
+        margin-left: 20%;
+    }
+
     #footer{
         padding: 10px !important;
     }
@@ -88,39 +92,52 @@
         display: none;
     }
 
-    .between .services-items {
+    .home-section .between .services-items {
         flex-direction:column-reverse;
+        padding: 10px 0;
     }
 
     .between .services-items:nth-child(2) {
         flex-direction:column;
     }
 
-    .between .services-items .services-desc {
-        width: 100% !important;
+    .home-section .between .services-items .services-desc {
+        width: 100%;
         background-color: white;
         padding: 5px 10px;
     }
 
-    .between .services-items .services-desc h2 {
-        font-size: 1.2em !important;
+    .home-section .between .services-items .services-desc h2 {
+        font-size: 1.2em;
     }
 
-    .between .services-items .services-desc h4 {
-        font-size: 1em !important;
-        margin-left:5px !important;
+    .home-section .between .services-items .services-desc h4 {
+        font-size: 1em;
+        margin-left: 5px;
     }
 
-    .between .services-items img {
-        width: 100% !important;
+    .home-section .between .services-items img {
+        width: 100%;
+    }
+
+    .home-section .scrolltop {
+        top: 40px;
     }
 
     .scroll-bottom {
         flex-direction: column-reverse;
     }
 
-    .panel .text {
-        padding: 10px 5px !important;
+    .home-section .panel .text {
+        padding: 0 5px;
+    }
+
+    .home-section .panel h3 {
+        font-size: 1.2em;
+    }
+
+    .home-section .panel p {
+        font-size: 0.9em;
     }
 
     #panel1 {
@@ -138,10 +155,6 @@
     #panel2 {
         display: none;
     }
-
-    #panel5 {
-    }
-
 
 
     .scroll-section .scroll-bottom .animation {
@@ -348,32 +361,54 @@
     /* About */
 
     #about .about-header h1 {
-        font-size: 2.3em !important;
-        margin-left: 20% !important;
-        text-shadow: 3px 2px 0 white !important;
+        font-size: 2em !important;
     }
 
     #about .main-content {
-        padding: 1px !important;
+        padding: 20px 0px !important;
     }
 
     #about .main-content .text {
+        padding: 5px !important;
         font-size: 0.9em !important;
         width: 100% !important;
 
     }
     #about .main-content .text h2 {
-        font-size: 2em !important;
+        font-size: 1.4em !important;
+    }
+
+    #about .adv-content {
+        padding: 0 5px !important;
+    }
+
+    #about .adv-content h2 {
+        font-size: 1.7em !important;
+    }
+
+    #about .adv-content .content {
+        flex-direction: column;
+        flex-wrap: nowrap !important;
+        justify-content: center !important;
     }
 
     #about .main-content .text p {
         padding: 20px 0px 30px 0px !important;
-
+        font-size: 1.2em !important;
     }
 
     #about .adv-content .content .box{
-        padding: 5px !important;
+        padding: 10px !important;
         font-size: 0.9em !important;
+        width: 100%;
+    }
+
+    #about .adv-content .content .box p {
+        padding: 0 !important;
+    }
+
+    #about .adv-content .content .box h3 {
+        font-size: 1.3em !important;
     }
 
     #about .award-section {
@@ -390,14 +425,6 @@
 
     #about .award-section .award .text{
         padding: 0 0 50px 0!important;
-    }
-
-    #about .adv-content {
-        padding: 50px 20px 0 20px !important;
-    }
-
-    #about .adv-content .content .box{
-        flex-basis: 95% !important;
     }
 
     #about .affil-section {
@@ -464,13 +491,23 @@
 
         /* Footer */
 
+
     .footer {
         flex-direction: column;
-        padding: 60px 10px !important;
+        padding: 60px 0 !important;
+    }
+
+    #footer .footer-content h2 {
+        font-size: 5em;
+    }
+
+    #footer .footer-content h4 {
+        margin-top: -60px;
+        font-size: 1.1em;
     }
 
     #footer .footer-content {
-        width: 100% !important;
+        width: 100%;
         text-align: center;
     }
     
