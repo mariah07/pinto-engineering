@@ -29,13 +29,18 @@ const About = () => {
             </Helmet>
             <div className="overlay"></div>
             <div className="about-header">
-                <h1>PINTO Engineering LTD</h1>
+                <div className="title">
+                    <h3 id="first-title">Malcolm</h3>
+                    <h1>PINTO</h1>
+                    <h2>Engineering</h2>
+                    <h3 id="second-title">Limited</h3>
+                </div>
             </div>
             <div className="main-content">
-                <div className="text"><h2 data-aos="fade-in">PINTO Engineering Limited is an established structural engineering consulting practice having served national and international clients across government, public, and private sectors since 1987.</h2>
+                <div className="text"><h2>Malcolm PINTO Engineering Limited is an established structural engineering consulting practice having served national and international clients across government, public, and private sectors since 1987.</h2>
                 <p>Over the years we have built significant confidence in our clients who have come to expect that PINTO will outperform benchmarks and deliver value on every project. Through the use of finite element design methods as well as BIM modeling, PINTO has become known in the industry for economical solutions. Our dedication to providing highly personalized attention to our clients is supported by our experienced and highly qualified team whose combined talents gives us the necessary expertise in every facet of structural consulting services.</p>
                 </div>
-                <div className="text"><h2 data-aos="fade-in">PINTO has many project successes in the commercial, healthcare, residential, transportation, marine, and institutional sectors including several LEED certified projects.</h2>
+                <div className="text"><h2>PINTO has many project successes in the commercial, healthcare, residential, transportation, marine, and institutional sectors including several LEED certified projects.</h2>
                 <p>One of our project successes, “The Trillium”, (a 20-story residential, commercial, and retail complex and winner of the 2010 Nova Scotia Lieutenant Governor General’s award for Excellence in Engineering) is a testament to our team’s ability to work together to be innovative, tackle challenging issues, and overcome obstacles.</p>
                 </div>
             </div>

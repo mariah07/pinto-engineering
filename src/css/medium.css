@@ -29,8 +29,13 @@
         right: 0.7% !important;
     }
 
+    .between .services-items .services-desc h2 {
+        font-size: 1.3em !important;
+    }
+
     .between .services-items .services-desc h4 {
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.482);
+        padding: 10px;
     }
 
     .video-section iframe {
@@ -76,7 +81,11 @@
     /* Individual Services */
 
     #design {
-        padding: 70px 40px !important;
+        padding: 70px 0 !important;
+    }
+
+    #design .section{
+        width: 50%;
     }
 
     #design img {
@@ -94,16 +103,28 @@
 
     /* About */
 
-    .about-header h1 {
-        font-size: 3.1em !important;
-        margin-left: 15% !important;
+    #about .about-header .title {
+        font-size: 2em !important;
     }
+
+    #about .about-header .title h2 {
+        margin-top: -50px !important;
+    }
+
+    #about .about-header .title #second-title {
+        margin-top: -20px !important;
+        margin-left: 23px !important;
+    }
+
 
     /* Contact */
 
     #contact .contact-form .contact-info {
         position:initial !important;
-        
+    }
+
+    #contact .contact-form form {
+        position:initial !important;
     }
 
     #contact .contact-form { 
@@ -120,6 +141,16 @@
 
     #map {
         top: 5% !important;
+        width: 90% !important;
     }
+
+
+    /*footer */
+    #footer .footer-content #second-title {
+        margin-left: -10px;
+        font-size: 1.3em;
+        text-align: start;
+    }
+
 
 }

@@ -5,8 +5,9 @@ const Footer = () => {
         <section id="footer">
             <div className="footer">
                 <div className="footer-content desc">
+                    <h4 id="first-title">Malcolm</h4>
                     <h2>PINTO</h2>
-                    <h4>Engineering LTD.</h4>
+                    <h4 id="second-title">Engineering LTD.</h4>
                 </div>
                 <div className="footer-content">
                     <ul className="address">
@@ -28,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="copy-right">
-                <p>© 1987 - 2022 Malcolm Pinto Engineering. All rights reserved.</p>
+                <p>© 1987 - 2023 Malcolm Pinto Engineering. All rights reserved.</p>
             </div>
         </section>
     )
