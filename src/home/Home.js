@@ -12,7 +12,7 @@ const Home = () => {
         window.scrollTo(0, 0);
     }, []);
     useEffect(() => {
-        Aos.init({duration: 1000, disable: 'mobile'});
+        Aos.init({duration: 1500, disable: 'mobile'});
     }, []);
 
     const scroll = useRef(null);

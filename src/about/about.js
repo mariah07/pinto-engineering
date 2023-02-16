@@ -17,7 +17,7 @@ import { Helmet } from "react-helmet";
 
 const About = () => {
     useEffect(() => {
-        Aos.init({duration: 1000, disable: 'mobile'});
+        Aos.init({duration: 1500, disable: 'mobile'});
         window.scrollTo(0, 0);
     }, []);
     return (
