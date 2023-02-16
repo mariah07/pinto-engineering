@@ -4,13 +4,14 @@
   }
   
   .hero {
+    background-image: url('https://res.cloudinary.com/mariah07/image/upload/v1675274526/consult_pinto/construction_now_pjgvoy.jpg');
+    background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: rgb(245, 245, 245);
-    text-align: center;
     padding-top: 10px;
     padding-bottom: 150px;
     min-height: 100vh;
@@ -32,22 +33,64 @@
     width: 100%;
     height: 100%;
   }
+
+  .hero .button-area {
+    margin-top: 70px;
+  }
+
+  .hero .button-area button:hover, a:hover{
+    cursor: pointer;
+  }
+
+  .hero .button-area button, #project-button {
+    padding: 15px 0;
+    width: 280px;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .hero .button-area #project-button {
+    padding: 15px 30px;
+    background: linear-gradient(70deg, rgb(66, 37, 66), rgba(188, 174, 197, 0.516));
+    color: beige;
+    border: none;
+  }
+
+  .hero .button-area #services-button {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.091);
+    border: 1px solid white;
+    text-shadow: 0.5px 0 0 grey;
+    color: white;
+  }
   
   .hero .hero-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-start;
     padding: 200px 0 20px 0;
-    width: 70%;
+    margin-left: 5%;
+    width: 50%;
     z-index: 1;
+  }
+
+  .hero .box-content {
+    position: absolute;
+    top: 30%;
+    right: 13%;
+    width: 30%;
+    height: 50%;
+    background-color: white;
   }
   
   .hero h1{
     margin:0;
-    font-size: 3.2em;
+    font-size: 2.5em;
     word-spacing: 0.18em;
     letter-spacing: 0.1em;
-    font-weight: 400;
+    font-weight: 600;
     color: whitesmoke;
     font-family: 'IBM Plex Serif';
     line-height: 1.8em;
@@ -58,7 +101,7 @@
   .hero span {
     position: absolute;
     right: 8.5%;
-    bottom: 10%;
+    bottom: 11%;
     font-size: 1.4em;
     color: white;
     z-index: 1;
@@ -84,27 +127,27 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    border-top: 1px solid rgb(255, 255, 255);
-    border-left: 60px solid rgb(255, 255, 255);
-    border-right: 60px solid white;
-    right: -3%;
-    bottom: 40%;
+    border-top: 1.5px solid rgb(255, 255, 255);
+    border-left: 70px solid rgb(255, 255, 255);
+    border-right: 70px solid white;
+    right: -13%;
+    bottom: 45%;
     z-index: 2;
   }
 
   .hero .border-pulse {
     position: absolute;
-    right: -3%;
-    bottom: 30%;
+    right: -35%;
+    bottom: -20%;
     width: 10px;
-    height: 9px;
+    height: 20px;
     background: linear-gradient(
       183deg,
       rgb(193, 193, 193),
       rgba(255, 255, 255, 0.5),
       transparent 50%
     );
-    animation: animateTop 3s linear infinite;
+    animation: animateTop 2.5s linear infinite;
   }
 
 
@@ -123,11 +166,12 @@
     display: flex;
     justify-content: space-evenly;
     padding: 50px 40px;
-    background-color: rgba(196, 182, 164, 0.484);
+    background-color: rgb(224, 171, 142);
     overflow: visible;
   }
 
   .between .services-items .services-desc {
+    padding-top: 20px;
     z-index: 1;
     width: 47%;
   }
@@ -138,12 +182,14 @@
 
   .between .services-items .services-desc h2 {
     font-weight: 100;
-    font-size: 2em;
-    line-height: 2em;
+    font-size: 1.8em;
+    line-height: 1.9em;
     letter-spacing: 0.1em;
+    color:rgb(81, 81, 81);
   }
 
   .between .services-items .services-desc h4 {
+    padding-top: 50px;
     font-weight: 100;
     letter-spacing: 0.06em;
     font-size: 1.1em;
@@ -204,7 +250,8 @@
   
   .scrolltop h2 {
     font-weight: 400;
-    color: rgb(74, 74, 74);
+    color: black;
+    text-shadow: 1px 0px 1px white;
     font-size: 2em;
     font-family: 'IBM Plex Serif';
     margin-bottom: 30px;
@@ -217,8 +264,7 @@
   
   .scrolltop {
     padding: 20px;
-    background-color:rgb(230, 229, 229);
-    color:black;
+    background: linear-gradient(200deg, rgb(224, 171, 142) 70%, white 30%);
     top: 50px;
     position:sticky;
     display: flex;
@@ -249,7 +295,7 @@
   }
   
   .panel h3 {
-    font-weight: 600;
+    font-weight: 300;
     color: rgb(74, 74, 74);
     font-size: 2.1em;
     font-style: italic;
@@ -287,8 +333,8 @@
     background-repeat:no-repeat;
     background-size:contain;
     background-color: rgb(144, 177, 118);
-    border: 80px outset rgb(144, 177, 118);
-    border-top: 120px solid rgb(144, 177, 118);
+    border: 80px outset white;
+    border-top: 120px solid white;
     height: 160vh;
   }
   
@@ -310,8 +356,8 @@
     background-repeat:no-repeat;
     background-size:contain;
     background-color: aquamarine;
-    border: 80px inset aquamarine;
-    border-top: 120px solid aquamarine;
+    border: 80px solid white;
+    border-top: 120px solid white;
     height: 160vh;
   }
 
@@ -325,106 +371,14 @@
     background-repeat:no-repeat;
     background-size: contain;
     background-color: burlywood;
-    border: 80px inset burlywood;
-    border-top: 120px solid burlywood;
+    border: 80px solid white;
+    border-top: 120px solid white;
     height: 80vh;
   }
 
   .panel span {
     position: absolute;
     border-radius: 100vmax;
-  }
-
-  .panel .top {
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 80px;
-    background: linear-gradient(
-      90deg,
-      transparent 50%,
-      rgb(95, 155, 87),
-      rgba(141, 247, 176, 0.5)
-    );
-  }
-
-  .panel #bottom-one {
-    right: 0;
-    bottom: 0;
-    height: 100px;
-    background: linear-gradient(
-      90deg,
-      rgb(157, 213, 194),
-      aquamarine,
-      transparent 50%
-    );
-  }
-
-  .panel #right-one {
-    top: 10%;
-    right: 0;
-    width: 40px;
-    height: 0;
-    background: linear-gradient(
-      180deg,
-      transparent 30%,
-      rgb(157, 213, 194),
-      aquamarine
-    );
-  }
-
-  .panel #bottom-two {
-    right: 0;
-    bottom: 0;
-    height: 100px;
-    background: linear-gradient(
-      90deg,
-      rgb(222, 176, 116),
-      burlywood,
-      transparent 50%
-    );
-  }
-
-  .panel #right-two {
-    top: 10%;
-    right: 0;
-    width: 40px;
-    height: 0;
-    background: linear-gradient(
-      180deg,
-      transparent 30%,
-      rgb(222, 176, 116),
-      burlywood
-    );
-  }
-
-  .panel .left {
-    left: 0;
-    bottom: 0;
-    width: 50px;
-    height: 0;
-    background: linear-gradient(
-      180deg,
-      rgb(95, 155, 87),
-      rgba(141, 247, 176, 0.5),
-      transparent 70%
-    );
-  }
-
-  .top {
-    animation: animateTop 4s ease-in-out infinite;
-  }
-
-  .bottom {
-    animation: animateBottom 4s ease-in-out infinite;
-  }
-
-  .right {
-    animation: animateRight 4s linear infinite;
-  }
-
-  .left {
-    animation: animateLeft 4s ease-in-out infinite;
   }
 
   @keyframes animateTop {
@@ -438,69 +392,16 @@
       opacity: 0;
     }
   }
-
-  @keyframes animateBottom {
-    0%,
-    50% {
-      opacity: 0;
-      width: 0;
-    }
-
-    75% {
-      opacity: 1;
-      width: 100%;
-    }
-
-    76%,
-    100% {
-      opacity: 0;
-    }
-  }
-
-  @keyframes animateRight {
-    0%,
-    25% {
-      opacity: 0;
-      height: 0;
-    }
-
-    50% {
-      opacity: 1;
-      height: 100%;
-    }
-
-    55%,
-    100% {
-      height: 100%;
-      opacity: 0;
-    }
-  }
-
-  @keyframes animateLeft {
-    0%,
-    75% {
-      opacity: 0;
-      bottom: 0;
-      height: 0;
-    }
-
-    100% {
-      opacity: 1;
-      height: 100%;
-    }
-  }
   
   .bottom-panel {
     height: 100px;
-    background: rgb(134,134,134);
-    background: linear-gradient(80deg, rgb(62, 62, 62) 50%, rgb(136, 136, 136) 58%, rgba(0,0,0,0.39773003928133754) 300%);
+    background: linear-gradient(360deg, rgb(39, 38, 40) 50%, rgb(255, 255, 255) 58%, rgba(255, 255, 255, 0.398) 300%);
     z-index:1;
   }
 
   .video-section {
     display: flex;
-    background: rgb(134,134,134);
-    background: linear-gradient(80deg, rgb(62, 62, 62) 50%, rgb(136, 136, 136) 58%, rgba(0,0,0,0.39773003928133754) 300%);
+    background-color: rgb(39, 38, 40) ;
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px;
@@ -508,32 +409,37 @@
 
   .video-section p {
     padding-bottom: 40px;
-    font-size: 2.2em;
-    letter-spacing: 0.1em;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 0.05em;
     color: whitesmoke;
-    width: 80%;
+    width: 60%;
     text-align: center;
-    line-height: 2em;
+    line-height: 1.5em;
     text-transform: capitalize;
+    margin-bottom: -20px;
   }
 
   .end-page {
     background: rgb(134,134,134);
-    background: linear-gradient(80deg, rgb(62, 62, 62) 50%, rgb(136, 136, 136) 58%, rgba(0,0,0,0.39773003928133754) 300%);
+    background: linear-gradient(170deg, rgb(40, 40, 38) 50%, white 50%);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -40px;
   }
 
   .end-page .questions {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 180px;
   }
 
   .end-page .questions h2 {
     font-weight: 400;
+    margin-top: 5px;
     color: white;
     font-size: 2em;
     letter-spacing: 0.1em;
@@ -544,10 +450,11 @@
     border: 1px solid white;
     background-color: transparent;
     color: white;
+    margin-top: -20px;
     text-transform: uppercase;
     padding:20px 40px;
     transition: all 0.3s ease;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
     letter-spacing: 0.1em;
   }

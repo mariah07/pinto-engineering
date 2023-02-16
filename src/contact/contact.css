@@ -7,7 +7,7 @@
 
 
 .contact-main {
-    background: linear-gradient(90deg, #eaead7 50%, #3e2c67 50%);
+    background: linear-gradient(140deg, rgb(200, 186, 167) 50%, rgb(58, 47, 66) 50%);
 }
 
 #contact .contact-form {
@@ -25,7 +25,7 @@
     top: 29%;
     left: 14%;
     padding: 15px 50px;
-    background-color: #3e2c67;
+    background-color: rgba(58, 47, 66, 0.849) ;
     color: white;
     z-index: 3;
 }
@@ -75,6 +75,9 @@
 
 #contact .contact-form form {
     width: 60%;
+    position: absolute;
+    top: 27%;
+    left: 11%;
     background-color: white;
     padding: 50px;
     padding-left: 150px;
@@ -174,7 +177,7 @@
 }
 
 #contact .company-contact {
-    background-color: #eaead7;
+    background: linear-gradient(160deg, rgb(58, 47, 66) 50%, white 50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +188,7 @@
 }
 
 #map {
-    width: 60%;
+    width: 50%;
     position: absolute;
     top: -20%;
 }

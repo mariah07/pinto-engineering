@@ -2,7 +2,6 @@ import React, {useEffect, useRef} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './Home.css';
-import video from "./Big-Boat-2021.mp4";
 import building from "../img/building.jpg"
 import engineer from "../img/engineer.jpg"
 import architect from "../img/architect.jpg"
@@ -13,7 +12,7 @@ const Home = () => {
         window.scrollTo(0, 0);
     }, []);
     useEffect(() => {
-        Aos.init({duration: 3000, disable: 'mobile'});
+        Aos.init({duration: 1000, disable: 'mobile'});
     }, []);
 
     const scroll = useRef(null);
@@ -27,14 +26,16 @@ const Home = () => {
             </Helmet>
             <div className="overlay"></div>
             <div className="hero">
-
-            <video autoPlay muted loop playsInLine src={video} poster="https://res.cloudinary.com/mariah07/image/upload/v1664225710/consult_pinto/Big-Boat-2021_g042al.jpg"/>
-          
+                <div className="hero-overlay"></div>
                 <div className="hero-text">
                     <h1>We provide 
                     State-of-the-art technology, 
                     highly personalized services, 
                     innovative and cost effective solutions</h1>
+                    <div className="button-area">
+                        <a href="/projects" id="project-button">View Our Projects</a>
+                        <button id="services-button" onClick={executeScroll}>View Services</button>
+                    </div>
                     <span><button onClick={executeScroll}>scroll<span className="border-pulse"></span></button>
                     </span>
                 </div>
@@ -42,7 +43,7 @@ const Home = () => {
             <div className="between">
                 <div className="services-items">
                     <div className="anchor" ref={scroll}></div>
-                    <div className="services-desc" data-aos="fade-up">
+                    <div className="services-desc" data-aos="fade-in">
                         <h2>Engineering Design - Buildings, Civil & Marine, Remediation & Restoration</h2>
                         <h4>Our design services include reinforced concrete foundations (deep and shallow), reinforced concrete buildings, concrete retaining walls & tunnel structures, structural steel framed buildings, light-gauge steel, tilt-up concrete construction including composite panel design, wood framed construction including panelized projects, heavy timber construction, and temporary shoring.
                         We have a broad range of experience in new construction as well as restoration & remediation of existing structures.
@@ -53,7 +54,7 @@ const Home = () => {
                 </div>
                 <div className="services-items">
                     <img src={engineer} alt="" loading="eager" data-aos="fade-right"/>
-                    <div className="services-desc" data-aos="fade-up">
+                    <div className="services-desc" data-aos="fade-in">
                         <h2>Investigation & Reports - Mediation and Arbitration, Feasibility Studies, Condition Assessment</h2>
                         <h4>PINTO provides mediation and arbitration services to assist parties in finding mutually agreeable solutions to project disputes.
                         We also offers technical reporting services to determine the feasibility of projects and assist clients with their project decision-making.
@@ -62,7 +63,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="services-items">
-                    <div className="services-desc" data-aos="fade-up">
+                    <div className="services-desc" data-aos="fade-in">
                         <h2>Project Management - Construction & Shop Drawing Review, Construction Administration, Project Coordination</h2>
                         <h4>We offer a variety of construction administration services such as budget preparation, tender administration & consultation, RFI & change order coordination.
                         PINTO works with all stakeholders to effectively resolve issues as construction progresses on site.

@@ -1,40 +1,47 @@
 #design {
-    padding: 70px 80px;
+    padding: 100px 0px;
 }
 
 #design img {
     width: 100%;
-    height: 460px;
+    height: 400px;
     margin-top: 40px;
     border-radius: 2px;
     margin-bottom: 30px;
-    border: 20px inset whitesmoke;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgb(70, 70, 70);
 }
 
 #design .title {
-    width: 70%;
-    padding-bottom: 70px;
-}
-
-#design h1 {
-    font-size: 3.6em;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    color: rgb(88, 83, 88);
-    border-bottom-right-radius: 25px;
-    font-style: italic;
-    text-transform: uppercase;
-    margin-left: 20px;
+    width: 100%;
+    height: 40vh;
+    background-image: url("https://res.cloudinary.com/mariah07/image/upload/v1675197526/consult_pinto/header_h7jfcb.jpg");
+    background-size: cover;
+    position: relative;
 }
 
 #design .triangle {
-    margin-top: -50px;
-    width: 60vw;
-    height: 0;
-    border-top: 30px solid rgb(156, 156, 156);
-    border-right: 800px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(50, 31, 79, 0.265);
+}
+
+#design h1 {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 1.4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 0 white;
+    letter-spacing: 0.06em;
+    color: rgb(254, 254, 254);
+    border-bottom-right-radius: 25px;
+    margin-left: 20px;
 }
 
 #design .banner {
@@ -45,7 +52,7 @@
 }
 
 #design .banner .border {
-    border-left: 5px solid rgb(187, 187, 187);
+    border-left: 3px solid rgba(136, 121, 159, 0.582);
     position: absolute;
     top: 15%;
     bottom: 30%;
@@ -53,16 +60,22 @@
 }
 
 .services-section {
+    padding: 100px 60px 0 60px;
     display: flex;
     justify-content: space-evenly;
 }
 
-.services-section .section {
-    width: 45%;
+.services-section .text {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.services-section .image {
+    width: 40%;
 }
 
 .services-section .image .effect {
-    border-left: 40vw solid transparent;
+    border-left: 35vw solid transparent;
     border-right: 5vw solid transparent;
     margin-top: -100px;
 }
@@ -82,14 +95,14 @@
 
 .banner p {
     width: 95%;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.34em;
     letter-spacing: 0.06em;
     word-spacing: 0.2em;
     margin-left: 30px;
     margin-top: 40px;
     padding-bottom: 20px;
-    color: rgb(61, 61, 61);
+    color: rgb(82, 82, 82);
 }
 
 .banner h2 {
@@ -97,5 +110,5 @@
     font-size: 1.5em;
     font-weight: 600;
     letter-spacing: 0.2em;
-    color:rgb(70, 64, 71);
+    color:rgb(93, 93, 93);
 }

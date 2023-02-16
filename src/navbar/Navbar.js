@@ -7,6 +7,7 @@ const Navbar = () => {
     const wrapperRef = useRef(null);
     const [mobile,setMobile] = useState(false);
     const [scroll, setScroll] = useState(false);
+    const [icon, setIcon] = useState(false);
     const history = useHistory();
 
     const setOverlay = (mobile) => {
@@ -23,6 +24,7 @@ const Navbar = () => {
 
     const Scroll = () => {
       setScroll(window.scrollY > 50);
+      setIcon(window.scrollY > 50);
     }
 
     const handleClickOutside = (event) => {
@@ -70,7 +72,19 @@ const Navbar = () => {
 
     return (
         <nav className={scroll ? "scrolling" : ""} ref={wrapperRef}>
-            <div className="logo"><a href="/"><img src={logo} alt=""/></a></div>
+            <div className={icon ? "logo-scroll" : "logo"}>
+              <div className='social-links'>
+                <a href="https://www.facebook.com/PintoEngineeringLtd" target="_blank" rel="nofollow noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com/consultpinto" target="_blank" rel="nofollow noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/malcolm-pinto-engineering-ltd-" target="_blank" rel="nofollow noreferrer"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <a href="/"><img src={logo} alt=""/></a>
+              <div className='contact-links'>
+                <a href="mailto:info@consultpinto.com"><i className="fas fa-envelope"></i> info@consultpinto.com</a>
+                <a href="tel:+18006596618"> <i class="fas fa-phone"></i> +1 (800) 659-6618</a>
+              </div>
+            </div>
+            <div>
             <ul className="nav-bar" style={{display: mobile ? "block" : "", transform: mobile ? "translateX(0)" : "", opacity: mobile ? "1" : ""}}>
                 <li><a className="menu">Services <i class="fas fa-angle-down"></i></a>
                     <div className="dropdown-menu">
@@ -87,6 +101,7 @@ const Navbar = () => {
                 <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
             </ul>
             <i onClick={() => {setMobile(!mobile); setOverlay(!mobile);}} id="mobile-menu" className="fas fa-bars"></i>
+            </div>
         </nav>
     );
 }

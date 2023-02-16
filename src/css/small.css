@@ -6,6 +6,14 @@
         text-shadow: 0 0 2px black, 0 0 2px black;
     }
 
+    .social-links {
+        display: none;
+    }
+
+    .contact-links {
+        display: none;
+    }
+
     .active {
         border: none;
     }
@@ -20,6 +28,7 @@
     }
 
     nav {
+        flex-direction:row !important;
         padding: 0 10px !important;
     }
 
@@ -59,9 +68,19 @@
         position: relative;
     }
 
+    .nav-bar .dropdown-menu .menu-box {
+        padding: 10px 2px !important;
+        background-color: whitesmoke !important;
+    }
+
+    .nav-bar .dropdown-menu::before {
+        border-color: transparent whitesmoke;
+    }
+
     .nav-bar .dropdown-menu a {
         border: none;
-        margin-left: -20px !important;
+        border-radius: 5px;
+        padding: 10px 2px !important;
     }
 
     .nav-bar .dropdown-menu a:hover {
@@ -80,8 +99,18 @@
 
     /* Home Page */
 
+    .hero .button-area {
+        display: flex;
+        flex-direction: column;
+    }
+
     .hero .hero-text {
         width: 90% !important;
+    }
+
+    .hero .button-area #services-button {
+        margin-left: 0 !important;
+        margin-top: 10px;
     }
 
     .hero p {
@@ -219,9 +248,10 @@
     }
 
     #project .box h3 {
-        left: 20px !important;
-        bottom: 3px !important;
-        font-size: 0.9em !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        font-size: 1em !important;
+        background-color: rgba(70, 70, 70, 0.646) !important;
     }
 
     /* Services */
@@ -266,7 +296,6 @@
         padding: 5px !important;
     }
 
-
     .services-section .service .text h2{
         font-size: 1.5em !important;
     }
@@ -274,10 +303,6 @@
     .services-section .service .text p{
         font-size: 1em !important;
         font-weight: 400 !important;
-    }
-
-    #services .services-section .left {
-        flex-direction:column-reverse;
     }
 
     /* Single Project */
@@ -321,12 +346,15 @@
 
     #contact .contact-form .contact-info {
         position:initial !important;
-        
+    }
+
+    #contact .contact-form form {
+        position:initial !important;
     }
 
     #contact .contact-form { 
         flex-direction:column-reverse;
-        margin-top: 0 !important;
+        margin-top: -70px !important;
         padding-top: 200px;
         height: fit-content !important;
     }
@@ -355,14 +383,33 @@
 
     #contact #map {
         padding-top: 20px;
-        width: 90% !important;
+        width: 100% !important;
     }
 
     /* About */
 
+    #about .about-header .title {
+        position:unset !important;
+        width: 100% !important;
+        font-size: 1em !important;
+    }
+
+    #about .about-header #first-title {
+        margin-top: 40%;
+        margin-left: 10px;
+    }
+
     #about .about-header h1 {
-        font-size: 2em !important;
-        width: 70% !important;
+        margin-top: 25px !important;
+    }
+
+    #about .about-header h2 {
+        margin-top: -20px !important;
+    }
+
+    #about .about-header #second-title {
+        margin-top: 0px !important;
+        margin-left: 15px !important;
     }
 
     #about .main-content {
@@ -450,26 +497,23 @@
     /* Individual services */
 
     #design {
-        padding: 70px 10px !important;
-    }
-
-    #design .triangle {
-        display: none;
+        padding: 70px 0px !important;
     }
 
     #design .title {
-        width: 95% !important;
+        width: 100% !important;
         padding-bottom: 0 !important;
         margin-bottom: -50px;
     }
 
     #design h1 {
-        font-size: 2.1em !important;
+        font-size: 1.2em !important;
     }
 
     #design img {
         width: 100% !important;
         height: 45vh !important;
+        border-radius: 0 !important;
     }
 
     #design .banner {
@@ -478,11 +522,12 @@
     }
 
     #design .banner h2 {
-        font-size: 1.4em !important;
+        font-size: 1em !important;
     }
 
     #design .services-section {
         flex-direction: column-reverse;
+        padding: 50px 2px 0 2px !important;
     }
 
     .banner p {
@@ -498,13 +543,18 @@
         padding: 60px 0 !important;
     }
 
+    #footer .footer-content #first-title {
+        font-size: 1.7em;
+    }
+
     #footer .footer-content h2 {
+        margin-top: -50px;
         font-size: 5em;
     }
 
-    #footer .footer-content h4 {
-        margin-top: -60px;
-        font-size: 1.1em;
+    #footer .footer-content #second-title {
+        margin-top: -80px;
+        font-size: 1.2em;
     }
 
     #footer .footer-content {

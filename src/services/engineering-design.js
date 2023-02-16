@@ -20,7 +20,8 @@ const EngineeringDesign = () => {
                 <div className="triangle" id="triangle-en"></div>
             </div>
             <div className="services-section">
-                <div className="section">
+                <div className="section image"><img src={building} alt="" loading="eager" id="image-en"/><div className="effect" id="effect-en"></div></div>
+                <div className="section text">
                     <div className="banner">
                         <div className="border"></div>
                         <h2>Structural - Buildings</h2>
@@ -37,7 +38,7 @@ const EngineeringDesign = () => {
                         <p>PINTO's services in structural remediation and restoration include heritage restoration & renovation, marine structure remediation as well as timber, steel, & concrete retrofits and renovations. PINTO offers our clients comprehensive, on-site investigation services to accompany restoration and remediation projects in order to minimize costly surprises during the construction process.</p>
                     </div>
                 </div>
-                <div className="section image"><img src={building} alt="" loading="eager" id="image-en"/><div className="effect" id="effect-en"></div></div>
+                
             </div>
         </section>
     )
